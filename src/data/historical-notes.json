@@ -1,0 +1,88 @@
+[
+  {
+    "matchName": "בית הכנסת הגדול תל-אביב",
+    "matchAddress": "אלנבי 110",
+    "year": "1922—1926",
+    "soulId": 1,
+    "neighborhoodId": "neve-tzedek",
+    "he": "בית הכנסת המרכזי של העיר. תוכנן 1922 והושלם 1926, מושב הרבנות הראשית האשכנזית. הרב משה אביגדור עמיאל ניהל ממנו את הקהילה משנת 1936 ועד פטירתו, ומסר בו את שיעורי הבוקר המפורסמים.",
+    "en": "Tel Aviv's central Great Synagogue. Designed in 1922, completed 1926. Seat of the Ashkenazi Chief Rabbinate. Rabbi M. A. Amiel led the community from here from 1936 until his death, and delivered his famous morning lessons here."
+  },
+  {
+    "matchName": "אהבת אחים",
+    "matchAddress": "הכנסת הגדולה",
+    "year": "סוף המאה ה־19",
+    "neighborhoodId": "neve-tzedek",
+    "he": "מהוותיקים בבתי הכנסת הספרדיים בעיר. מוקם בנווה צדק, השכונה היהודית הראשונה מחוץ ליפו (1887), ומשמר נוסח ירושלמי-ספרדי קדום.",
+    "en": "Among the oldest Sephardic synagogues in the city. Located in Neve Tzedek — the first Jewish neighborhood outside Jaffa (1887) — preserving an ancient Jerusalem-Sephardic rite."
+  },
+  {
+    "matchName": "\"בית אל\" עולי משהד",
+    "matchAddress": "יהושע בן נון 63",
+    "soulId": 6,
+    "he": "נוסד על ידי יהודי משהד שבאיראן — קהילה ייחודית של אנוסים שהמשיכו לשמור על יהדותם בסתר במשך מאה שנים. שמרו על נוסח ספרד-בית אל המקובלי, מסורת שהונחה על ידי הרב עובדיה הדאיה.",
+    "en": "Founded by Mashhadi Jews from Iran — a unique crypto-Jewish community that preserved its Judaism in secret for a century. They follow the Sephardic-Beit El kabbalistic rite, a tradition shaped by R. Ovadia Hadaya."
+  },
+  {
+    "matchName": "סדיגורה - כנסת מרדכי",
+    "matchAddress": "פנקס 41",
+    "soulId": 5,
+    "he": "חצר חסידות סדיגורה — שלוחה של חסידות בויאן (שאת חצרה בתל אביב ייסד האדמו״ר מבויאן לאחר השואה). שתיהן מסתעפות מחצר רוז'ין הקדושה, אחת השושלות החסידיות החשובות במזרח אירופה.",
+    "en": "The Sadigura Hasidic court — a branch of the Boyan dynasty (whose Tel Aviv court was established by the Boyaner Rebbe after the Holocaust). Both descend from the Ruzhin court, one of the major Hasidic dynasties of Eastern Europe."
+  },
+  {
+    "matchName": "בית מדרש חסידי גור",
+    "matchAddress": "הדף היומי 13",
+    "neighborhoodId": "florentin",
+    "he": "חסידי גור הם מהקבוצות החסידיות הגדולות בישראל. בפלורנטין שיתפו את הרובע עם סלוניקאים ומקובלים — אותו רחוב, אותה מכבסה ציבורית.",
+    "en": "Gur Hasidim are one of the largest Hasidic groups in Israel. In Florentin, they shared the quarter with Salonikans and Kabbalists — the same street, the same public laundry."
+  },
+  {
+    "matchName": "\"עץ חיים\"",
+    "matchAddress": "טבריה 5",
+    "soulId": 8,
+    "neighborhoodId": "kerem",
+    "he": "בית כנסת תימני בנוסח בלאדי — הנוסח הקדום ביותר ששרד בקרב יהודי תימן. הרב יוסף קאפח, אחד מגדולי חכמי תימן בדור האחרון, הגיע לתל אביב מדי שבוע למסור שיעורים בכרם התימנים.",
+    "en": "Yemenite synagogue in the Baladi rite — the most ancient Yemenite tradition. R. Yosef Kapach, one of the great Yemenite sages of the last generation, came weekly to teach in Kerem HaTeimanim."
+  },
+  {
+    "matchName": "\"שבת אחים\"",
+    "matchAddress": "כרם התימנים רח' קלישר 5",
+    "soulId": 8,
+    "neighborhoodId": "kerem",
+    "he": "מהמשמרים את נוסח התימן בלאדי בכרם. הסמטאות סביבו השתמרו כמעט במלואן מהמאה ה־19. הרבנית ברכה קפח (פרס ישראל 1999) פעלה בשכונה כמחנכת.",
+    "en": "Preserves the Yemenite Baladi rite in Kerem HaTeimanim. The surrounding alleys are preserved almost entirely from the late 19th century. Rabbanit Bracha Kapach (Israel Prize 1999) worked in this neighborhood as an educator."
+  },
+  {
+    "matchName": "הסלוניקאי",
+    "matchAddress": "ידידיה פרנקל 17",
+    "neighborhoodId": "florentin",
+    "he": "בית כנסת לזכר קהילת סלוניקי שנכחדה בשואה. סלוניקאים נטלו חלק מרכזי בבניין פלורנטין בשנות ה־20—30, ושילבו בין מסחר לבתי מדרש בקומות העליונות.",
+    "en": "A synagogue commemorating the Salonika community destroyed in the Holocaust. Salonikans played a central role in building Florentin in the 1920s—30s, combining commerce on the ground floor with study halls above."
+  },
+  {
+    "matchName": "בית חב\"ד שכונת התקווה",
+    "matchAddress": "אצ\"ל 38",
+    "neighborhoodId": "hatikva",
+    "he": "פעילות חב״ד בשכונת התקווה — שכונה שנוסדה ב־1935 על ידי עולים מתימן, עיראק וכורדיסטן. החצר התל-אביבית של חב״ד פועלת בשכונות עולים מאז שנות ה־50.",
+    "en": "Chabad outreach in HaTikva neighborhood — founded in 1935 by immigrants from Yemen, Iraq, and Kurdistan. Chabad has worked in immigrant neighborhoods since the 1950s."
+  },
+  {
+    "matchName": "בית אליהו הנביא",
+    "matchAddress": "מרק 16",
+    "he": "יוצאי לוב (טריפוליטאים) — קהילה ספרדית-צפון אפריקאית שהגיעה לתל אביב בעיקר בעקבות מבצע יכין (1948—1951) ואירועי הפרעות בלוב. שמרה על נוסח טריפולי הייחודי.",
+    "en": "Tripolitan Jews (יוצאי לוב) — a Sephardic-North African community that came to Tel Aviv mainly following Operation Yachin (1948—1951) and the Tripoli pogroms. Preserves the unique Tripolitan rite."
+  },
+  {
+    "matchName": "אהלי מנחם חב״ד",
+    "matchAddress": "המערכה 3, המערכה, תל אביב-יפו, ישראל",
+    "he": "מ\"בתי הכנסת לחב״ד\" — שם הבית שנקבע על שם הרבי מליובאוויטש מנחם מנדל שניאורסון. חב״ד החל בפעילות ענפה בתל אביב משנות ה־70 כחלק ממבצעי הקירוב הגלובליים של החצר.",
+    "en": "One of the \"Ohalei Menachem\" Chabad houses — named after the Lubavitcher Rebbe, Menachem Mendel Schneerson. Chabad began extensive Tel Aviv activity in the 1970s as part of the court's global outreach campaigns."
+  },
+  {
+    "matchName": "ישיבת נתיבות יצחק",
+    "matchAddress": "מרגולין 10",
+    "he": "ישיבה בשם הרב יצחק (כנראה אבוחצירא או חוטר ישי). תל אביב הפכה ממוקד פסיקה הלכתי בשנות ה־30 גם למוקד ישיבות ספרדיות בשנות ה־60—70.",
+    "en": "A yeshiva named after Rabbi Yitzchak (likely Abuhatzeira or Choter Yishai). Tel Aviv evolved from a halachic-ruling center in the 1930s into a hub of Sephardic yeshivot in the 1960s—70s."
+  }
+]

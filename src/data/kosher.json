@@ -1,0 +1,7667 @@
+[
+ {
+  "name": "(ג'אסט ביף) Just BeeF",
+  "type": "מסעדה בשרית",
+  "address": "קניון עזריאלי קומה 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "100 GRAM",
+  "type": "מזנון בשרי",
+  "address": "הברזל 32",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "360",
+  "type": "מסעדה בשרית",
+  "address": "השלושה 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ALALI",
+  "type": "מסעדה בשרית",
+  "address": "וולטר מוזס 9",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "AT8",
+  "type": "מסעדה חלבית",
+  "address": "דיזינגוף 88",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "BBB הכשר",
+  "type": "מזנון בשרי",
+  "address": "ויצמן 6",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "BEEF",
+  "type": "מסעדה בשרית",
+  "address": "קלמן מגן 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "bellamia",
+  "type": "מסעדה חלבית",
+  "address": "איינשטיין 10",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "bocado",
+  "type": "מזנון חלבי",
+  "address": "אבן גבירול 62",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "BREADCAFE ברדקפה",
+  "type": "מזנון חלבי",
+  "address": "יצחק שדה 8",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "BY14",
+  "type": "בית מלון",
+  "address": "בן יהודה 14",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "carrefour מגדלי דוד",
+  "type": "רשתות שיווק",
+  "address": "אורי 12",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "carrefour סניף TLV",
+  "type": "רשתות שיווק",
+  "address": "קרליבך 8",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "carrefour סניף אהרון בקר",
+  "type": "רשתות שיווק",
+  "address": "אהרון בקר 8",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "carrefour סניף אופנהיימר",
+  "type": "רשתות שיווק",
+  "address": "אופנהיימר 13",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "carrefour סניף בני אפרים",
+  "type": "רשתות שיווק",
+  "address": "בני אפרים 209",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "carrefour סניף דוד מרכוס",
+  "type": "רשתות שיווק",
+  "address": "דוד מרכוס 13",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "carrefour סניף דיזינגוף",
+  "type": "רשתות שיווק",
+  "address": "דיזינגוף 7",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "carrefour סניף דיזינגוף סנטר",
+  "type": "רשתות שיווק",
+  "address": "דיזינגוף 50",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "carrefour סניף ויצמן",
+  "type": "רשתות שיווק",
+  "address": "ויצמן 20",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "carrefour סניף לה גווארדיה",
+  "type": "רשתות שיווק",
+  "address": "לה גווארדיה 76",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "carrefour סניף לונדון מיניסטור",
+  "type": "רשתות שיווק",
+  "address": "אבן גבירול 30",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "carrefour סניף מבוא גרופית",
+  "type": "רשתות שיווק",
+  "address": "מבוא גרופית 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "carrefour סניף מנחם בגין",
+  "type": "רשתות שיווק",
+  "address": "מנחם בגין 152",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "carrefour סניף מעפילי אגוז",
+  "type": "רשתות שיווק",
+  "address": "מעפילי אגוז",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "carrefour סניף עמק ברכה",
+  "type": "רשתות שיווק",
+  "address": "עמק ברכה 25",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "carrefour סניף פארק הירקון",
+  "type": "רשתות שיווק",
+  "address": "שלום אש 9",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "carrefour סניף תל כביר",
+  "type": "רשתות שיווק",
+  "address": "גרינבוים 45",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "CARTOLA",
+  "type": "מזנון בשרי",
+  "address": "רבן גמליאל 28",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "daddy daily deli",
+  "type": "מזנון בשרי",
+  "address": "בזל 40",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "finger food",
+  "type": "מזנון חלבי",
+  "address": "הדר יוסף",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "GEFEN DELI",
+  "type": "מעדניה",
+  "address": "איינשטיין 7",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "good bagels",
+  "type": "מזנון חלבי",
+  "address": "אלנבי 50",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "green kitchen& עלה",
+  "type": "מזנון חלבי",
+  "address": "חשמונאים 88",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "greenz",
+  "type": "מסעדה חלבית",
+  "address": "דבורה הנביאה 121",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "holy cow",
+  "type": "מזנון בשרי",
+  "address": "הכרמל 11",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "Honey Lulu",
+  "type": "גלידרייה",
+  "address": "יגאל אלון 94",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "house no. 7",
+  "type": "אולם אירועים",
+  "address": "הצפירה 19",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "Imersion",
+  "type": "מסעדה בשרית",
+  "address": "בית אשל 31",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "nutstation",
+  "type": "חנות פיצוחים",
+  "address": "בוגרשוב 47",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "nutstation",
+  "type": "חנות פיצוחים",
+  "address": "בן יהודה 77",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "nutstation",
+  "type": "חנות פיצוחים",
+  "address": "דיזינגוף 206",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "pankina פנקינה",
+  "type": "מסעדה חלבית",
+  "address": "גורדון 39",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "POP&POPE LUNCH BOX",
+  "type": "מסעדה בשרית",
+  "address": "מנחם בגין 158",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ray's plant based food",
+  "type": "מפעל",
+  "address": "י.ל פרץ 23",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "Roll it",
+  "type": "מזנון בשרי",
+  "address": "הכרמל 40",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "sarfati premium smokehouse",
+  "type": "מסעדת דגים",
+  "address": "מתחם שרונה",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "Sekai Japan ltd",
+  "type": "מסעדה אסיתית",
+  "address": "הברזל 10",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "shape patissier",
+  "type": "מפעל",
+  "address": "נחלת יצחק 28",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "super",
+  "type": "רשתות שיווק",
+  "address": "אבא אחימאיר 35",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "TENNE",
+  "type": "מעדניה+בית קפה",
+  "address": "אבא אחימאיר 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "zotapizza/Momenti Catering",
+  "type": "פיצרייה",
+  "address": "דיזינגוף 177",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "א.א. השוק של יפו בע\"מ",
+  "type": "חנות פירות וירקות",
+  "address": "ארליך 4",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "א.ש. ענק המזון בע\"מ",
+  "type": "חנות פירות וירקות",
+  "address": "אצ\"ל 68",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "א.ש. ענק המזון בע\"מ",
+  "type": "מרכול",
+  "address": "שד' ירושלים 76",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אבו גוש",
+  "type": "מסעדה בשרית",
+  "address": "קניון מרכז ויצמן",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אבולעפיה הכשר (אופי העיר)",
+  "type": "מאפיה",
+  "address": "השלושה 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אבולעפיה הכשר עזריאלי",
+  "type": "מזנון חלבי",
+  "address": "קניון עזריאלי",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אבי נחום",
+  "type": "איטליז",
+  "address": "ישכון 37",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אבי נחום הקצביה",
+  "type": "איטליז",
+  "address": "יהודה המכבי 67",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אברהם מנשה",
+  "type": "איטליז",
+  "address": "שטיינשנידר 9",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אגד",
+  "type": "מסעדה בשרית",
+  "address": "תחנה מרכזית",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אגדה של קבב",
+  "type": "מסעדת פועלים",
+  "address": "חומה ומגדל 16",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אגסי גריל בר",
+  "type": "מסעדה בשרית",
+  "address": "חומה ומגדל 32",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אדון שוקו",
+  "type": "מזנון בשרי/חלבי",
+  "address": "צבי נישרי 6",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אדיר העוף",
+  "type": "איטליז",
+  "address": "נוריאל 11",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אדיר יחזקאל",
+  "type": "קונדטוריה",
+  "address": "התקווה 35",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אודי בכור פיש סטור",
+  "type": "חנות דגים",
+  "address": "התחיה 22",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אודי דגים",
+  "type": "חנות דגים",
+  "address": "התחיה 26",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אווזי",
+  "type": "מסעדה בשרית",
+  "address": "האצל 54",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אווזים בנמל",
+  "type": "מסעדה בשרית",
+  "address": "יורדי הסירה 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אולם יורדי הסירה",
+  "type": "אולם אירועים",
+  "address": "יורדי הסירה 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אולמי איסט ת\"א",
+  "type": "אולם אירועים",
+  "address": "קרמיניצקי 12",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אולמי לורנס",
+  "type": "אולם אירועים",
+  "address": "הצורפים 18",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אולמי פנורמה",
+  "type": "אולם אירועים",
+  "address": "בן צבי 84",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אולמי רוקח",
+  "type": "אולם אירועים",
+  "address": "גני התערוכה",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אומה בר תאילנדי",
+  "type": "מסעדה אסיתית",
+  "address": "בוגרשוב 18",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אוצ'ה אומנות התה Ocha – the art of tea",
+  "type": "מפעל",
+  "address": "יוסף קארו 30",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אור בנימין אזכרות",
+  "type": "אולם אירועים",
+  "address": "גרינבוים 41",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אורט ישראל דן גורמה",
+  "type": "מפעל",
+  "address": "נס לגויים 53",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אורי שירותי קייטרינג",
+  "type": "בר אקטיבי",
+  "address": "אימבר 14",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אורכידאה תל אביב",
+  "type": "בית מלון",
+  "address": "הירקון 79",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אושי אושי הכשר",
+  "type": "מסעדה אסיתית",
+  "address": "קניון עזריאלי",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אושי אושי הכשר",
+  "type": "מסעדה אסיתית",
+  "address": "דיזינגוף 50",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אושי אושי סושי",
+  "type": "מסעדה אסיתית",
+  "address": "האנגר 21",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אושר",
+  "type": "בית קפה חלבי",
+  "address": "פרישמן 18",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אחים יפרח",
+  "type": "מסעדה בשרית",
+  "address": "רוסלאן 13",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אחים שלום",
+  "type": "חנות פירות וירקות",
+  "address": "התקווה 13",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אחים שרעבי קונדיטורית יאן",
+  "type": "קונדטוריה",
+  "address": "התקווה 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אטליז בת הקצב",
+  "type": "איטליז",
+  "address": "ברודצקי 43",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "איטליז אלי גובי",
+  "type": "איטליז",
+  "address": "נוריאל 4",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "איטליז ג'רבי ויקטור",
+  "type": "איטליז",
+  "address": "יום טוב 4",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "איטליז חן",
+  "type": "איטליז",
+  "address": "יפת 65",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "איטליז יוסף כהן ובניו",
+  "type": "איטליז",
+  "address": "המבשר 14",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "איטליז ישראל",
+  "type": "איטליז",
+  "address": "שד' ירושלים 83",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "איטליז לוינסון",
+  "type": "איטליז",
+  "address": "יחיא קאפח 4",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "איטליז מאיר ובניו",
+  "type": "איטליז",
+  "address": "נוריאל 7",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "איטליז מיטמן",
+  "type": "איטליז",
+  "address": "קלמן מגן 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "איטליז נבון",
+  "type": "איטליז",
+  "address": "המבשר 17",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "איטליז שמאי",
+  "type": "איטליז",
+  "address": "המבשר 14",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "איי לאב קאפקייקס",
+  "type": "קונדטוריה",
+  "address": "דיזינגוף 300",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "איי סנדביץ",
+  "type": "מזנון בשרי/חלבי",
+  "address": "ברנר 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "איינשטיין בורגר",
+  "type": "מסעדה בשרית",
+  "address": "איינשטיין 7",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אילן אבער",
+  "type": "איטליז",
+  "address": "נוריאל 12",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אילנס טאטי",
+  "type": "בית קפה",
+  "address": "כיכר דיזינגוף",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אילנס טאטי",
+  "type": "בית קפה",
+  "address": "מנחם בגין 121",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "איציק הגדול השווארמה",
+  "type": "מזנון בשרי",
+  "address": "שד' ירושלים 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "איציק ורותי",
+  "type": "מזנון בשרי/חלבי",
+  "address": "פרישמן 42",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "איציק עוף בגריל",
+  "type": "מסעדה בשרית",
+  "address": "ירמיהו 52",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "איש האתרוגים",
+  "type": "חנות מיצים",
+  "address": "הלל הזקן 18",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אל דנטה",
+  "type": "מסעדה חלבית",
+  "address": "ויצמן 14",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אלוהה",
+  "type": "מזנון בשרי",
+  "address": "קלמן מגן 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אלון קונדיטוריה",
+  "type": "מאפיה",
+  "address": "קרליבך 13",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אלוף הסביח",
+  "type": "מסעדה בשרית",
+  "address": "קרליבך 18",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אלוף השניצל",
+  "type": "קייטרינג",
+  "address": "נורית קדמן 8",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אלוף השניצל",
+  "type": "מזנון בשרי/חלבי",
+  "address": "חשמונאים 119",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אלחנית מועדון בנק הפועלים",
+  "type": "מזנון בשרי/חלבי",
+  "address": "הנגב 11",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אלי בשרים",
+  "type": "מסעדה בשרית",
+  "address": "כרמל 7",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אליאנס",
+  "type": "אכסניית נוער",
+  "address": "רידינג 26",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אליני",
+  "type": "מזנון חלבי",
+  "address": "לינקולן 9",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אליעזר פיצה 126 בע\"מ",
+  "type": "מסעדה חלבית",
+  "address": "בן יהודה 126",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אלכסנדר עלים ירוקים",
+  "type": "מסעדה חלבית",
+  "address": "אוניברסיטת תל אביב",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אלמז מנדל",
+  "type": "מסעדה",
+  "address": "ידידיה פרנקל 4",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אמיגה",
+  "type": "מזנון בשרי/חלבי",
+  "address": "נוריאל 8",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אמיר גריל בשרים",
+  "type": "מסעדה בשרית",
+  "address": "העליה 53",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אמירצ'לס",
+  "type": "מאפיה",
+  "address": "שארית ישראל 9",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אמפולה אלפחורס",
+  "type": "בית קפה",
+  "address": "אבן גבירול 54",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אמפנדו בכרמל",
+  "type": "מזנון בשרי",
+  "address": "הכרמל 5",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אנגוסטייק",
+  "type": "איטליז",
+  "address": "מח\"ל 24",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אנסטסיה",
+  "type": "קונדטוריה",
+  "address": "יד חרוצים 15",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אנרג'וסר",
+  "type": "חנות מיצים",
+  "address": "בן יהודה 43",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אסותא",
+  "type": "בית חולים",
+  "address": "הברזל 20",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אסטלה כיתת אומן ללימודי קונדיטוריה בע\"מ",
+  "type": "בית ספר לבישול",
+  "address": "הכישור 4",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אסטרו",
+  "type": "בר אקטיבי",
+  "address": "הש\"ך 5",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אסי ועדנן",
+  "type": "מסעדה",
+  "address": "רבי מאיר 21",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אסימי Asimi",
+  "type": "מסעדה חלבית",
+  "address": "הירקון 83",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אסתר המלכה",
+  "type": "מסעדה בשרית",
+  "address": "רוטשילד 8",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אפי ומשה כרמל",
+  "type": "חנות פרות וירקות",
+  "address": "דניאל 27",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אצה תל אביב",
+  "type": "מסעדה אסיתית",
+  "address": "בן יהודה 128",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אקדמיה לפירות",
+  "type": "מזנון פרווה",
+  "address": "בן צבי 104",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אקו",
+  "type": "מזנון בשרי/חלבי",
+  "address": "אוניברסיטת תל אביב",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אקוסטה",
+  "type": "אולם אירועים",
+  "address": "אוריאל אקוסטה 7",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ארד הרצל בע\"מ סנדוויץ ארד",
+  "type": "מזנון בשרי/חלבי",
+  "address": "קיבוץ גלויות 73",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ארומה TLV",
+  "type": "בית קפה",
+  "address": "חשמונאים 96",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ארומה אסותא",
+  "type": "בית קפה",
+  "address": "הברזל 12",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ארומה ויצמן",
+  "type": "בית קפה",
+  "address": "ויצמן 14",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ארומה סניף בית התפוצות",
+  "type": "בית קפה",
+  "address": "אוניברסיטת תל אביב",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ארומה סניף ג'ורג' וייז",
+  "type": "מסעדה בשרי/חלבי",
+  "address": "ג'ורג' וייז 20",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ארומה סניף דבורה הנביאה",
+  "type": "בית קפה",
+  "address": "דבורה הנביאה 121",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ארומה סניף יגאל אלון",
+  "type": "בית קפה",
+  "address": "יגאל אלון 94",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ארומה סניף מנחם בגין",
+  "type": "בית קפה",
+  "address": "מנחם בגין 48",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ארומה סניף עזריאלי",
+  "type": "בית קפה",
+  "address": "קניון עזריאלי",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ארומה סניף רמת החייל",
+  "type": "בית קפה",
+  "address": "הברזל 25",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ארומה קרליבך",
+  "type": "בית קפה",
+  "address": "קרליבך 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ארט בייקרי",
+  "type": "קונדטוריה",
+  "address": "ארלוזורוב 188",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ארט פיצה – הכנופיה",
+  "type": "מזנון חלבי",
+  "address": "אבן גבירול 33",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ארמונות מזל",
+  "type": "אולם אירועים",
+  "address": "גרינבוים 37",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ארמונות מזל- בוטיק",
+  "type": "אולם אירועים",
+  "address": "גרינבויים 41",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ארקפה סניף אסותא",
+  "type": "בית קפה",
+  "address": "הברזל 20",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ארקפה סניף ויצמן",
+  "type": "בית קפה",
+  "address": "ויצמן 4",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ארקפה סניף מנחם בגין",
+  "type": "בית קפה",
+  "address": "קניון עזריאלי קומה 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ארקפה סניף קניון רמת אביב",
+  "type": "בית קפה",
+  "address": "קניון רמת אביב",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אשכנזי",
+  "type": "איטליז",
+  "address": "התקווה 50",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אתי כל מרקט סניף מח\"ל",
+  "type": "רשתות שיווק",
+  "address": "מח\"ל 28",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "אתי כל מרקט סניף משה דיין",
+  "type": "רשתות שיווק",
+  "address": "משה דיין 29",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ב.ג.דומינו לבצק",
+  "type": "מפעל",
+  "address": "רבינצקי 7",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "באבו בר",
+  "type": "חנות מיצים",
+  "address": "הכרמל 43",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "באבי",
+  "type": "מסעדה חלבית",
+  "address": "רוטשילד 60",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "באלי בשכונה",
+  "type": "מזנון בשרי",
+  "address": "הרוגי מלכות 7",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "באלינג'רה",
+  "type": "מסעדה בשרית",
+  "address": "מל\"ן 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "באפלו",
+  "type": "מסעדה בשרית",
+  "address": "נחלת בנימין 52",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בגינס קופי",
+  "type": "מזנון חלבי",
+  "address": "מנחם בגין 126",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בובו ג'ון",
+  "type": "מסעדה בשרית",
+  "address": "בן צבי 106",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בודגה",
+  "type": "מסעדה בשרית",
+  "address": "קרליבך 14",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בוטיק סנטרל סניף אבא אחימאיר",
+  "type": "קונדטוריה",
+  "address": "אבא אחימאיר 33",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בוטיק סנטרל סניף אליהו ברלין",
+  "type": "קונדטוריה",
+  "address": "אליהו ברלין 13",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בוטיק סנטרל סניף בזל",
+  "type": "קונדטוריה",
+  "address": "בזל 38",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בוטיק סנטרל סניף בית אל",
+  "type": "בית קפה",
+  "address": "בית אל 14",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בוטיק סנטרל סניף דיזינגוף",
+  "type": "קונדטוריה",
+  "address": "דיזינגוף 267",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בוטיק סנטרל סניף דיזינגוף",
+  "type": "קונדטוריה",
+  "address": "דיזינגוף 161",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בוטיק סנטרל סניף ז'בוטינסקי",
+  "type": "קונדטוריה",
+  "address": "ז'בוטינסקי 120",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בוטיק סנטרל סניף יהודה המכבי",
+  "type": "קונדטוריה",
+  "address": "יהודה המכבי 40",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בוטיק סנטרל סניף יפו",
+  "type": "קונדטוריה",
+  "address": "מרזוק ועזר 9",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בוטיק סנטרל סניף משה פרלוק",
+  "type": "קונדטוריה",
+  "address": "משה פרלוק 5",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בוטיק סנטרל סניף פלורנטין",
+  "type": "קונדטוריה",
+  "address": "פלורנטין 22",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בוטיק סנטרל סניף פרישמן",
+  "type": "קונדטוריה",
+  "address": "פרישמן 90",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בוטיק סנטרל סניף רוטשילד",
+  "type": "קונדטוריה",
+  "address": "רוטשילד 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בוטיק סנטרל סניף שינקין",
+  "type": "קונדטוריה",
+  "address": "שינקין 53",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בוטיק סנטרל רמת החייל",
+  "type": "בית קפה",
+  "address": "מרכוס דוד 14",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בוטיקפה",
+  "type": "מזנון חלבי",
+  "address": "בית אשל 34",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בוטקה",
+  "type": "מסעדה בשרית",
+  "address": "אצ\"ל 23",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בוטרא",
+  "type": "מזנון בשרי",
+  "address": "הארבעה 28",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בולנזרי 96",
+  "type": "בית קפה",
+  "address": "הסוללים 5",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בולנזרי 96",
+  "type": "מזנון חלבי",
+  "address": "יגאל אלון 96",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בון טעם",
+  "type": "מסעדה בשרית",
+  "address": "אלנבי 56",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בוסטון דלי",
+  "type": "מסעדה בשרית",
+  "address": "דיזינגוף 50",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בוסי ראובן",
+  "type": "מסעדה בשרית",
+  "address": "התקווה 4",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בופה buffet",
+  "type": "מזנון חלבי",
+  "address": "נירים 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בורגר סטיישן",
+  "type": "מסעדה בשרית",
+  "address": "דיזינגוף 269",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בורגר קינג סניף קניון עזריאלי",
+  "type": "מסעדה בשרית",
+  "address": "קניון עזריאלי קומה 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בורגראנץ סניף יגאל אלון",
+  "type": "מסעדה בשרית",
+  "address": "יגאל אלון 51",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בורגראנץ סניף קניון עזריאלי",
+  "type": "מסעדה בשרית",
+  "address": "קניון עזריאלי",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בורגרים סניף אוניברסיטת תל אביב",
+  "type": "מסעדה בשרית",
+  "address": "אוניברסיטת תל אביב",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בורגרים סניף קרליבך",
+  "type": "מסעדה בשרית",
+  "address": "קרליבך 25",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בורגרס בר סניף טאגור",
+  "type": "מסעדה בשרית",
+  "address": "טאגור 30",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בורגרס בר סניף קניון עזריאלי",
+  "type": "מסעדה בשרית",
+  "address": "קניון עזריאלי קומה 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בורקס mama",
+  "type": "מזנון חלבי",
+  "address": "השלושה 11",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בורקס אבא תודה",
+  "type": "מזנון חלבי",
+  "address": "שלוש 9",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בורקס בלי הפסקה",
+  "type": "מסעדה חלבית",
+  "address": "בוגרשוב 11",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בורקס הבולגרי",
+  "type": "מסעדה חלבית",
+  "address": "קלמן מגן 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בורקס כי לעולם חסדו",
+  "type": "בית קפה",
+  "address": "התקווה 10",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בורקס ליאון ובניו",
+  "type": "קונדטוריה",
+  "address": "התקומה 44",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בורקס ליאון ובניו",
+  "type": "קונדטוריה",
+  "address": "עולי ציון 17",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בורקס מיס",
+  "type": "קונדטוריה",
+  "address": "שטרן 5",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בורקס פנסו",
+  "type": "קונדטוריה",
+  "address": "לוינסקי 43",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בזיליקום פיצה",
+  "type": "פיצרייה",
+  "address": "אברבנאל 45",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בי פרש",
+  "type": "בר אקטיבי",
+  "address": "רכבת סבידור",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בי פרש",
+  "type": "בר אקטיבי",
+  "address": "דיזינגוף 50",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בי פרש",
+  "type": "מזנון חלבי",
+  "address": "קניון עזריאלי",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בי\"ח צהלון",
+  "type": "בית חולים",
+  "address": "שד' ירושלים 100",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ביה\"ס צייטלין",
+  "type": "מזנון חלבי",
+  "address": "צייטלין 22",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בייגל לנדמרק בע\"מ",
+  "type": "בית קפה חלבי",
+  "address": "לאונרדו דה וינצ'י 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בייקשופ קפה",
+  "type": "בית קפה",
+  "address": "נחלת יצחק 18",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ביס ביסון",
+  "type": "מסעדה",
+  "address": "יצחק שדה 6",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ביס ביסון",
+  "type": "מפעל",
+  "address": "הצפירה 10",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ביסטרו התחנה",
+  "type": "מסעדה בשרית",
+  "address": "מנחם בגין 44",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בירבזאר",
+  "type": "בר חלבי",
+  "address": "ישכון 36",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בישולים",
+  "type": "מסעדה בשרית",
+  "address": "קרליבך 23",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בית אבות משען טיב וטעים",
+  "type": "בית אבות",
+  "address": "פיכמן 6",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בית אבות נאות אביבים טיב וטעים",
+  "type": "בית אבות",
+  "address": "ברודצקי 68",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בית אבות נאות אפקה טיב וטעים",
+  "type": "בית אבות",
+  "address": "שלונסקי 6",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בית גיל הזהב",
+  "type": "בית אבות",
+  "address": "משה דיין 66",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בית החומוס והפול",
+  "type": "חומוסיה",
+  "address": "חשמונאים 119",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בית החיטה",
+  "type": "קונדטוריה",
+  "address": "גרינבוים 41",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בית הלוחם",
+  "type": "מסעדה חלבית",
+  "address": "שמואל ברקאי 49",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בית הפרי והירק",
+  "type": "חנות פרות וירקות",
+  "address": "לה גווארדיה 76",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בית חולים רפאל",
+  "type": "בית חולים",
+  "address": "קרית עתידים בנין 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בית על הים",
+  "type": "אולם אירועים",
+  "address": "רציף העליה השניה 105",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בכור את שושי",
+  "type": "מסעדה בשרית",
+  "address": "יד חרוצים 13",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בכור שיווק דגים",
+  "type": "חנות דגים",
+  "address": "המנוע 5",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בלבול ניסים",
+  "type": "חנות דגים",
+  "address": "יום טוב 7",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בליך החזקות",
+  "type": "מסעדה בשרית",
+  "address": "בני אפרים 218",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בלינצ'ס הונגרי",
+  "type": "בית קפה",
+  "address": "ירמיהו 35",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בליקמח",
+  "type": "מזנון חלבי",
+  "address": "הברזל 32",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בן עמי",
+  "type": "מסעדה חלבית",
+  "address": "נחמני 21",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בנ'ס פיצה",
+  "type": "פיצריה",
+  "address": "צה\"ל 71",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בנג'מינה",
+  "type": "מסעדה חלבית",
+  "address": "נחלת בנימין 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בני דן אכסנית נוער",
+  "type": "בית מלון",
+  "address": "בני דן 36",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בנענע בוטיק פירות וירקות",
+  "type": "חנות פירות וירקות",
+  "address": "אבא אחימאיר 27",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בר בשר",
+  "type": "מסעדה בשרית",
+  "address": "הדר יוסף 12",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בר גוריון",
+  "type": "מסעדה בשרית",
+  "address": "אבן גבירול 82",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בר הקליניקה",
+  "type": "מזנון חלבי",
+  "address": "הברזל 9",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בר קפה פלורנטינה",
+  "type": "קונדטוריה",
+  "address": "אברבנאל 56",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בראסרי 18",
+  "type": "מסעדה חלבית",
+  "address": "לבונטין 19",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ברברה בפשפשים",
+  "type": "מסעדה חלבית",
+  "address": "עולי ציון 6",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ברדק",
+  "type": "בר אקטיבי",
+  "address": "מגרשי התערוכה 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ברדקפה",
+  "type": "בית קפה",
+  "address": "אבן גבירול 30",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ברוסטר צ'יקן",
+  "type": "מסעדה בשרית",
+  "address": "קניון עזריאלי",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ברטון הכשר",
+  "type": "מסעדה חלבית",
+  "address": "הברזל 4",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בריא בא",
+  "type": "מסעדה בשרית",
+  "address": "יד חרוצים 13",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בריא בריבוע",
+  "type": "מזנון חלבי",
+  "address": "דרך נמיר 149",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בריא סלט ישראלי",
+  "type": "מזנון בשרי",
+  "address": "אבן גבירול 30",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בריאבאלי- אומנות הסלט",
+  "type": "מזנון חלבי",
+  "address": "אבן גבירול 61",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ברכה יעקב",
+  "type": "איטליז",
+  "address": "שבטי ישראל 17",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ברכת הארץ ארז יעקובוב",
+  "type": "איטליז",
+  "address": "יום טוב 10",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בשרה בשר יין ואהבה",
+  "type": "איטליז",
+  "address": "עמק ברכה 35",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "בשרים",
+  "type": "מסעדה בשרית",
+  "address": "הברזל 33",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ג'אסט פסטה בע\"מ ( פסטיטו)",
+  "type": "מזנון חלבי",
+  "address": "דיזינגוף 75",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ג'אקו דגים",
+  "type": "חנות דגים",
+  "address": "יאשה חפץ 9",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ג'ו נודלס",
+  "type": "מסעדה אסיתית",
+  "address": "יהודה הלוי 39",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ג'ו נודלס סניף קניון עזריאלי",
+  "type": "מסעדה אסיתית",
+  "address": "קניון עזריאלי",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ג'וזף 61",
+  "type": "חנות מיצים",
+  "address": "יהודה הלוי 61",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ג'ויה",
+  "type": "מזנון חלבי",
+  "address": "ויצמן 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ג'ומה jome",
+  "type": "מסעדה ובר בשרי",
+  "address": "רוטשילד 32",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ג'ון ג'ון בכרמל",
+  "type": "בית ספר לבישול",
+  "address": "שפר רבינוביץ 10",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ג'ונאם",
+  "type": "מסעדה בשרית",
+  "address": "קלמן מגן 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ג'ינג'יז",
+  "type": "מרכול",
+  "address": "ברוריה 19",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ג'ינג'יז/ קצבייה",
+  "type": "מרכול",
+  "address": "ברוריה 19",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "גבעת השלושה",
+  "type": "בית אבות",
+  "address": "ארלוזורוב , פ\"ת 38",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "גואטה סניף שד' ירושלים",
+  "type": "מסעדה בשרית",
+  "address": "שד' ירושלים 6",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "גוטה בריא ומהיר סניף יגאל אלון",
+  "type": "מסעדה בשרית",
+  "address": "יגאל אלון 94",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "גוריון בר",
+  "type": "מסעדה בשרית",
+  "address": "אבן גבירול 30",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "גורמה שופ סניף אבן גבירול",
+  "type": "מזנון בשרי/חלבי",
+  "address": "אבן גבירול 148",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "גושן",
+  "type": "מסעדה בשרית",
+  "address": "נחלת בנימין 30",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "גיל רונן",
+  "type": "איטליז",
+  "address": "ישכון 36",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "גלידה גולדה",
+  "type": "גלידרייה",
+  "address": "מנחם בגין 132",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "גלידה גולדה סניף בוגרשוב",
+  "type": "גלידרייה",
+  "address": "בוגרשוב 6",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "גלידה גולדה סניף משה דיין",
+  "type": "גלידרייה",
+  "address": "משה דיין 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "גלילי",
+  "type": "מסעדה בשרית",
+  "address": "עולי ציון 17",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "גנדי",
+  "type": "מסעדה בשרית",
+  "address": "אבן גבירול 30",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "גסטון קרפ וגאלט",
+  "type": "מזנון חלבי",
+  "address": "דיזינגוף 183",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "גריל בר",
+  "type": "מסעדה בשרית",
+  "address": "לה גווארדיה 76",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "גרין דיי Green day",
+  "type": "מסעדה חלבית",
+  "address": "המסגר 48",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "גרינאוניקס",
+  "type": "מפעל",
+  "address": "בן צבי 84",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "גרנדביץ'",
+  "type": "בית מלון",
+  "address": "הירקון 250",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "גרעיני עפולה סניף יגאל אלון",
+  "type": "חנות פיצוחים",
+  "address": "יגאל אלון 94",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "גרעיני עפולה סניף קיבוץ גלויות",
+  "type": "חנות פיצוחים",
+  "address": "קיבוץ גלויות 106",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "גרקו הכשרה",
+  "type": "מסעדה חלבית",
+  "address": "אורי צבי גרינברג 25",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ד\"ר בייגל",
+  "type": "מזנון חלבי",
+  "address": "שינקין 44",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ד\"ר פרוסטינג",
+  "type": "קונדטוריה",
+  "address": "משה וילנסקי 13",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ד\"ר שקשוקה",
+  "type": "מסעדה בשרית",
+  "address": "בית אשל 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "דאלי – לוי",
+  "type": "מזנון בשרי",
+  "address": "הכרמל 19",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "דבוש",
+  "type": "מסעדה בשרית",
+  "address": "אבן גבירול 64",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "דבוש נחום בע\"מ",
+  "type": "מסעדה בשרית",
+  "address": "קרליבך 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "דגים דגים",
+  "type": "חנות דגים",
+  "address": "סמטת השוק 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "דה בוצ'ר",
+  "type": "איטליז",
+  "address": "לה גווארדיה 66",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "דה פפרס",
+  "type": "מזנון בשרי",
+  "address": "שד' יהודית 7",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "דה-לוקס The Lux",
+  "type": "מסעדה בשרית",
+  "address": "הנחושת 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "דולי בייקרי",
+  "type": "בית קפה",
+  "address": "החלוצים 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "דולצ'ה קאסה",
+  "type": "קונדטוריה",
+  "address": "וסרמן 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "דומינוס פיצה",
+  "type": "פיצרייה",
+  "address": "יורדי הסירה 10",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "דוקטור פוטטו",
+  "type": "מזנון בשרי",
+  "address": "הכרמל 56",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "דושפרה",
+  "type": "מזנון בשרי",
+  "address": "נחלת יצחק 32",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "דיאנה",
+  "type": "מסעדה בשרית",
+  "address": "קניון עזריאלי קומה 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "דידי דג",
+  "type": "חנות דגים",
+  "address": "אבן גבירול 138",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "דיויד אינטרקונטיננטל",
+  "type": "בית מלון",
+  "address": "קויפמן יחזקאל 12",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "דיור מוגן בית שלום",
+  "type": "בית אבות",
+  "address": "גרץ 11",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "דיור מוגן פאלאס",
+  "type": "בית אבות",
+  "address": "ויצמן 18",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "דיזרט",
+  "type": "גלידרייה",
+  "address": "ויצמן 14",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "דיילי איוונטס",
+  "type": "מזנון בשרי/חלבי",
+  "address": "הלוחמים 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "דישא",
+  "type": "מזנון חלבי",
+  "address": "הברזל 31",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "דליס מגשי אירוח בע\"מ",
+  "type": "מזנון בשרי/חלבי",
+  "address": "המרץ 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "דן פנורמה",
+  "type": "בית מלון",
+  "address": "קויפמן יחזקאל 10",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "דן תל אביב",
+  "type": "בית מלון",
+  "address": "הירקון 99",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "דניאל שפירא-דני בוי קוקטלייס",
+  "type": "בר אקטיבי",
+  "address": "י.ל. פרץ 23",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "האופים הקטנים",
+  "type": "קונדטוריה",
+  "address": "עמק ברכה 25",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "האחים אהרון",
+  "type": "איטליז",
+  "address": "נוריאל 7",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "האחים עזרא פירות וירקות",
+  "type": "חנות פירות וירקות",
+  "address": "התקווה 22",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "האחים קייס",
+  "type": "מזנון פירות וירקות",
+  "address": "הכרמל 11",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "האחים שמאי",
+  "type": "מזנון חלבי",
+  "address": "הכרמל 42",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "האלחימאי בשוק היווני",
+  "type": "מפעל קוקטיילים",
+  "address": "פנחס בן יאיר 8",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "האנגר 11",
+  "type": "אולם אירועים",
+  "address": "נמל תל אביב",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "האק",
+  "type": "מזנון בשרי",
+  "address": "קיבוץ גלויות 32",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "הבוריקה שוק הכרמל",
+  "type": "מזנון בשרי",
+  "address": "הכרמל 42",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "הבורקס של אמא",
+  "type": "קונדטוריה",
+  "address": "לוינסקי 46",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "הבן של סורי",
+  "type": "מסעדה בשרית",
+  "address": "יגאל אלון 123",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "הג'חנון של אביבה",
+  "type": "מזנון פרווה",
+  "address": "הפטיש 9",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "הגלגל של שרדר",
+  "type": "מסעדה בשרית",
+  "address": "שאול המלך 4",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "הדגים של רמי",
+  "type": "חנות דגים",
+  "address": "שד' ירושלים 29",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "הדוכן 13",
+  "type": "מזנון בשרי",
+  "address": "נתן אלטרמן 13",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "הדרים סניף הירקון",
+  "type": "מסעדה חלבית",
+  "address": "הירקון 121",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "הו מאמא סניף בן יהודה",
+  "type": "מסעדה בשרית",
+  "address": "בן יהודה 69",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "הו מאמא סניף קינג ג'ורג'",
+  "type": "מסעדה בשרית",
+  "address": "קינג ג'ורג' 26",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "הוט צ'יקן",
+  "type": "מסעדה בשרית",
+  "address": "תחנה מרכזית קומה 4",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "הולה הולה",
+  "type": "מסעדה חלבית",
+  "address": "יחיא קאפח 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "החומוס של השמן",
+  "type": "חומוסיה",
+  "address": "הרצל 105",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "החמניה",
+  "type": "חנות פיצוחים",
+  "address": "נחלת בנימין 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "החמניה",
+  "type": "חנות מזון",
+  "address": "משה דיין 34",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "הטילאב של ויסוצקי",
+  "type": "מזנון",
+  "address": "מנחם בגין 132",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "הילטון",
+  "type": "בית מלון",
+  "address": "גן העצמאות 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "הימה hayama",
+  "type": "אולם אירועים",
+  "address": "כיכר קדומים 14",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "הלב הרחב",
+  "type": "מסעדה בשרית",
+  "address": "מל\"ן 18",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "המאפיה התימנית",
+  "type": "קונדטוריה",
+  "address": "חיים חבשוש 22",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "המאפיה סניף אלנבי",
+  "type": "מאפיה",
+  "address": "אלנבי 88",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "המאפיה סניף דיזינגוף",
+  "type": "מזנון חלבי",
+  "address": "דיזינגוף 85",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "המאפיה סניף קינג ג'ורג'",
+  "type": "מאפיה",
+  "address": "קינג ג'ורג' 53",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "המגולגלוואח בכרמל",
+  "type": "מזנון",
+  "address": "הכרמל 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "המוציא לחם סניף יאשה חפץ",
+  "type": "קונדטוריה",
+  "address": "יאשה חפץ 9",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "המוציא לחם סניף לוינסקי",
+  "type": "קונדטוריה",
+  "address": "לוינסקי 40",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "המוציא לחם סניף מקוה ישראל",
+  "type": "מאפיה",
+  "address": "מקוה ישראל 5",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "המוציא לחם סניף נגבה",
+  "type": "בית קפה",
+  "address": "נגבה 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "המושבה פלאפל 4 טעמים",
+  "type": "פלאפל",
+  "address": "קרליבך 7",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "המלביה",
+  "type": "מזנון חלבי",
+  "address": "ראש פינה 27",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "המעשנה בשוק",
+  "type": "מסעדה בשרית",
+  "address": "הכרמל 46",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "המקום של קרן",
+  "type": "מסעדה בשרית",
+  "address": "המבשר 22",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "המרקייה",
+  "type": "מזנון חלבי",
+  "address": "קויפמן יחזקאל 6",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "המרשלג",
+  "type": "מפעל",
+  "address": "שביל המפעל 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "הסאלוף",
+  "type": "קונדטוריה",
+  "address": "התקווה 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "העגלה לממכר בורקס בכפר",
+  "type": "מזנון חלבי",
+  "address": "הרב יוסף צוברי 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "הפינה הירוקה",
+  "type": "מזנון חלבי",
+  "address": "שד' רוקח 80",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "הפינה של עזורי",
+  "type": "מזנון בשרי",
+  "address": "האצ\"ל 38",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "הפינה של צחי",
+  "type": "פלאפל",
+  "address": "שד' יהודית 13",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "הפיצה של עדי",
+  "type": "מזנון חלבי",
+  "address": "דיזינגוף 55",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "הפלנצ'ה 45 גריל בר",
+  "type": "מסעדה בשרית",
+  "address": "אילת 45",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "הפסטה בלוינסקי",
+  "type": "מזנון בשרי",
+  "address": "נחלת בנימין 84",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "הפריקסה של חיימיקו",
+  "type": "מזנון פרווה",
+  "address": "קינג ג'ורג' 81",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "הקבב של סלומי",
+  "type": "איטליז",
+  "address": "נוריאל 13",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "הקובה של אבי",
+  "type": "מסעדה בשרית",
+  "address": "לוינסקי 53",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "הקולקטיב קיטצ'ן 8",
+  "type": "מסעדה חלבית",
+  "address": "קרית עתידים 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "הקצביה של לוי",
+  "type": "איטליז",
+  "address": "בן צבי 76",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "הרודס",
+  "type": "בית מלון",
+  "address": "הירקון 155",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "השוק של נחלת יצחק",
+  "type": "חנות פירות וירקות",
+  "address": "נחלת יצחק 28",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "השכן",
+  "type": "מסעדה מעורבת",
+  "address": "אבן גבירול 8",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "השניצליה",
+  "type": "מסעדה בשרית",
+  "address": "קרליבך 10",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "וג'י קונספט",
+  "type": "מסעדה חלבית",
+  "address": "הברזל 32",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "וויט וילה",
+  "type": "בית מלון",
+  "address": "שד' בן ציון 25",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "וויט רביט ברוארי בע\"מ",
+  "type": "מפעל",
+  "address": "התעשיה 12",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "וולק אנד רול",
+  "type": "בר אקטיבי",
+  "address": "דיזינגוף 50",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ווק טו ווק",
+  "type": "מסעדה בשרית",
+  "address": "קלמן מגן 7",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ויקטורי סיטי",
+  "type": "רשתות שיווק",
+  "address": "רוטשילד 14",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ויקטורי סניף אחד העם",
+  "type": "רשתות שיווק",
+  "address": "אחד העם 52",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ויקטורי סניף אלנבי",
+  "type": "רשתות שיווק",
+  "address": "אלנבי 65",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ויקטורי סניף דיזינגוף",
+  "type": "רשתות שיווק",
+  "address": "דיזינגוף 224",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ויקטורי סניף דרך שלמה",
+  "type": "רשתות שיווק",
+  "address": "דרך שלמה 53",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ויקטורי סניף הארבעה",
+  "type": "רשתות שיווק",
+  "address": "הארבעה 6",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ויקטורי סניף ויצמן",
+  "type": "רשתות שיווק",
+  "address": "ויצמן 53",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ויקטורי סניף יהודה הלוי",
+  "type": "רשתות שיווק",
+  "address": "יהודה הלוי 40",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ויקטורי סניף לינקולן",
+  "type": "רשתות שיווק",
+  "address": "לינקולן 16",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ויקטורי סניף מרגוזה",
+  "type": "רשתות שיווק",
+  "address": "יהודה מרגוזה 14",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "וניליה",
+  "type": "בית קפה חלבי",
+  "address": "מנחם בגין 132",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ושבעת וברכת",
+  "type": "מסעדה בשרית",
+  "address": "אצ\"ל 47",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "זוהר בייקרי",
+  "type": "בית קפה",
+  "address": "יגאל אלון 155",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "זוקה",
+  "type": "מזנון חלבי",
+  "address": "קיציס 23",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "זוקו יגאל אלון",
+  "type": "מסעדה בשרית",
+  "address": "יגאל אלון 94",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "זלאיט יוסף",
+  "type": "חנות דגים",
+  "address": "אצ\"ל 24",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "זלאיט פנינה",
+  "type": "חנות דגים",
+  "address": "נוריאל 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "זלמנס",
+  "type": "מסעדה בשרית",
+  "address": "קניון עזריאלי",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ח.ד. מחלבת דשן",
+  "type": "מפעל",
+  "address": "יגאל אלון 161",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חביב מרכז הקובות",
+  "type": "מסעדה בשרית",
+  "address": "המבשר 18",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חביבי TLV",
+  "type": "מזנון בשרי/חלבי",
+  "address": "שאול המלך 39",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חבש",
+  "type": "מסעדה בשרית",
+  "address": "הנגב 10",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חבשוש אריזת מזון",
+  "type": "חנות פיצוחים",
+  "address": "החלוצים 18",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חדר פרטי- חווית אירוח",
+  "type": "אולם אירועים",
+  "address": "בן צבי 84",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חוביאן",
+  "type": "חנות פיצוחים",
+  "address": "לוינסקי 38",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חוות הוואגיו בע\"מ",
+  "type": "מפעל בשר",
+  "address": "רזיאל 5",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חומוס אבי מעכו",
+  "type": "מזנון",
+  "address": "יהודה הלוי 72",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חומוס אור יהודה",
+  "type": "חומוסיה",
+  "address": "דיזינגוף 167",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חומוס אליהו סניף דיזינגוף סנטר",
+  "type": "חומוסיה",
+  "address": "דיזינגוף 50",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חומוס אליהו סניף יגאל אלון",
+  "type": "מזנון פרווה",
+  "address": "יגאל אלון 51",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חומוס אליהו סניף מעון",
+  "type": "חומוסיה",
+  "address": "מעון 4",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חומוס אליהו סניף קלמן מגן",
+  "type": "חומוסיה",
+  "address": "קלמן מגן 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חומוס אליהו סניף שוק הפשפשים",
+  "type": "חומוסיה",
+  "address": "עמיאד 14",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חומוס אשכרה",
+  "type": "חומוסיה",
+  "address": "ירמיהו 45",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חומוס הכרם סניף בית הבד",
+  "type": "חומוסיה",
+  "address": "בית הבד 6",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חומוס הכרם סניף הרכבת",
+  "type": "חומוסיה",
+  "address": "הרכבת 28",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חומוס הכרם סניף שוקן",
+  "type": "חומוסיה",
+  "address": "שוקן 30",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חומוס הכרמל",
+  "type": "מסעדה בשרית",
+  "address": "הכרמל 11",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חומוס העם",
+  "type": "חומוסיה",
+  "address": "נחלת יצחק 28",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חומוס חסון",
+  "type": "חומוסיה",
+  "address": "אלנבי 87",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חומוס חסון",
+  "type": "חומוסיה",
+  "address": "הרצל 68",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חומוס יום טוב",
+  "type": "חומוסיה",
+  "address": "נחלת יצחק 18",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חומוס יוסף",
+  "type": "מזנון בשרי",
+  "address": "דבורה הנביאה 121",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חומוס יוסף סניף רמת החייל",
+  "type": "חומוסיה",
+  "address": "הברזל 11",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חומוס יוסף רמת אביב",
+  "type": "מזנון בשרי",
+  "address": "ברודצקי 19",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חומוס כספי בן יהודה",
+  "type": "חומוסיה",
+  "address": "בן יהודה 145",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חומוס פלא – אישיחה",
+  "type": "חומוסיה",
+  "address": "עולי ציון 13",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חומוסטיישן",
+  "type": "חומוסיה",
+  "address": "בן צבי 84",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חור בהשכלה",
+  "type": "מסעדה בשרית",
+  "address": "ההשכלה 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חיים חולדרוב",
+  "type": "חנות פירות וירקות",
+  "address": "גרינבוים 41",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חלבי עזרא",
+  "type": "חנות פירות וירקות",
+  "address": "התקווה 10",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חלה'ס",
+  "type": "מסעדה בשרית",
+  "address": "דיזינגוף 112",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חלום יעקב",
+  "type": "אולם אירועים",
+  "address": "ישראל גורי 34",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חממה",
+  "type": "חנות פיצוחים",
+  "address": "משה דיין 76",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חנהלה שוקולדים",
+  "type": "מפעל",
+  "address": "שביל המרץ 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "חנן מרגילן",
+  "type": "מסעדה בשרית",
+  "address": "מסילת ישרים 15",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "טאבונה ראסה",
+  "type": "מסעדה בשרית",
+  "address": "הרצל 12",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "טאו77",
+  "type": "מסעדה",
+  "address": "רוטשילד 15",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "טאטי גינדי",
+  "type": "בית קפה",
+  "address": "קרליבך 6",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "טבע תל אביב / סי.איי.פי",
+  "type": "קייטרינג",
+  "address": "דבורה הנביאה 124",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "טוזורו",
+  "type": "אולם אירועים",
+  "address": "משה סנה רמת השרון 199",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "טומביק",
+  "type": "מסעדה בשרית",
+  "address": "אבא אחימאיר 15",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "טונינו Tonino",
+  "type": "מסעדה חלבית",
+  "address": "דוד אלעזר 22",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "טוסט אנד שייק",
+  "type": "מזנון חלבי",
+  "address": "דיזינגוף 119",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "טורוס אנטריקוט",
+  "type": "מסעדה בשרית",
+  "address": "אצ\"ל 57",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "טורוס סניף אצ\"ל",
+  "type": "מסעדה בשרית",
+  "address": "אצ\"ל 44",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "טורק לחמג'ון",
+  "type": "מסעדה בשרית",
+  "address": "יהודה הלוי 39",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "טחן (מקבוצת עזאי בע\"מ)",
+  "type": "מאפיה",
+  "address": "אצ\"ל 41",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "טחנת קמח בר-רב",
+  "type": "טחנת קמח",
+  "address": "בן צבי 24",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "טחנת קמח ישראלית",
+  "type": "טחנת קמח",
+  "address": "רבינו חננאל 20",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "טחנת קמח צוקרמן",
+  "type": "טחנת קמח",
+  "address": "יהודה נח מוזס",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "טיב טופ",
+  "type": "רשתות שיווק",
+  "address": "בבלי 17",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "טיטו קולינריה",
+  "type": "מסעדה בשרית",
+  "address": "אלברט מנדלר 6",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "טיפיקו",
+  "type": "מסעדה בשרית",
+  "address": "נחלת בנימין 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "טירן חמראוי",
+  "type": "חנות פירות וירקות",
+  "address": "התקווה 26",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "טל השדה",
+  "type": "חנות פירות וירקות",
+  "address": "לח\"י 85",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "טנדור",
+  "type": "מזנון בשרי",
+  "address": "קלמן מגן 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "טראסק",
+  "type": "אולם אירועים",
+  "address": "מגרשי התערוכה 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "טרטין",
+  "type": "מסעדה חלבית",
+  "address": "קויפמן יחזקאל 6",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "טריו פינת השלושה",
+  "type": "מסעדה חלבית",
+  "address": "בן צבי 84",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "יאמי יאמי",
+  "type": "גלידרייה",
+  "address": "דיזינגוף 50",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "יאשקה יהודה המכבי",
+  "type": "מסעדה בשרית",
+  "address": "יהודה המכבי 62",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "יאשקה קרית עתידים",
+  "type": "מסעדה בשרית",
+  "address": "דבורה הנביאה 121",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "יד גלידה אמריקאית",
+  "type": "גלידרייה",
+  "address": "ישראל גורי 34",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "יהודלה",
+  "type": "מזנון בשרי",
+  "address": "דיזינגוף 107",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "יוגו",
+  "type": "גלידרייה",
+  "address": "דיזינגוף 50",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "יוחננוף סניף אחד העם",
+  "type": "רשתות שיווק",
+  "address": "אחד העם 12",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "יוחננוף סניף בן צבי",
+  "type": "רשתות שיווק",
+  "address": "בן צבי 112",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "יוחננוף סניף יגאל אלון",
+  "type": "רשתות שיווק",
+  "address": "יגאל אלון 53",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "יוחננוף סניף נחלת יצחק",
+  "type": "רשתות שיווק",
+  "address": "נחלת יצחק 20",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "יום טוב",
+  "type": "איטליז",
+  "address": "אצ\"ל 70",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "יוניתה",
+  "type": "מסעדה חלבית",
+  "address": "השומר 7",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "יוסי חממה אורגינל סניף משה מטלון",
+  "type": "חנות פיצוחים",
+  "address": "משה מטלון 47",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "יוסי חממה אורגינל סניף צ'לנוב",
+  "type": "חנות פיצוחים",
+  "address": "צ'לנוב 21",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "יוסי משיח",
+  "type": "חנות פירות וירקות",
+  "address": "התקווה 21",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "יוסף רמת החייל",
+  "type": "מסעדה בשרית",
+  "address": "הברזל 32",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "יוקו סושי בר",
+  "type": "מסעדה אסיתית",
+  "address": "פלורנטין 5",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "יותמ'ס דונאטס",
+  "type": "גלידרייה",
+  "address": "קינג ג'ורג' 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "יחיאל אקוקה – בבי",
+  "type": "איטליז",
+  "address": "גרינבוים 41",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "יין בחצר",
+  "type": "מסעדה חלבית",
+  "address": "נחלת בנימין 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "יעקב כהן",
+  "type": "חנות פירות וירקות",
+  "address": "התקווה 7",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ירונסקי פיתה בשר",
+  "type": "מזנון בשרי",
+  "address": "הכרמל 35",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ירזין סלע סמסונג",
+  "type": "מסעדה בשרית",
+  "address": "מנחם בגין 146",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ישראל כהן",
+  "type": "חנות פירות וירקות",
+  "address": "הדר יוסף 16",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ישתבח",
+  "type": "מסעדה בשרית",
+  "address": "סימטת הכרמל 37",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "כהן אליהו",
+  "type": "קונדטוריה",
+  "address": "אצ\"ל 76",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "כהן יחזקאל",
+  "type": "מאפיה",
+  "address": "אצ\"ל 49",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "כהן צבי",
+  "type": "איטליז",
+  "address": "בית אל 12",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "כהן שמואל",
+  "type": "מסעדה בשרית",
+  "address": "הרצל 146",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "כוכב הפרי שדה אברהם סניף הקשת",
+  "type": "חנות פירות וירקות",
+  "address": "הקשת 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "כיכר שינקין",
+  "type": "קונדטוריה",
+  "address": "שינקין 53",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "כלבו בשר",
+  "type": "איטליז",
+  "address": "דרך שלמה 43",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "כרמלונה",
+  "type": "מסעדה בשרית",
+  "address": "דניאל 29",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "כרמליטה",
+  "type": "פיצריה",
+  "address": "מל\"ן 29",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "כרמליס בייגלס",
+  "type": "בית קפה",
+  "address": "בן אביגדור 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ל. אשל שירותי מזון בע\"מ",
+  "type": "קייטרינג",
+  "address": "קפלן משרד הביטחון",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "לאב קופי",
+  "type": "מזנון קפה",
+  "address": "שבזי 67",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "לאונרדו בוטיק",
+  "type": "בית מלון",
+  "address": "הברזל 17",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "לאונרדו גורדון ביץ'",
+  "type": "בית מלון",
+  "address": "הירקון 167",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "לאטי משה ובניו בשר ועופות",
+  "type": "איטליז",
+  "address": "נוריאל 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "לאס ווגאס",
+  "type": "אולם אירועים",
+  "address": "קיבוץ גלויות 79",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "לבונטין בייקרי",
+  "type": "מזנון חלבי",
+  "address": "לבונטין 30",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "לבנזון",
+  "type": "חנות דגים",
+  "address": "פיגוטו 20",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "לה בוצ'ר",
+  "type": "איטליז",
+  "address": "יהודה המכבי 54",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "לה בושרי פראנסיז",
+  "type": "איטליז",
+  "address": "בוגרשוב 26",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "לה לזניה",
+  "type": "מסעדה חלבית",
+  "address": "דיזינגוף 177",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "לה מיאל",
+  "type": "מסעדה בשרית",
+  "address": "יד חרוצים 14",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "לה פנה בייקרי",
+  "type": "קונדטוריה",
+  "address": "בוגרשוב 43",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "לואיזה קפה אורבני",
+  "type": "בית קפה",
+  "address": "המסגר 6",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "לוי מאיר ואברהם",
+  "type": "איטליז",
+  "address": "סמטת הכרמל 27",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "לוינסקי בשכונה",
+  "type": "מזנון",
+  "address": "עמק ברכה 25",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "לונה פארק קיוסק",
+  "type": "מזנון בשרי/חלבי",
+  "address": "שד' רוקח",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "לופו",
+  "type": "טבעוני",
+  "address": "מרחביה 6",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "לחם בוכרי סניף זלמן שזר",
+  "type": "מסעדה בשרית",
+  "address": "זלמן שזר 11",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "לחם בשר",
+  "type": "מסעדה בשרית",
+  "address": "האנגר 14",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "לחם ושות'",
+  "type": "בית קפה",
+  "address": "מזא\"ה 79",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "לחם חם סניף הרצל",
+  "type": "קונדטוריה",
+  "address": "הרצל 125",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "לחמים סניף אבן גבירול",
+  "type": "קונדטוריה",
+  "address": "אבן גבירול 125",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "לחמים סניף ברודצקי",
+  "type": "קונדטוריה",
+  "address": "ברודצקי 15",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "לחמים סניף דיזינגוף",
+  "type": "קונדטוריה",
+  "address": "דיזינגוף 134",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "לחמים סניף וילנסקי",
+  "type": "מאפיה",
+  "address": "משה וילנסקי 17",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "לחמים סניף חשמונאים",
+  "type": "מאפיה",
+  "address": "חשמונאים 103",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ליב מטבח בריא",
+  "type": "מסעדה בשרית",
+  "address": "הנחושת 4",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "לילי מטבח שף / מטבח אחורי",
+  "type": "אולם אירועים",
+  "address": "בן צבי 84",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מ.א.ב פירות וירקות",
+  "type": "חנות פרות וירקות",
+  "address": "ישראל גורי 35",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מ.מ. שלדג",
+  "type": "חנות דגים",
+  "address": "דיזינגוף 285",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מאדיס",
+  "type": "מסעדה חלבית",
+  "address": "מנורת המאור 4",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מאזה",
+  "type": "מסעדה בשרית",
+  "address": "נחלת בנימין 45",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מאיר קייטרינג",
+  "type": "בית קפה",
+  "address": "נחל איילון 37",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מאמא פיצה",
+  "type": "פיצרייה",
+  "address": "דרך השלום 101",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מאמא ציפורה",
+  "type": "מסעדה בשרית",
+  "address": "בן יהודה 63",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מאפה הכפר",
+  "type": "מאפיה",
+  "address": "צרעה 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מאפה מגן",
+  "type": "קונדטוריה",
+  "address": "מעפילי אגוז 59",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מאפיית אריאל",
+  "type": "מאפיה",
+  "address": "ראול ולנברג 14",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מאפיית בראשית",
+  "type": "מאפיה",
+  "address": "יגאל אלון 134",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מאפיית בריסטה",
+  "type": "בית קפה",
+  "address": "אורי לסר 12",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מאפיית ההגנה",
+  "type": "קונדטוריה",
+  "address": "ההגנה 58",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מאפיית הטאבון",
+  "type": "מאפיה",
+  "address": "מקוה ישראל 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מאפיית הכרמל",
+  "type": "מאפיה",
+  "address": "הכרמל 9",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מאפיית המשפחה",
+  "type": "מאפיה",
+  "address": "דבורה הנביאה 124",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מאפיית העליה",
+  "type": "קונדטוריה",
+  "address": "העליה 30",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מאפיית התקוה מזרחי",
+  "type": "קונדטוריה",
+  "address": "התקווה 32",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מאפיית לחם ביכורים",
+  "type": "קונדטוריה",
+  "address": "חרותינו 11",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מאפיית לחם ביכורים סניף אצ\"ל",
+  "type": "קונדטוריה",
+  "address": "אצ\"ל 24",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מאפיית פיתות בוכרית – אדון הטאבון",
+  "type": "מאפיה",
+  "address": "ישראל גורי 34",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מאפיית פת שחרית",
+  "type": "מאפיה",
+  "address": "לה גווארדיה 76",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מאר ג'רז",
+  "type": "בית קפה",
+  "address": "דב הוז 31",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מבחר הפרי והירק",
+  "type": "חנות פירות וירקות",
+  "address": "אבא אחימאיר 15",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מבשלים חוויה",
+  "type": "בית ספר לבישול",
+  "address": "בן צבי 78",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מגה בעיר סניף לאה גולדברג",
+  "type": "רשתות שיווק",
+  "address": "לאה גולדברג 15",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מגה בעיר סניף ניסים אלוני",
+  "type": "רשתות שיווק",
+  "address": "ניסים אלוני 10",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מגה בעיר סניף פנקס",
+  "type": "רשתות שיווק",
+  "address": "פנקס 48",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מגנדה קייטרינג",
+  "type": "קייטרינג",
+  "address": "לוי אשכול 50",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מגש הכסף",
+  "type": "קונדטוריה",
+  "address": "שתולים 70",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מדאמס סניף ברזיל",
+  "type": "פלאפל",
+  "address": "ברזיל 17",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מדאמס סניף הדר יוסף",
+  "type": "פלאפל",
+  "address": "הדר יוסף 14",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מדליין madeleine",
+  "type": "בית קפה",
+  "address": "דניאל 25",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מדעי קפה",
+  "type": "בית קפה",
+  "address": "אוניברסיטת תל אביב בית גילמן",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מוזה חומוס בר סניף יגאל אלון",
+  "type": "חומוסיה",
+  "address": "יגאל אלון 96",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מוזס שופ",
+  "type": "מסעדה בשרית",
+  "address": "מנחם בגין 144",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מוצרלה בכפר",
+  "type": "מסעדה חלבית",
+  "address": "אל נקוה 78",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מוקיאה שוקלד",
+  "type": "מפעל",
+  "address": "התנופה 4",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מזל וברכה",
+  "type": "מסעדה בשרית",
+  "address": "קיבוץ גלויות 45",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מזנון הולץ",
+  "type": "מזנון בשרי/חלבי",
+  "address": "קיבוץ גלויות 150",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מזנון ציון",
+  "type": "מזנון בשרי",
+  "address": "הירקון 61",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מזנון שיראז",
+  "type": "מזנון חלבי",
+  "address": "מזא\"ה 6",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מחסן גבינות",
+  "type": "מעדניה",
+  "address": "שד' ירושלים 64",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מחסני להב סניף אינשטיין",
+  "type": "רשתות שיווק",
+  "address": "איינשטיין 64",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מחסני להב סניף הלוחמים",
+  "type": "רשתות שיווק",
+  "address": "הלוחמים 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מטבחא",
+  "type": "מזנון חלבי",
+  "address": "אבולעפיה 11",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מטעמי בוכרה",
+  "type": "מסעדה בשרית",
+  "address": "מקווה ישראל 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מטרו רק רגע",
+  "type": "קונדטוריה",
+  "address": "מנחם בגין 72",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מטרופוליטן",
+  "type": "בית מלון",
+  "address": "טרומפלדור 11",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מידל איסט",
+  "type": "מסעדה פרווה",
+  "address": "נחמני 67",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מידל איסט",
+  "type": "מסעדה צמחונית",
+  "address": "יגאל אלון 94",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מיט בוטיק איציק הגדול",
+  "type": "קצביה",
+  "address": "רזיאל 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מיט דלי",
+  "type": "מסעדה בשרית",
+  "address": "הכרמל 11",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מילק אנד האני Milk and honey distillery",
+  "type": "מפעל",
+  "address": "התחיה 16",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מילק אנד האני Milk and honey distillery /מרכז מבקרים",
+  "type": "מפעל",
+  "address": "התחיה 16",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מילק בייקרי",
+  "type": "מזנון חלבי",
+  "address": "בית אשל 5",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מיניסטור פלאפל",
+  "type": "פלאפל",
+  "address": "אבן גבירול 30",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מינץ דרקה בע\"מ",
+  "type": "מפעל גלידות",
+  "address": "ריב\"ל 13",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מיסטר אייג",
+  "type": "חנות ביצים",
+  "address": "קיבוץ גלויות 73",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מיסטר גרין",
+  "type": "מזנון חלבי",
+  "address": "קניון עזריאלי",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מיסטר פרעצל",
+  "type": "מזנון חלבי",
+  "address": "קניון עזריאלי",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מיסטר קורן",
+  "type": "דוכן תירס",
+  "address": "קרליבך 4",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מיצי השוק",
+  "type": "מזנון פרווה",
+  "address": "הכרמל 35",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מיקסי שוק צפון",
+  "type": "מסעדה חלבית",
+  "address": "ראול ולנברג 20",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מיקסי שרונה",
+  "type": "מזנון חלבי",
+  "address": "קלמן מגן 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מישל אסולין",
+  "type": "חנות פירות וירקות",
+  "address": "התקווה 11",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מיתוס גריל בר",
+  "type": "מסעדה בשרית",
+  "address": "ויצמן 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מלאז'נה פוד",
+  "type": "מזנון חלבי",
+  "address": "טאגור 30",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מלודי",
+  "type": "בית מלון",
+  "address": "הירקון 220",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מלון abba",
+  "type": "בית מלון",
+  "address": "שד' ירושלים",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מלון nyx",
+  "type": "בית מלון",
+  "address": "הרכבת 29",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מלון אלקונין",
+  "type": "בית מלון",
+  "address": "לילינבלום 9",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מלון ארטיסט",
+  "type": "בית מלון",
+  "address": "בן יהודה 35",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מלון בובו",
+  "type": "בית מלון",
+  "address": "יבנה 42",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מלון ג'ול",
+  "type": "בית מלון",
+  "address": "הירקון 84",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מלון גוטמן",
+  "type": "בית מלון",
+  "address": "שביל האטד 5",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מלון דבורה",
+  "type": "בית מלון",
+  "address": "בן יהודה 87",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מלון האופרה",
+  "type": "בית מלון",
+  "address": "אלנבי 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מלון ויטל",
+  "type": "בית מלון",
+  "address": "ויצמן 14",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מלון טל",
+  "type": "בית מלון",
+  "address": "הירקון 287",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מלון סטאי",
+  "type": "בית מלון",
+  "address": "דוד רזיאל 22",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מלון סינט",
+  "type": "בית מלון",
+  "address": "נס ציונה 6",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מלון סינמה",
+  "type": "בית מלון",
+  "address": "זמנהוף 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מלון קמפינסקי",
+  "type": "בית מלון",
+  "address": "הירקון 51",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מלכה",
+  "type": "מסעדה בשרית",
+  "address": "מנחם בגין 146",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ממפיס",
+  "type": "מסעדה בשרית",
+  "address": "קרליבך 20",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מנה מנה",
+  "type": "מסעדה בשרית",
+  "address": "יהודה המכבי 65",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מני רול",
+  "type": "מסעדה בשרית",
+  "address": "נחלת יצחק 18",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מניו menu",
+  "type": "בית ספר לבישול",
+  "address": "קומפורט 14",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מנצ'יז בר",
+  "type": "מזנון בשרי",
+  "address": "נחלת בנימין 60",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מסעדות מאנדיי Monday",
+  "type": "מסעדה חלבי",
+  "address": "יצחק שדה 6",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מסעדות מאנדיי Monday",
+  "type": "מסעדה בשרי",
+  "address": "יצחק שדה 6",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מסעדת איציק הגדול",
+  "type": "מסעדה בשרית",
+  "address": "רזיאל 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מסעדת האחים בועז",
+  "type": "מסעדה בשרית",
+  "address": "אצ\"ל 47",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מסעדת מלון בראון ביץ' האוס",
+  "type": "בית מלון",
+  "address": "הירקון 64",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מסעדת ניסים",
+  "type": "מסעדה בשרית",
+  "address": "המבשר 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מסעדת סנדר",
+  "type": "מסעדה בשרית",
+  "address": "לוינסקי 54",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מעדני גורמה",
+  "type": "איטליז",
+  "address": "ראול ולנברג 18",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מעדני עופר",
+  "type": "מעדניה",
+  "address": "נוריאל 10",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מעדני צדקיהו",
+  "type": "מעדניה",
+  "address": "נחלת יצחק 18",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מעשנת השוק",
+  "type": "מזנון בשרי",
+  "address": "וולפסון 9",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מפגש 38",
+  "type": "פלאפל",
+  "address": "אצ\"ל 38",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מפגש אלדין",
+  "type": "מזנון בשרי",
+  "address": "ברודצקי 15",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מפגש ג'ימל",
+  "type": "מזנון בשרי",
+  "address": "אבא אחימאיר 33",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מפגש הברכה",
+  "type": "מסעדה בשרית",
+  "address": "הרצל 98",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מפגש הסטייק",
+  "type": "מסעדה בשרית",
+  "address": "מנחם בגין 37",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מפגש הפיצה",
+  "type": "פיצרייה",
+  "address": "גרוסמן 25",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מפעל איקה שוקולד",
+  "type": "מפעל",
+  "address": "יד חרוצים 11",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מקדונלדס סניף קניון רמת אביב",
+  "type": "מסעדה בשרי/חלבי",
+  "address": "קניון רמת אביב",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מקום לשמחות",
+  "type": "אולם אירועים",
+  "address": "מנחם בגין 21",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מקור הפיצוחים",
+  "type": "חנות פיצוחים",
+  "address": "התקווה 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מקסיקנה סניף קלמן מגן",
+  "type": "מסעדה בשרית",
+  "address": "קלמן מגן 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מקסיקנה סניף ראול ולנברג",
+  "type": "מסעדה בשרית",
+  "address": "ראול ולנברג 20",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מקסיקני",
+  "type": "מסעדה בשרית",
+  "address": "מנחם בגין 144",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מקרון",
+  "type": "בית קפה",
+  "address": "נירים 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מרגוזה",
+  "type": "בית מלון",
+  "address": "אברהם אבן שושן 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מרחביה 7",
+  "type": "מסעדה בשרית",
+  "address": "מרחביה 7",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מרכז אסיה",
+  "type": "מסעדה בשרית",
+  "address": "מסילת ישרים 41",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מרכז גריאטי נאות התיכון",
+  "type": "בית חולים",
+  "address": "טולוז 8",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מרכז הזול",
+  "type": "חנות פירות וירקות",
+  "address": "התקווה 44",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מרכז העגבניה",
+  "type": "מזנון",
+  "address": "הכרמל 11",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מרסלוס",
+  "type": "מסעדה בשרית",
+  "address": "ריב\"ל 7",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מרקט האוס",
+  "type": "בית מלון",
+  "address": "בית אשל 5",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "משה דורה",
+  "type": "איטליז",
+  "address": "צרעה 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "משיבה",
+  "type": "מסעדה אסיתית",
+  "address": "צ'לנוב 5",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "משכנות רות דניאל",
+  "type": "בית מלון",
+  "address": "שד' ירושלים 47",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "משק 27 חנויות בשר בע\"מ",
+  "type": "אטליז ודגים",
+  "address": "יעקב אפטר 9",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "משק דנף",
+  "type": "שיווק ירקות",
+  "address": "בן צבי 52",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מתוקה סניף הברזל",
+  "type": "מזנון חלבי",
+  "address": "הברזל 20",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מתוקה סניף טאגור",
+  "type": "קונדטוריה",
+  "address": "טאגור 32",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מתוקו",
+  "type": "קונדטוריה",
+  "address": "סלומון 7",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "מתתיהו הרצל",
+  "type": "איטליז",
+  "address": "תרמ\"ב 37",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "נא לגעת בלק אאוט קפה קפיש",
+  "type": "בית קפה",
+  "address": "נמל יפו",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "נופר רומי מטבח בוטיק",
+  "type": "קייטרינג",
+  "address": "אילת 22",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "נוצ׳י סושי בר כיכר המדינה",
+  "type": "מסעדה אסיתית",
+  "address": "ה' באייר 10",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "נורמן",
+  "type": "מסעדה בשרית",
+  "address": "חשמונאים 96",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "נטו אינווסטמנט daily coffee& more",
+  "type": "בית קפה",
+  "address": "ויצמן 6",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ניו בר",
+  "type": "מזנון חלבי",
+  "address": "דניאל פריש 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ניו בר שירותי מזון בע\"מ",
+  "type": "קייטרינג",
+  "address": "שד' רוקח 101",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ניו דלהי",
+  "type": "מסעדה בשרית",
+  "address": "קינג ג'ורג' 55",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ניו דלי סנדוויץ עזריאלי",
+  "type": "מסעדה בשרית",
+  "address": "קניון עזריאלי קומה 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "נייט שיפט",
+  "type": "בר אקטיבי",
+  "address": "חיים ויטל 9",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "נינה ביגל בר",
+  "type": "בית קפה",
+  "address": "בוגרשוב 15",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ניני האצי",
+  "type": "מסעדה אסיתית",
+  "address": "בן יהודה 228",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ניסים ת.א.ק",
+  "type": "איטליז",
+  "address": "המחוגה 13",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ניסן קטייב",
+  "type": "איטליז",
+  "address": "ישראל גורי 34",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "נענע קפה סנדוויץ בר",
+  "type": "בית קפה",
+  "address": "מנחם בגין 125",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "נקודת לחם",
+  "type": "קונדטוריה",
+  "address": "התקווה 8",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "נקניקס nakniks",
+  "type": "מזנון בשרי",
+  "address": "אבן גבירול 82",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "נתח בעיר",
+  "type": "איטליז",
+  "address": "פנחס רוזן 72",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "נתח קצבים",
+  "type": "איטליז",
+  "address": "איינשטיין 7",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סבא אנג'לו",
+  "type": "מסעדה חלבית",
+  "address": "בן יהודה 147",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סבח שאול",
+  "type": "איטליז",
+  "address": "המבשר 14",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סביח דה לוקס",
+  "type": "מזנון בשרי",
+  "address": "מקוה ישראל 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סביח הרצל",
+  "type": "מזנון בשרי",
+  "address": "הרצל 98",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סביח השרון",
+  "type": "מזנון פרווה",
+  "address": "נחלת בנימין 61",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סביח טשרניחובסקי",
+  "type": "מזנון חלבי",
+  "address": "אלנבי 45",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סביח סוויסה",
+  "type": "חומוסיה",
+  "address": "הברזל 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סביח פרישמן",
+  "type": "חומוסיה",
+  "address": "יהודה מרגוזה 4",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סביח פרישמן",
+  "type": "מזנון בשרי",
+  "address": "לוינסקי 57",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סביח פרישמן עזריאלי",
+  "type": "מזנון בשרי",
+  "address": "מנחם בגין 108",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סביח קומפלט",
+  "type": "מזנון בשרי",
+  "address": "אבן גבירול 99",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סביחה זנאוי",
+  "type": "חנות פירות וירקות",
+  "address": "התקווה 15",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סבתא SAFTA",
+  "type": "מסעדה",
+  "address": "יגאל אלון 94",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סבתות מבשלות",
+  "type": "מסעדה בשרית",
+  "address": "קלישר 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סו סושי",
+  "type": "מסעדה חלבית",
+  "address": "אבן גבירול 54",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סודוך סניך המסגר",
+  "type": "מסעדה בשרית",
+  "address": "המסגר 64",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סודוך סניף אינשטיין",
+  "type": "מסעדה בשרית",
+  "address": "איינשטיין 7",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סודוך סניף דרך השלום",
+  "type": "מסעדה בשרית",
+  "address": "דרך השלום 51",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סודוך סניף הירקון",
+  "type": "מסעדה בשרית",
+  "address": "הירקון 121",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סודוך סניף פנחס רוזן",
+  "type": "מזנון בשרי",
+  "address": "פנחס רוזן 19",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סודוך סניף קרליבך",
+  "type": "מסעדה בשרית",
+  "address": "קרליבך 20",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סודסקו – ברודקום",
+  "type": "קייטרינג",
+  "address": "אוניברסיטת תל אביב",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סודקסו אתרים עסקיים בע\"מ",
+  "type": "מפעל",
+  "address": "אנילביץ 56",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סוויט בוקס",
+  "type": "קונדטוריה",
+  "address": "לוינסקי 46",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סוליקה בקשת",
+  "type": "מסעדה בשרי/חלבי",
+  "address": "ראול ולנברג 12",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סוליקה גורמה",
+  "type": "מזנון בשרי/חלבי",
+  "address": "איינשטיין 7",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סוליקה הקטנה",
+  "type": "מסעדה בשרית",
+  "address": "אבא אחימאיר 19",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סומך אברהם סלטי בוטיק",
+  "type": "מעדניה",
+  "address": "שביל המפעל 4",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סופט קוקיס",
+  "type": "מזנון חלבי",
+  "address": "דיזינגוף 45",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סופט קוקיס",
+  "type": "מזנון חלבי",
+  "address": "קניון עזריאלי",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סופר ברקת סניף יפו",
+  "type": "מרכול",
+  "address": "דרך שלמה 54",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סופר ברקת סניף קיבוץ גלויות",
+  "type": "מרכול",
+  "address": "קיבוץ גלויות 106",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סופר ברקת סניף שלבים",
+  "type": "מרכול",
+  "address": "שלבים 7",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סופר גלאט משה לאטי ובניו",
+  "type": "איטליז",
+  "address": "נתן 4",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סופר שלהבת",
+  "type": "מרכול",
+  "address": "חיים בר לב 151",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סוראיה",
+  "type": "מסעדה בשרית",
+  "address": "נחלת בנימין 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סורטיר קופיולה",
+  "type": "מסעדה",
+  "address": "היתד 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סושי באזל",
+  "type": "מסעדה אסיתית",
+  "address": "בוגרשוב 33",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סטו קונספט",
+  "type": "אולם אירועים",
+  "address": "ראול ולנברג 24",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סטודיו לבישול",
+  "type": "מפעל",
+  "address": "בן אביגדור 19",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סטרופי",
+  "type": "מזנון חלבי",
+  "address": "הרצל 17",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סיתי בולונז'רי",
+  "type": "בית קפה",
+  "address": "שטריקר 46",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סיתי בולונז'רי סניף בן יהודה",
+  "type": "בית קפה",
+  "address": "בן יהודה 89",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סלטוסט",
+  "type": "מזנון חלבי",
+  "address": "אברבנאל 35",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סלטי חבני",
+  "type": "קייטרינג",
+  "address": "כפר שלם 28",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סמרקנד",
+  "type": "מסעדה בשרית",
+  "address": "בן צבי 34",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סמרקנד",
+  "type": "אולם אירועים",
+  "address": "בן צבי 36",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "סנדויץ' טוניסאי",
+  "type": "מסעדה בשרית",
+  "address": "הפטיש 9",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ספידי רול",
+  "type": "מזנון בשרי",
+  "address": "המסגר 6",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ספרינקלס בייקרי",
+  "type": "בית קפה",
+  "address": "יגאל אלון 94",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "עאיישה",
+  "type": "מזנון בשרי",
+  "address": "שפ\"ר 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "עגלת קפה – ארט קפה",
+  "type": "עגלת קפה",
+  "address": "מגרשי התערוכה 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "עד 120",
+  "type": "בית אבות",
+  "address": "ראול ולנברג 32",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "עדיקה",
+  "type": "מזנון בשרי",
+  "address": "ראול ולנברג 20",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "עוף בגריל",
+  "type": "מסעדה בשרית",
+  "address": "אצ\"ל 19",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "עוף גריל שמעון",
+  "type": "מסעדה בשרית",
+  "address": "טשרנחובסקי 6",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "עוף מרקט",
+  "type": "מסעדה בשרית",
+  "address": "בוגרשוב 36",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "עזורה",
+  "type": "מסעדה בשרית",
+  "address": "מקוה ישראל 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "עזרא עידה ובניו",
+  "type": "איטליז",
+  "address": "נוריאל 11",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "על המחיה",
+  "type": "מסעדה בשרית",
+  "address": "קויפמן יחזקאל 6",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "עלמא מרקים",
+  "type": "מזנון בשרי",
+  "address": "הרצל 8",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "עץ הדעת",
+  "type": "חנות תבלינים",
+  "address": "אבן גבירול 124",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פא\"י בתי מאפה",
+  "type": "בית קפה",
+  "address": "בית אל 12",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פאבלה",
+  "type": "מסעדה בשרית",
+  "address": "לה גווארדיה 64",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פאזל פוד ויצמן",
+  "type": "מסעדה בשרית",
+  "address": "ויצמן 14",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פאנץ' ליין",
+  "type": "מסעדה בשרית",
+  "address": "הארבעה 14",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פאפא ג'ונס",
+  "type": "פיצרייה",
+  "address": "השלושה 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פוד האוס בשרי",
+  "type": "קייטרינג",
+  "address": "מנחם בגין 144",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פוד האוס חלבי",
+  "type": "קייטרינג",
+  "address": "מנחם בגין 144",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פוד האוס שולץ",
+  "type": "קונדטוריה",
+  "address": "מנחם בגין 125",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פוד סטפס",
+  "type": "בית ספר לבישול",
+  "address": "ישראל בק 41",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פול דני",
+  "type": "חומוסיה",
+  "address": "עולי ציון 8",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פולט paulette",
+  "type": "מסעדה בשרית",
+  "address": "יהודה הלוי 39",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פונדק הרצל",
+  "type": "מסעדה בשרית",
+  "address": "שד' ירושלים 67",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פוני",
+  "type": "בית קפה",
+  "address": "העליה 24",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פופ אנד רול",
+  "type": "מסעדה אסיתית",
+  "address": "קלמן מגן 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פופה",
+  "type": "מסעדה בשרית",
+  "address": "יהודה הלוי 46",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פוקי שופ סניף הרצל",
+  "type": "טבעוני",
+  "address": "הרצל 10",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פורט 19",
+  "type": "מסעדה בשרית",
+  "address": "שלמה המלך 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פורמנס",
+  "type": "פיצרייה",
+  "address": "יורדי הסירה 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פזל בורגר",
+  "type": "מסעדה בשרית",
+  "address": "קניון עזריאלי קומה 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פטיט",
+  "type": "בית קפה",
+  "address": "חיים לבנון 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פטרוזיליה",
+  "type": "מסעדה בשרית",
+  "address": "קלמן מגן 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיאנו פיאנו נמל ת\"א",
+  "type": "בית קפה",
+  "address": "יורדי הסירה 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פייסבוק מטא כרמל-בשרי / התקוה-חלבי",
+  "type": "קייטרינג",
+  "address": "הארבעה 13",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פינה ירוקה/קריספי ת\"א",
+  "type": "מזנון חלבי",
+  "address": "חיים לבנון 30",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פינות קפה' (אילנס)",
+  "type": "מזנון חלבי",
+  "address": "קרליבך 4",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פינת הבורקס",
+  "type": "בית קפה",
+  "address": "דב האוזנר 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פינת השווארמה",
+  "type": "מסעדה בשרית",
+  "address": "אצ\"ל 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פינת השלושה סניף בן צבי",
+  "type": "מסעדה בשרית",
+  "address": "בן צבי 84",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פינת השלושה סניף הברזל",
+  "type": "מסעדה בשרית",
+  "address": "הברזל 24",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיפטי אנד וואן",
+  "type": "מסעדה חלבית",
+  "address": "נחלת בנימין 51",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצה NYN",
+  "type": "פיצרייה",
+  "address": "שפ\"ר 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצה X הכשרה",
+  "type": "פיצריה",
+  "address": "דיזינגוף 70",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצה אנד טורטייה",
+  "type": "פיצרייה",
+  "address": "אלנבי 79",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצה באבא",
+  "type": "פיצרייה",
+  "address": "קיבוץ גלויות 95",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצה בוגרשוב",
+  "type": "פיצרייה",
+  "address": "בוגרשוב 13",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצה בטטה",
+  "type": "מזנון חלבי",
+  "address": "בירנית 16",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצה בשכונה",
+  "type": "פיצרייה",
+  "address": "נחל הבשור 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצה ג'וספה",
+  "type": "פיצרייה",
+  "address": "חיים ויטל 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצה גאראג'",
+  "type": "פיצרייה",
+  "address": "חשמונאים 90",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצה גאראג'",
+  "type": "פיצרייה",
+  "address": "פרישמן 16",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצה דומינו סניף לסקוב",
+  "type": "פיצרייה",
+  "address": "לסקוב 4",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצה דונטלו",
+  "type": "פיצרייה",
+  "address": "אבן גבירול 123",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצה דונטלו",
+  "type": "מזנון חלבי",
+  "address": "מקוה ישראל 10",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצה דן דן",
+  "type": "פיצרייה",
+  "address": "אש שלום 9",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצה האט סניף היכל נוקיה",
+  "type": "פיצרייה",
+  "address": "היכל נוקיה",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצה האט סניף הנחושת",
+  "type": "פיצרייה",
+  "address": "הנחושת 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצה האט סניף נחלת יצחק",
+  "type": "פיצרייה",
+  "address": "נחלת יצחק 18",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצה האט סניף קינג ג'ורג'",
+  "type": "פיצריה",
+  "address": "קינג ג'ורג' 79",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצה חשמלית",
+  "type": "פיצרייה",
+  "address": "יגאל אלון 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצה טומי",
+  "type": "פיצרייה",
+  "address": "אלנבי 113",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצה נטו פרגו",
+  "type": "פיצרייה",
+  "address": "פנחס רוזן 72",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצה סנטרל",
+  "type": "מסעדה חלבית",
+  "address": "מנחם בגין 132",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצה סרט",
+  "type": "פיצרייה",
+  "address": "אבן גבירול 24",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצה עגבניה סניף אבן גבירול",
+  "type": "פיצרייה",
+  "address": "אבן גבירול 88",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצה עגבניה סניף ברודצקי",
+  "type": "פיצרייה",
+  "address": "ברודצקי 43",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצה עגבניה סניף דיזינגוף",
+  "type": "פיצרייה",
+  "address": "דיזינגוף 50",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצה עגבניה סניף שינקין",
+  "type": "פיצרייה",
+  "address": "שינקין 19",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצה פיקנטה",
+  "type": "מזנון חלבי",
+  "address": "יגאל אלון 88",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצה פרנקל",
+  "type": "פיצריה",
+  "address": "ידידיה פרנקל 57",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצה שירוקו",
+  "type": "מסעדה חלבית",
+  "address": "המלך ג'ורג' 23",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצה שמש",
+  "type": "מזנון חלבי",
+  "address": "ישראל גורי 34",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצה שמש",
+  "type": "פיצרייה",
+  "address": "נגבה 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצה שמש סניף בית אל",
+  "type": "פיצרייה",
+  "address": "בית אל 12",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצה שמש סניף צרעה",
+  "type": "פיצרייה",
+  "address": "צרעה 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצוחי אמונה",
+  "type": "חנות פיצוחים",
+  "address": "חנוך 37",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצוחי מאיר",
+  "type": "חנות פיצוחים",
+  "address": "שד' ירושלים 62",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצוחי מה עוד (גרעיני יוסי)",
+  "type": "חנות פיצוחים",
+  "address": "אצ\"ל 4",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצוחי מולי",
+  "type": "חנות פיצוחים",
+  "address": "החלוצים 4",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצוחי שאדי",
+  "type": "חנות פיצוחים",
+  "address": "התקווה 19",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיצרית הגוש",
+  "type": "פיצרייה",
+  "address": "יאשה חפץ 9",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיקנסין סניף קניון עזריאלי",
+  "type": "מסעדה בשרית",
+  "address": "קניון עזריאלי קומה 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פירות הארץ",
+  "type": "חנות פירות וירקות",
+  "address": "שד' ירושלים 33",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פירות הפארק",
+  "type": "חנות פירות וירקות",
+  "address": "בושם 62",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פירות מושיקו",
+  "type": "חנות פירות וירקות",
+  "address": "דניאל 25",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיש אנד צ'יפס",
+  "type": "מסעדת דגים",
+  "address": "יום טוב 7",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיש מרקט סניף ויצמן",
+  "type": "מסעדה דגים",
+  "address": "ויצמן 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיתה בסטה",
+  "type": "מסעדה בשרית",
+  "address": "קלמן מגן 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיתה בשר",
+  "type": "מסעדה בשרית",
+  "address": "נחלת בנימין 73",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיתה בשר – פאנטום",
+  "type": "מזנון בשרי",
+  "address": "מנחם בגין 132",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיתה מונטנה",
+  "type": "מסעדה בשרית",
+  "address": "התערוכה 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיתה מחנה",
+  "type": "מסעדה בשרית",
+  "address": "בית אשל 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיתה פיתה",
+  "type": "מזנון בשרי",
+  "address": "יהודה מרגוזה 4",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פיתה קפלן",
+  "type": "מסעדה בשרית",
+  "address": "מנחם בגין 126",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פלאניפוליה",
+  "type": "מפעל",
+  "address": "פיין 5",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פלאפל 4 טעמים סניף יהודה הלוי",
+  "type": "מזנון פרווה",
+  "address": "יהודה הלוי 49",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פלאפל א.א.",
+  "type": "פלאפל",
+  "address": "הלוחמים 11",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פלאפל אלעד",
+  "type": "פלאפל",
+  "address": "רמב\"ם 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פלאפל ארבע טעמים",
+  "type": "פלאפל",
+  "address": "אבן גבירול 94",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פלאפל בן חור",
+  "type": "מזנון בשרי",
+  "address": "המסגר 6",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פלאפל בן חור",
+  "type": "מזנון בשרי",
+  "address": "שד' וושינגטון 32",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פלאפל בנין",
+  "type": "פלאפל",
+  "address": "טשרנחובסקי 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פלאפל ג'ינה סניף התחיה",
+  "type": "פלאפל",
+  "address": "התחיה 15",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פלאפל ג'ינה סניף שוקן",
+  "type": "פלאפל",
+  "address": "שוקן 22",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פלאפל גבאי סניף בוגרשוב",
+  "type": "פלאפל",
+  "address": "בוגרשוב 25",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פלאפל דני",
+  "type": "פלאפל",
+  "address": "עולי ציון 5",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פלאפל השרון",
+  "type": "פלאפל",
+  "address": "נחלת בנימין 61",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פלאפל רצון",
+  "type": "פלאפל",
+  "address": "קינג ג'ורג' 17",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פלאפל שלמה ובניו",
+  "type": "פלאפל",
+  "address": "בן יהודה 232",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פלאפל שרעבי",
+  "type": "פלאפל",
+  "address": "דרך לוד 91",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פלאפל תדמור",
+  "type": "פלאפל",
+  "address": "דרך שלמה 100",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פליישמן סניף הרצל",
+  "type": "מסעדה בשרית",
+  "address": "הרצל 12",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פלמח",
+  "type": "מזנון חלבי",
+  "address": "חיים לבנון 10",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פלנטי TLV אחד העם",
+  "type": "מסעדה בשרית",
+  "address": "אחד העם 38",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פלנטי TLV המסגר",
+  "type": "מסעדה בשרית",
+  "address": "המסגר 35",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פם פם",
+  "type": "מסעדה בשרית",
+  "address": "אבן גבירול 30",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פנה פסטה",
+  "type": "מסעדה חלבית",
+  "address": "בוגרשוב 21",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פסאדור",
+  "type": "מסעדה בשרית",
+  "address": "יגאל אלון 94",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פסטה בסטה",
+  "type": "מסעדה חלבית",
+  "address": "חשמונאים 96",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פסטה בסטה (מתוק לי במרינה)",
+  "type": "מזנון חלבי",
+  "address": "קניון עזריאלי קומה 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פסטה פסטה",
+  "type": "בית קפה",
+  "address": "אוניברסיטת תל אביב",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פסטיטו",
+  "type": "מסעדה חלבית",
+  "address": "מנחם בגין 144",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פסטיטו PASTITO",
+  "type": "מזנון חלבי",
+  "address": "יגאל אלון 51",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פסטיטו סבידור מרכז",
+  "type": "מסעדה חלבית",
+  "address": "על פרשת דרכים 10",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פרדי מרכז קולינרי",
+  "type": "בית ספר לבישול",
+  "address": "הרצל 156",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פרדס",
+  "type": "בית קפה חלבי",
+  "address": "מרדכי בנטוב 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פרומז'",
+  "type": "חנות",
+  "address": "לה גווארדיה 66",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פרוסות פקטורי",
+  "type": "מפעל",
+  "address": "הברזל 34",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פרי 101",
+  "type": "חנות מיצים",
+  "address": "יגאל אלון 94",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פרי השחר",
+  "type": "חנות פירות וירקות",
+  "address": "מוזיר 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פרי מתוק",
+  "type": "מזנון פרווה",
+  "address": "בן צבי 104",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פרי קלוף",
+  "type": "מפעל",
+  "address": "המסגר 56",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פרי שוק",
+  "type": "מזנון פירות וירקות",
+  "address": "הכרמל 5",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פריים אורבן",
+  "type": "מסעדה בשרית",
+  "address": "המסגר 38",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פרימה סיטי",
+  "type": "בית מלון",
+  "address": "מאפו 9",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פרש שופ",
+  "type": "חנות מיצים",
+  "address": "ויצמן 14",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "פת שחרית",
+  "type": "מאפיה",
+  "address": "מח\"ל 20",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "צ'ומה",
+  "type": "מסעדה בשרית",
+  "address": "אבן גבירול 71",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "צ'וקה סניף ויצמן",
+  "type": "מסעדה אסיתית",
+  "address": "ויצמן 14",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "צ'וקה רמת אביב",
+  "type": "מסעדה בשרית",
+  "address": "קניון רמת אביב",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "צ'ורוס בשוק",
+  "type": "מסעדה חלבית",
+  "address": "הכרמל 19",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "צ'יק צ'אק צ'יקן",
+  "type": "מסעדה בשרית",
+  "address": "אבן גבירול 30",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "צ'יקו ומיקו",
+  "type": "בית קפה",
+  "address": "בוגרשוב 64",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "צ'יקו ומיקו היכל מנורה",
+  "type": "בית קפה",
+  "address": "וינגייט 19",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "צ'יקן סטיישן",
+  "type": "מסעדה בשרית",
+  "address": "מנחם בגין 144",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "צ'יקן סטיישן",
+  "type": "מסעדה בשרית",
+  "address": "הברזל 32",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "צ'יקן סטיישן",
+  "type": "מסעדה בשרית",
+  "address": "יגאל אלון 94",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "צבעים בצלחת",
+  "type": "מזנון בשרי/חלבי",
+  "address": "מנחם בגין 154",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "צבעים בצלחת",
+  "type": "מזנון בשרי/חלבי",
+  "address": "הנרייטה סולד 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "צורי הדייג אבי פיש",
+  "type": "חנות דגים",
+  "address": "יפת 16",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "צחי בשרים",
+  "type": "מסעדה בשרית",
+  "address": "קיבוץ גלויות 106",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ציבורק הבוכרי",
+  "type": "מסעדה בשרית",
+  "address": "המסגר 45",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ציון עקיבא",
+  "type": "איטליז",
+  "address": "יום טוב 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "צייט פור ברוט בע\"מ",
+  "type": "בית קפה",
+  "address": "אחד העם 13",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "צייט פור ברוט בע\"מ",
+  "type": "מאפיה",
+  "address": "מנחם בגין 37",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "צרפתי דגים בע\"מ",
+  "type": "חנות דגים",
+  "address": "עולי ציון 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קאסה דל פפה הכשר",
+  "type": "פיצרייה",
+  "address": "סנפיר 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קובה הכרמל",
+  "type": "קייטרינג",
+  "address": "גולומב 64",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קובה הכרמל",
+  "type": "מזנון בשרי",
+  "address": "הכרמל 7",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קובה תרנגול",
+  "type": "מסעדה בשרית",
+  "address": "אצ\"ל 64",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קובי יוסף",
+  "type": "חנות פירות וירקות",
+  "address": "התקווה 6",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קומה 27 – Sunday's – כשר חלבי Humusseria – קומה 43 קומה 28 – The Counter- כשר בשרי קומה 16 – S'WICH – כשר חלבי ובשרי",
+  "type": "מפעל",
+  "address": "יגאל אלון 98",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קומראן",
+  "type": "מסעדה בשרית",
+  "address": "הארבעה 21",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קונדיטורית וייס",
+  "type": "קונדטוריה",
+  "address": "קינג ג'ורג' 4",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קונדיטורית מאמאלה",
+  "type": "קונדטוריה",
+  "address": "יצחק שדה 34",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קונטואר הצרפתי",
+  "type": "מזנון בשרי/חלבי",
+  "address": "לילנבלום 33",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קונסול האוס",
+  "type": "אולם אירועים",
+  "address": "הצורפים 15",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קופי בייקרי",
+  "type": "בית קפה",
+  "address": "אבן גבירול 92",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קופי סטאר",
+  "type": "בית קפה",
+  "address": "חיים לבנון 55",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קופי סטאר",
+  "type": "בית קפה",
+  "address": "בנין מדעי החברה והמנהל",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קוקה",
+  "type": "מסעדה בשרית",
+  "address": "רוסלאן 30",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קוקה קולה",
+  "type": "מפעל",
+  "address": "כהנמן, ב\"ב 129",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קוקיה קאלטר עושים טעים",
+  "type": "קונדטוריה",
+  "address": "יצחק אלפסי 20",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קורנביף",
+  "type": "מזנון בשרי",
+  "address": "קיבוץ גלויות 106",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קיורטוש סניף בוגרשוב",
+  "type": "קונדטוריה",
+  "address": "בוגרשוב 39",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קיורטוש סניף הכרמל",
+  "type": "קונדטוריה",
+  "address": "הכרמל 11",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קיטקט פטיסרי",
+  "type": "קונדטוריה",
+  "address": "שארית ישראל 31",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קייטרינג לי בר",
+  "type": "מסעדה חלבית",
+  "address": "קפלן משרד הביטחון",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קייטרינג סילברס",
+  "type": "קייטרינג",
+  "address": "חובבי ציון 33",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קייטרינג פבאינו",
+  "type": "מזנון בשרי",
+  "address": "אוניברסיטת תל אביב",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קיסר",
+  "type": "מסעדה בשרית",
+  "address": "אצ\"ל 43",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קירש מאפיה",
+  "type": "מאפיה",
+  "address": "דיזינגוף 50",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קירש קפה",
+  "type": "בית קפה",
+  "address": "דיזינגוף 189",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קליית אסיף המקורי",
+  "type": "חנות פיצוחים",
+  "address": "צרעה 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קליית בראשית",
+  "type": "חנות פיצוחים",
+  "address": "חשמונאים 95",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קליית חממה אפקה",
+  "type": "חנות פיצוחים",
+  "address": "פנחס רוזן 67",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קליית יבגי פיצוחים ותבלינים",
+  "type": "חנות פיצוחים",
+  "address": "ראול ולנברג 32",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קנה דג מרקט",
+  "type": "מפעל",
+  "address": "בן צבי 35",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קנטינה אסייתית – GO",
+  "type": "סושי",
+  "address": "יצחק שדה 8",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קנטינה אסייתית – GO סניף קריית עתידים",
+  "type": "מזנון בשרי",
+  "address": "דבורה הנביאה 121",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קנסאי סושי",
+  "type": "מסעדה אסיתית",
+  "address": "יגאל אלון 94",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קנקי לאונג'",
+  "type": "מזנון חלבי",
+  "address": "בוגרשוב 28",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קנקי סושי בר יין",
+  "type": "מסעדה אסיתית",
+  "address": "בוגרשוב 23",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קפאין",
+  "type": "בית קפה",
+  "address": "בוגרשוב 27",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קפה 02",
+  "type": "בית קפה",
+  "address": "ז'בוטינסקי 108",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קפה 360",
+  "type": "מזנון חלבי",
+  "address": "השלושה 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קפה 67 kaffe",
+  "type": "מזנון חלבי",
+  "address": "יהודה המכבי 67",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קפה אטלס",
+  "type": "חנות תבלינים",
+  "address": "לוינסקי 49",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קפה אייל",
+  "type": "מזנון חלבי",
+  "address": "יוסף שפרינצק 15",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קפה אין",
+  "type": "בית קפה",
+  "address": "אבן גבירול 124",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קפה בראלי",
+  "type": "בית קפה",
+  "address": "בראלי 18",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קפה בראלי פנקס",
+  "type": "בית קפה",
+  "address": "פנקס 31",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קפה בראשית",
+  "type": "בית קפה",
+  "address": "הארבעה 28",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קפה ברבור",
+  "type": "בית קפה",
+  "address": "דרך ההגנה 135",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קפה גרג סניף דיזינגוף",
+  "type": "בית קפה",
+  "address": "דיזינגוף 45",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קפה גרג סניף חשמונאים",
+  "type": "בית קפה",
+  "address": "חשמונאים 98",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קפה הפוך",
+  "type": "בית קפה",
+  "address": "מנחם בגין 125",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קפה זוהו",
+  "type": "מזנון חלבי",
+  "address": "בן יהודה 73",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קפה זוקה",
+  "type": "מזנון חלבי",
+  "address": "הרוגי מלכות 7",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קפה זלמן",
+  "type": "עגלת קפה",
+  "address": "זלמן שז\"ר 12",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קפה טוב",
+  "type": "מזנון חלבי",
+  "address": "ידידיה פרנקל 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קפה טוב",
+  "type": "מזנון חלבי",
+  "address": "בן יהודה 177",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קפה יותו",
+  "type": "מזנון חלבי",
+  "address": "שושנה פרסיץ 15",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קפה יותו סניף אונברסיטת תל אביב",
+  "type": "בית קפה",
+  "address": "אוניברסיטת תל אביב",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קפה יותו סניף מכללת אפקה",
+  "type": "בית קפה",
+  "address": "מבצע קדש 38",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קפה כנאפה",
+  "type": "חומוסיה",
+  "address": "הכרמל 5",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קפה לורנץ ומינץ",
+  "type": "בית קפה",
+  "address": "שלוש 42",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קפה לנדוור",
+  "type": "בית קפה",
+  "address": "קניון עזריאלי קומה 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קפה מאפה וסימפטיה",
+  "type": "קונדטוריה",
+  "address": "לוינסקי 59",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קפה מהלב",
+  "type": "מזנון חלבי",
+  "address": "בן סרוק 11",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קפה מהלב סניף אבן גבירול",
+  "type": "בית קפה",
+  "address": "אבן גבירול 69",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קפה מהלב סניף פילון",
+  "type": "בית קפה",
+  "address": "פילון 5",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קפה מזרחי",
+  "type": "בית קפה",
+  "address": "אצ\"ל 24",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קפה נטו סניף סבידור",
+  "type": "בית קפה",
+  "address": "על פרשת דרכים 10",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קפה קפה סניף נמל תל אביב",
+  "type": "בית קפה",
+  "address": "יורדי הסירה 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קפה קפה סניף קניון עזריאלי",
+  "type": "בית קפה",
+  "address": "קניון עזריאלי קומה 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קפיטרי",
+  "type": "מזנון חלבי",
+  "address": "הברזל 20",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קפיטריה – רעות",
+  "type": "בית חולים",
+  "address": "שד' החייל 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קצב בני מבורך",
+  "type": "איטליז",
+  "address": "יום טוב 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קצביית בוטיק ברזאני",
+  "type": "איטליז",
+  "address": "ברזאני 4",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קצביית בצלאל",
+  "type": "איטליז",
+  "address": "טשרנחובסקי 8",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קראון פלאזה",
+  "type": "בית מלון",
+  "address": "הירקון 145",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קראון פלז'ה סיטי סנטר עזריאלי",
+  "type": "בית מלון",
+  "address": "מנחם בגין 136",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קראפט פיצה ביסטרו",
+  "type": "מסעדה חלבית",
+  "address": "הירקון 169",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קרדינל שינקין",
+  "type": "חנות שוקולדים",
+  "address": "שינקין 27",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קריספי ת\"א מכללת רידמן",
+  "type": "מזנון חלבי",
+  "address": "חיים לבנון 26",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קרלטון",
+  "type": "בית מלון",
+  "address": "פרי אליעזר 10",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קרנה בר",
+  "type": "מזנון בשרי",
+  "address": "שד' יהודית 27",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "קרנף",
+  "type": "מזנון חלבי",
+  "address": "מנחם בגין 146",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ר.ל. ברכת הכהנים",
+  "type": "איטליז",
+  "address": "התקווה 18",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "רג'ינה",
+  "type": "מסעדה בשרית",
+  "address": "מתחם התחנה 10",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "רד מיט",
+  "type": "מזנון בשרי",
+  "address": "נחלת בנימין 75",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "רד מיט הכשר",
+  "type": "מסעדה בשרית",
+  "address": "בוגרשוב 9",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "רובן",
+  "type": "מסעדה בשרית",
+  "address": "רוטשילד 45",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "רוזיתה בר",
+  "type": "מסעדה בשרית",
+  "address": "התקוה 4",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "רוטיסרי צ'יקן",
+  "type": "מסעדה בשרית",
+  "address": "ראול ולנברג 20",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "רוטיסרי צ'יקן",
+  "type": "מסעדה בשרית",
+  "address": "קלמן מגן 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "רויאל ביץ'",
+  "type": "בית מלון",
+  "address": "הירקון 19",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "רולדין",
+  "type": "מזנון חלבי",
+  "address": "אבא אחימאיר 19",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "רולדין הלב",
+  "type": "בית קפה",
+  "address": "ויצמן 14",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "רולדין ויצמן קומה 2",
+  "type": "בית קפה",
+  "address": "ויצמן 14",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "רולדין סניף אבן גבירול",
+  "type": "קונדטוריה",
+  "address": "אבן גבירול 24",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "רולדין סניף אופנהיימר",
+  "type": "בית קפה",
+  "address": "אופנהיימר 11",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "רולדין סניף דיזינגוף",
+  "type": "בית קפה",
+  "address": "דיזינגוף 217",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "רולדין סניף הברזל",
+  "type": "קונדטוריה",
+  "address": "הברזל 28",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "רולדין סניף ויצמן",
+  "type": "קונדטוריה",
+  "address": "ויצמן 14",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "רולדין סניף קניון עזריאלי",
+  "type": "קונדטוריה",
+  "address": "קניון עזריאלי קומה 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "רונדבו Rendez-vous",
+  "type": "מסעדה חלבית",
+  "address": "לילנבלום 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "רוני אבער",
+  "type": "איטליז",
+  "address": "נוריאל 12",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "רוני בורקס",
+  "type": "מזנון בשרי",
+  "address": "הכרמל 36",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "רחל בשדרה",
+  "type": "מזנון חלבי",
+  "address": "מתחם שרונה",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "רטרו ביס",
+  "type": "מזנון בשרי",
+  "address": "הרצל 24",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ריי אירועים",
+  "type": "אולם אירועים",
+  "address": "שלבים 14",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "רמי לוי",
+  "type": "רשתות שיווק",
+  "address": "דבורה הנביאה 126",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "רנסנס",
+  "type": "בית מלון",
+  "address": "הירקון 121",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "רעות",
+  "type": "בית חולים",
+  "address": "שד' החייל 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "רפאל ארועים",
+  "type": "אולם אירועים",
+  "address": "שארית ישראל 37",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "רפאל בר לחמים",
+  "type": "קונדטוריה",
+  "address": "הארבעה 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "רפואה",
+  "type": "מזנון בשרי/חלבי",
+  "address": "אוניברסיטת תל אביב",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "רפי ג'אן",
+  "type": "איטליז",
+  "address": "עולי הגרדום 48",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "רשל",
+  "type": "מסעדה בשרית",
+  "address": "יורדי הסירה 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שאול הדייג אבי רוקח",
+  "type": "חנות דגים",
+  "address": "יפת 14",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שהחיינו",
+  "type": "מסעדה בשרי/חלבי",
+  "address": "מנחם בגין 112",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שובע החיים",
+  "type": "מסעדה בשרית",
+  "address": "דיזינגוף 43",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שווארמה אליאס",
+  "type": "מסעדה בשרית",
+  "address": "המסגר 35",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שווארמה אליהו",
+  "type": "מסעדה בשרית",
+  "address": "בית אל 12",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שווארמה אסולין",
+  "type": "מסעדה בשרית",
+  "address": "לויטן 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שווארמה גיסנו",
+  "type": "מזנון בשרי",
+  "address": "אלנבי 49",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שווארמה הכרמל",
+  "type": "מסעדה בשרית",
+  "address": "דניאל 25",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שווארמה טורקי",
+  "type": "מסעדה בשרית",
+  "address": "אבן גבירול 92",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שווארמה יאשקה סניף דיזינגוף",
+  "type": "מסעדה בשרית",
+  "address": "דיזינגוף 105",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שווארמה יאשקה סניף טאגור",
+  "type": "מסעדה בשרית",
+  "address": "טאגור 32",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שווארמה לב הכפר",
+  "type": "מזנון בשרי",
+  "address": "מעפילי אגוז 59",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שווארמה לי",
+  "type": "מסעדה בשרית",
+  "address": "תחנה מרכזית קומה 6",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שווארמה נחלת יצחק",
+  "type": "מסעדה בשרית",
+  "address": "נחלת יצחק 5",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שווארמה ראש העיר",
+  "type": "מסעדה בשרית",
+  "address": "סלומון 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שווארמה שמעוני",
+  "type": "מסעדה בשרית",
+  "address": "איינשטיין 7",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שולה",
+  "type": "מסעדה בשרית",
+  "address": "קינג ג'ורג' 51",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שומשום בר בריאות",
+  "type": "מסעדה בשרית",
+  "address": "תוצרת הארץ 8",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שומשום בר",
+  "type": "מזנון חלבי",
+  "address": "קויפמן יחזקאל 4",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שומשום בר בריאות",
+  "type": "מזנון בשרי",
+  "address": "דובנוב 10",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שומשום בר בריא",
+  "type": "מסעדה בשרית",
+  "address": "אחד העם 9",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שומשום בר בריא",
+  "type": "מזנון בשרי",
+  "address": "יצחק שדה 8",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שומשום בר בריאות",
+  "type": "מסעדה בשרית",
+  "address": "יגאל אלון 94",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שומשום בר בריאות",
+  "type": "מזנון בשרי",
+  "address": "דבורה הנביאה 121",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שומשום בר בריאות",
+  "type": "מזנון בשרי",
+  "address": "מנחם בגין 121",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שומשום בר בריאות",
+  "type": "מסעדה בשרית",
+  "address": "הברזל 5",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שומשום בר מידטאון",
+  "type": "מזנון בשרי",
+  "address": "מנחם בגין 144",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שופרסל אקספרס סניף יהודה המכבי",
+  "type": "רשתות שיווק",
+  "address": "יהודה המכבי 83",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שופרסל אקספרס סניף מרמורק",
+  "type": "רשתות שיווק",
+  "address": "מרמורק 10",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שופרסל דיל",
+  "type": "רשתות שיווק",
+  "address": "יגאל אלון 76",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שופרסל נווה",
+  "type": "רשתות שיווק",
+  "address": "ארלוזורוב 55",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שופרסל נורדאו",
+  "type": "רשתות שיווק",
+  "address": "אבן גבירול 159",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שופרסל סניף איכילוב",
+  "type": "רשתות שיווק",
+  "address": "קניון מרכז ויצמן",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שוק הדגים",
+  "type": "מפעל דגים",
+  "address": "בית אלפא 4",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שוק על ירך",
+  "type": "איטליז",
+  "address": "לוינסקי 65",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שוק פוד",
+  "type": "בר אקטיבי",
+  "address": "אלנקווה 80",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שוק שופרסל סניף בן יהודה",
+  "type": "רשתות שיווק",
+  "address": "בן יהודה 79",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שוק שופרסל סניף צה\"ל",
+  "type": "רשתות שיווק",
+  "address": "צה\"ל 71",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שוק שופרסל סניף רמת אביב א'",
+  "type": "רשתות שיווק",
+  "address": "ברזיל 15",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שוק שופרסל סניף רמת אביב ב'",
+  "type": "רשתות שיווק",
+  "address": "טאגור 38",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שוקולהלה",
+  "type": "חנות שוקולדים",
+  "address": "אבן גבירול 48",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שושו",
+  "type": "מסעדה בשרית",
+  "address": "מלכי ישראל 8",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שושו",
+  "type": "מזנון בשרי",
+  "address": "סימטת הכרמל 35",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שושקה",
+  "type": "מסעדה בשרית",
+  "address": "נירים 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שיבולת השרון",
+  "type": "בית קפה/מאפיה",
+  "address": "משה דיין 2",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שיבולת השרון",
+  "type": "קונדטוריה",
+  "address": "קיבוץ גלויות 110",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שיגעון",
+  "type": "בית קפה",
+  "address": "בוגרשוב 12",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שייה",
+  "type": "בית קפה",
+  "address": "הרצל 17",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שימשי",
+  "type": "מסעדה בשרית",
+  "address": "חנוך 37",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שיף בנמל",
+  "type": "מזנון בשרי",
+  "address": "יוסף יקותיאלי 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שיפודי הנכדים",
+  "type": "מסעדה בשרית",
+  "address": "יגאל אלון 88",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שיפודי י'מאמא",
+  "type": "מסעדה בשרית",
+  "address": "אבא אחימאיר 23",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שלום פלאפל",
+  "type": "מסעדה בשרית",
+  "address": "על פרשת דרכים 10",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שלחמך",
+  "type": "מזנון חלבי",
+  "address": "בראלי 18",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שלמה ודורון",
+  "type": "חומוסיה",
+  "address": "ישכון 29",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שמילקה",
+  "type": "בית קפה",
+  "address": "יגאל אלון 65",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שמירז",
+  "type": "בית קפה חלבי",
+  "address": "בן יהודה 171",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שמעון מלך המרקים והבישולים",
+  "type": "מסעדה בשרית",
+  "address": "מל\"ן 43",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שמעון פדלון חן",
+  "type": "קונדטוריה",
+  "address": "דניאל 27",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שמש",
+  "type": "מסעדה בשרית",
+  "address": "התקווה 13",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שמשירי",
+  "type": "מסעדה בשרית",
+  "address": "נחלת בנימין 99",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שניצל דיינר",
+  "type": "מזנון בשרי",
+  "address": "קרית שאול בית עלמין",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שניצל דשא קומפני",
+  "type": "מסעדה בשרית",
+  "address": "הארבעה 16",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שניצל הזהב",
+  "type": "מסעדה בשרית",
+  "address": "ריב\"ל 10",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שניצל פוינט סניף יד חרוצים",
+  "type": "מסעדה בשרית",
+  "address": "יד חרוצים 13",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שניצל קומפני סניף דבורה הנביאה",
+  "type": "מסעדה בשרית",
+  "address": "דבורה הנביאה 128",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שניצל קומפני סניף יגאל אלון",
+  "type": "מסעדה בשרית",
+  "address": "יגאל אלון 94",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שף ג'ון",
+  "type": "מעדניה בשרית",
+  "address": "בן יהודה 41",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שף סלט",
+  "type": "מזנון חלבי",
+  "address": "יהודה הלוי 47",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שפכטל",
+  "type": "מסעדה בשרית",
+  "address": "קלמן מגן 3",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שפע דגים",
+  "type": "חנות דגים",
+  "address": "שד' ירושלים 71",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שפע חמוצים",
+  "type": "מפעל",
+  "address": "ישראל גורי 34",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שרון פול",
+  "type": "חומוסיה",
+  "address": "אילת 22",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שרינה",
+  "type": "מסעדה בשרית",
+  "address": "הברזל 34",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "שרתון",
+  "type": "בית מלון",
+  "address": "הירקון 115",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "ששון קירל דים סאם ותבלינים",
+  "type": "חנות תבלינים",
+  "address": "הכרמל 29",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "תבליני בן יוסף",
+  "type": "חנות תבלינים",
+  "address": "אצ\"ל 73",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "תבליני לאחם משה",
+  "type": "חנות תבלינים",
+  "address": "יום טוב 25",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "תבליני נעמה",
+  "type": "חנות תבלינים",
+  "address": "המבשר 4",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "תבליני פרג",
+  "type": "חנות פיצוחים",
+  "address": "לוינסקי 50",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "תבלינים וקפה ארמה",
+  "type": "חנות מזון",
+  "address": "לוינסקי 51",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "תה מעיין כלבו מכבים",
+  "type": "מפעל",
+  "address": "בן צבי 84",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "תחנת האוכל",
+  "type": "מסעדה בשרית",
+  "address": "נחלת יצחק 22",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "תחנת ההסתדרות החדשה",
+  "type": "קייטרינג",
+  "address": "בן שפרוט 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "תירס",
+  "type": "מסעדה חלבית",
+  "address": "קניון עזריאלי קומה 1",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "תמרה",
+  "type": "חנות מיצים",
+  "address": "מנחם בגין 132",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "תמרה ארטיק",
+  "type": "מפעל",
+  "address": "היסוד 5",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "תנובת יוסף",
+  "type": "חנות פירות וירקות",
+  "address": "הכרמל 9",
+  "congregation": null,
+  "kosher_until": 1789084800
+ },
+ {
+  "name": "תפוח",
+  "type": "מסעדה חלבית",
+  "address": "החשמונאים 91",
+  "congregation": null,
+  "kosher_until": 1789084800
+ }
+]
