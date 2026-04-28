@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, lazy, Suspense } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import { CONTENT } from './content.js';
@@ -11,6 +11,9 @@ import { TimelineSection, Manifesto, Colophon } from './components/Timeline.jsx'
 import { DirectorySection } from './components/DirectorySection.jsx';
 import { ArchiveSection } from './components/ArchiveSection.jsx';
 import { GlobalSearch } from './components/GlobalSearch.jsx';
+
+// LiveMap pulls in Leaflet (~150 KB). Code-split so initial paint stays fast.
+const LiveMap = lazy(() => import('./components/LiveMap.jsx').then(m => ({ default: m.LiveMap })));
 import './styles.css';
 
 function TopNav({ t, lang, setLang }) {
@@ -18,7 +21,7 @@ function TopNav({ t, lang, setLang }) {
 
   useEffect(() => {
     const onScroll = () => {
-      const ids = ['home', 'manifesto', 'map', 'souls', 'timeline', 'directory', 'archive'];
+      const ids = ['home', 'manifesto', 'map', 'souls', 'timeline', 'directory', 'livemap', 'archive'];
       for (const id of ids) {
         const el = document.getElementById(id);
         if (!el) continue;
@@ -40,6 +43,7 @@ function TopNav({ t, lang, setLang }) {
     { id: 'souls', label: t.nav.souls },
     { id: 'timeline', label: t.nav.timeline },
     { id: 'directory', label: t.nav.directory },
+    { id: 'livemap', label: t.nav.livemap },
     { id: 'archive', label: t.nav.archive },
   ];
 
@@ -116,6 +120,9 @@ export default function App() {
       <SoulsSection t={t} lang={lang} />
       <TimelineSection t={t} lang={lang} />
       <DirectorySection t={t} lang={lang} />
+      <Suspense fallback={<div style={{ minHeight: 400, display: 'grid', placeItems: 'center', fontFamily: 'var(--font-display)', color: 'var(--ink-muted)', fontStyle: 'italic' }}>טוען מפה...</div>}>
+        <LiveMap t={t} lang={lang} />
+      </Suspense>
       <ArchiveSection t={t} lang={lang} />
       <Colophon t={t} lang={lang} />
     </>

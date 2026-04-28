@@ -9,6 +9,7 @@ export const CONTENT = {
       souls: "דמויות",
       timeline: "ציר הזמן",
       directory: "מדריך השירותים",
+      livemap: "מפה חיה",
       archive: "ארכיון מקורות",
     },
     edition: "מהדורה א׳ · כרך ראשון · אפריל 2026",
@@ -167,6 +168,15 @@ export const CONTENT = {
       error: "לא ניתן לטעון את הזמנים. נסה שוב מאוחר יותר.",
       source: "מקור הזמנים",
     },
+    livemap: {
+      kicker: "גיאוגרפיה · מפה חיה",
+      title: "המפה החיה של תל אביב הדתית",
+      lede: "כל הערכים במדריך — בתי כנסת, מקוואות, מסעדות כשרות וגמ\"חים — מסומנים על המפה האמיתית של העיר. נקודות גדולות יותר וכהות יותר = יש להם 'הידעת?' היסטורי.",
+      shown: "נקודות מוצגות",
+      coverage: "כיסוי",
+      geocoding: "המיפוי הגיאוגרפי בתהליך — חזור בעוד כמה דקות.",
+      source: "מקור המפה",
+    },
     archive: {
       kicker: "מקורות · ארכיון מקורות",
       title: "ארכיון המקורות",
@@ -200,7 +210,7 @@ export const CONTENT = {
   en: {
     nav: {
       home: "Home", manifesto: "Manifesto", map: "Sands Map",
-      souls: "Figures", timeline: "Timeline", directory: "Directory", archive: "Archive",
+      souls: "Figures", timeline: "Timeline", directory: "Directory", livemap: "Live Map", archive: "Archive",
     },
     edition: "Volume I · First Issue · April 2026",
     hero: {
@@ -342,6 +352,15 @@ export const CONTENT = {
       loading: "Loading times...",
       error: "Could not load times. Please try again later.",
       source: "Times source",
+    },
+    livemap: {
+      kicker: "Geography · Living Map",
+      title: "The Living Map of Religious Tel Aviv",
+      lede: "Every directory entry — synagogues, mikvaot, kosher restaurants, gemachs — pinned on the real city map. Larger, darker dots have a historical 'Did you know?' attached.",
+      shown: "points shown",
+      coverage: "coverage",
+      geocoding: "Geographic mapping in progress — please come back in a few minutes.",
+      source: "Map source",
     },
     archive: {
       kicker: "Sources · Document Archive",

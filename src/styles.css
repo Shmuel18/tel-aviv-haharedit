@@ -26,6 +26,19 @@
 
 html { scroll-behavior: smooth; }
 
+/* Accessibility: focus-visible (keyboard) outline */
+:focus-visible {
+  outline: 2px solid var(--wine);
+  outline-offset: 2px;
+}
+
+button:focus-visible,
+a:focus-visible,
+input:focus-visible {
+  outline: 2px solid var(--wine);
+  outline-offset: 2px;
+}
+
 body {
   font-family: var(--font-body);
   background: var(--cream);
@@ -1771,6 +1784,164 @@ body[data-lang="en"] .compass { right: auto; left: 30px; }
   color: var(--gold);
   border-bottom-style: solid;
   border-bottom-color: var(--gold);
+}
+
+/* Live Map Section */
+.livemap-section {
+  background: var(--cream);
+  border-top: 1px solid var(--paper-line);
+}
+
+.livemap-toolbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  margin: 28px 0 16px;
+}
+
+.livemap-layers {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.livemap-toggle {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 16px;
+  background: transparent;
+  border: 2px solid;
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.18s;
+  letter-spacing: 0.02em;
+}
+
+.livemap-toggle:hover { transform: translateY(-1px); }
+
+.lm-toggle-icon { font-size: 16px; }
+
+.lm-toggle-count {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  padding: 2px 6px;
+  background: rgba(255,255,255,0.25);
+  border-radius: 8px;
+}
+
+.livemap-toggle:not(.active) .lm-toggle-count {
+  background: rgba(0,0,0,0.06);
+}
+
+.livemap-stats {
+  font-family: var(--font-display);
+  font-size: 13px;
+  color: var(--ink-soft);
+}
+
+.livemap-stats strong { color: var(--wine-deep); font-size: 17px; }
+
+.livemap-wrap {
+  position: relative;
+  border: 1px solid var(--ink);
+  box-shadow: 0 12px 32px var(--paper-shadow);
+  margin-bottom: 12px;
+  overflow: hidden;
+}
+
+.livemap-wrap .leaflet-container {
+  font-family: var(--font-display);
+}
+
+.livemap-empty {
+  text-align: center;
+  padding: 30px 20px;
+  font-family: var(--font-display);
+  font-size: 14px;
+  color: var(--wine);
+  font-style: italic;
+  background: var(--cream-light);
+  border: 1px dashed var(--gold);
+}
+
+.livemap-source {
+  text-align: center;
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-muted);
+  padding: 12px 0;
+}
+
+.livemap-source a {
+  color: var(--wine);
+  text-decoration: none;
+  border-bottom: 1px solid var(--wine);
+}
+
+/* Leaflet popup styling */
+.lm-popup {
+  font-family: var(--font-display);
+  min-width: 200px;
+  max-width: 280px;
+}
+
+.lm-popup-cat {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.lm-popup-name {
+  font-family: var(--font-display);
+  font-size: 16px;
+  font-weight: 700;
+  color: var(--ink);
+  margin-bottom: 4px;
+  line-height: 1.3;
+}
+
+.lm-popup-sub {
+  font-size: 12px;
+  color: var(--wine-deep);
+  margin-bottom: 4px;
+}
+
+.lm-popup-addr {
+  font-size: 12px;
+  color: var(--ink-muted);
+}
+
+.lm-popup-note {
+  margin-top: 10px;
+  padding-top: 10px;
+  border-top: 1px solid var(--paper-line);
+  font-size: 12px;
+  color: var(--ink-soft);
+  line-height: 1.5;
+}
+
+.lm-popup-note strong {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 9px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--gold);
+  margin-bottom: 4px;
+}
+
+@media (max-width: 720px) {
+  .livemap-toolbar { flex-direction: column; align-items: stretch; }
+  .livemap-stats { text-align: center; }
 }
 
 /* Archive Section */

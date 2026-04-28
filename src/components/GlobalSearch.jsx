@@ -1,4 +1,5 @@
 import { useState, useEffect, useMemo, useRef } from 'react';
+import Fuse from 'fuse.js';
 import synagoguesData from '../data/synagogues.json';
 import mikvaotData from '../data/mikvaot.json';
 import kosherData from '../data/kosher.json';
@@ -36,6 +37,20 @@ function buildIndex() {
 
 const INDEX = buildIndex();
 
+// Fuse.js with weights — name is most important, then sub (nusach/type), then address.
+// `threshold: 0.4` keeps results meaningful while tolerating typos.
+const FUSE = new Fuse(INDEX, {
+  keys: [
+    { name: 'name', weight: 0.55 },
+    { name: 'sub', weight: 0.20 },
+    { name: 'addr', weight: 0.25 },
+  ],
+  threshold: 0.4,
+  ignoreLocation: true,
+  includeScore: false,
+  minMatchCharLength: 2,
+});
+
 const CAT_LABELS = {
   he: { synagogues: 'בית כנסת', mikvaot: 'מקווה', kosher: 'כשר', gmachim: 'גמ"ח' },
   en: { synagogues: 'Synagogue', mikvaot: 'Mikve', kosher: 'Kosher', gmachim: 'Gemach' },
@@ -49,16 +64,9 @@ export function GlobalSearch({ t, lang }) {
   const inputRef = useRef(null);
 
   const results = useMemo(() => {
-    const q = query.trim().toLowerCase();
+    const q = query.trim();
     if (q.length < 2) return [];
-    const out = [];
-    for (const e of INDEX) {
-      if (e.blob.includes(q)) {
-        out.push(e);
-        if (out.length >= 30) break;
-      }
-    }
-    return out;
+    return FUSE.search(q, { limit: 30 }).map(r => r.item);
   }, [query]);
 
   // Keyboard shortcut: Ctrl/Cmd + K opens
