@@ -10,7 +10,9 @@ import { SoulsSection } from './components/SoulsSection.jsx';
 import { TimelineSection, Manifesto, Colophon } from './components/Timeline.jsx';
 import { DirectorySection } from './components/DirectorySection.jsx';
 import { ArchiveSection } from './components/ArchiveSection.jsx';
+import { VignettesSection } from './components/VignettesSection.jsx';
 import { GlobalSearch } from './components/GlobalSearch.jsx';
+import { ScrollProgress } from './components/ScrollProgress.jsx';
 
 // LiveMap pulls in Leaflet (~150 KB). Code-split so initial paint stays fast.
 const LiveMap = lazy(() => import('./components/LiveMap.jsx').then(m => ({ default: m.LiveMap })));
@@ -21,7 +23,7 @@ function TopNav({ t, lang, setLang }) {
 
   useEffect(() => {
     const onScroll = () => {
-      const ids = ['home', 'manifesto', 'map', 'souls', 'timeline', 'directory', 'livemap', 'archive'];
+      const ids = ['home', 'manifesto', 'map', 'souls', 'vignettes', 'timeline', 'directory', 'livemap', 'archive'];
       for (const id of ids) {
         const el = document.getElementById(id);
         if (!el) continue;
@@ -41,6 +43,7 @@ function TopNav({ t, lang, setLang }) {
     { id: 'manifesto', label: t.nav.manifesto },
     { id: 'map', label: t.nav.map },
     { id: 'souls', label: t.nav.souls },
+    { id: 'vignettes', label: t.nav.vignettes },
     { id: 'timeline', label: t.nav.timeline },
     { id: 'directory', label: t.nav.directory },
     { id: 'livemap', label: t.nav.livemap },
@@ -112,12 +115,15 @@ export default function App() {
 
   return (
     <>
+      <a className="skip-to-content" href="#home">{lang === 'he' ? 'דלג לתוכן הראשי' : 'Skip to main content'}</a>
+      <ScrollProgress />
       <TopNav t={t} lang={lang} setLang={setLang} />
       <div className="edition-mark">{t.edition}</div>
       <Hero t={t} lang={lang} />
       <Manifesto t={t} />
       <MapSection t={t} lang={lang} />
       <SoulsSection t={t} lang={lang} />
+      <VignettesSection t={t} lang={lang} />
       <TimelineSection t={t} lang={lang} />
       <DirectorySection t={t} lang={lang} />
       <Suspense fallback={<div style={{ minHeight: 400, display: 'grid', placeItems: 'center', fontFamily: 'var(--font-display)', color: 'var(--ink-muted)', fontStyle: 'italic' }}>טוען מפה...</div>}>
