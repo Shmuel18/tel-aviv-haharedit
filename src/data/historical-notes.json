@@ -84,5 +84,37 @@
     "matchAddress": "מרגולין 10",
     "he": "ישיבה בשם הרב יצחק (כנראה אבוחצירא או חוטר ישי). תל אביב הפכה ממוקד פסיקה הלכתי בשנות ה־30 גם למוקד ישיבות ספרדיות בשנות ה־60—70.",
     "en": "A yeshiva named after Rabbi Yitzchak (likely Abuhatzeira or Choter Yishai). Tel Aviv evolved from a halachic-ruling center in the 1930s into a hub of Sephardic yeshivot in the 1960s—70s."
+  },
+  {
+    "matchName": "קהל חסידים",
+    "matchAddress": "מנשה בן ישראל 18",
+    "year": "תרצ\"ג—תשל\"ג (~1933)",
+    "soulId": 12,
+    "neighborhoodId": "shapira",
+    "he": "השטיבל של חסידי פולין בשכונת שפירא (במקור ברחוב מנשה בן ישראל פינת קונגרס). מקום תפילתו של רבי מוט'ל מורדוביץ' שעלה ארצה בגיל 70+ והגיע לגיל 102. ה'בית ישראל' מגור היה מבקרו תדיר. שני שכניו של ר' מוט'ל — ר' יוסף איידלס ור' געציל ביבלה — שנהגו להאכילו, היו מהמתפללים הקבועים גם הם.",
+    "en": "The Polish Hasidim shtibel in Shapira (originally at Menashe Ben Yisrael corner Congress). Where R. Mottl Mordowitz prayed — the man who came to Israel at 70+ and lived to 102. The 'Beit Yisrael' rebbe of Gur visited often. Mottl's two neighbors — R. Yosef Eidels and R. Getzel Bibele — who fed him daily, also prayed here."
+  },
+  {
+    "matchName": "בית הכנסת הספרדי",
+    "matchAddress": "שדל 8",
+    "year": "תרצ\"ז (1937)",
+    "soulId": 14,
+    "he": "ככל הנראה בית הכנסת 'אהל מועד' המפורסם, שייסד הראשון לציון הג\"ר בנציון מאיר חי עוזיאל יחד עם חכם נסים קורקידי כבית הגדול לעדות המזרח בעיר. כאן פעל גם 'פרחי כהונה', בית הספר הראשון בתל אביב לחזנות ספרדית, בניהולו של החזן ר' ניסן כהן-מלמד.",
+    "en": "Likely the famed 'Ohel Moed' synagogue, founded by Rishon LeZion R. Ben-Zion Meir Hai Uziel together with Hakham Nissim Korkidi as the great Edot HaMizrah house of the city. Home of 'Pirchei Kehuna', Tel Aviv's first Sephardic chazanut school, directed by cantor R. Nisan Cohen-Melamed."
+  },
+  {
+    "matchName": "נווה צדק",
+    "matchAddress": "שלוש 41",
+    "year": "תרמ\"ז (1887)",
+    "soulId": 9,
+    "neighborhoodId": "neve-tzedek",
+    "he": "בית הכנסת השכונתי של נווה צדק, על הרחוב הקרוי על שמו של רבי אהרן שלוש — מי שב־1876 החל לרכוש את האדמות שעליהן נבנתה השכונה. ביתו הראשון של רבי אהרן (1887) עמד מספר רחובות מערבה, וכל היציאה היהודית מחומות יפו התחילה כאן.",
+    "en": "The neighborhood synagogue of Neve Tzedek, on the street named after Rabbi Aharon Shloush — who in 1876 began buying the lands on which the neighborhood was built. R. Aharon's first house (1887) stood a few streets west, and the entire Jewish exit from Jaffa's walls began right here."
+  },
+  {
+    "matchName": "ברית אחים",
+    "matchAddress": "קלמן 4",
+    "he": "רחוב קלמן בעדה הספרדית בעיר נקרא ככל הנראה על שם רבי קלמן הופמן ז\"ל, חתנו של ר' אליהו ויינשטיין השוחט הראשון של יפו האשכנזית — מטובי המומחים במפעל הברזל של ליאון שטיין, ומהמשפחות הראשונות באחוזת בית.",
+    "en": "Kalman Street is likely named after R. Kalman Hoffman, son-in-law of R. Eliyahu Weinstein — the first Ashkenazi shochet of Jaffa — and one of the top experts at the Leon Stein iron factory, an early Ahuzat Bayit family."
   }
 ]

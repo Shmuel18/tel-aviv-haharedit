@@ -9,6 +9,7 @@ import { MapSection } from './components/MapSection.jsx';
 import { SoulsSection } from './components/SoulsSection.jsx';
 import { TimelineSection, Manifesto, Colophon } from './components/Timeline.jsx';
 import { DirectorySection } from './components/DirectorySection.jsx';
+import { ArchiveSection } from './components/ArchiveSection.jsx';
 import { GlobalSearch } from './components/GlobalSearch.jsx';
 import './styles.css';
 
@@ -17,7 +18,7 @@ function TopNav({ t, lang, setLang }) {
 
   useEffect(() => {
     const onScroll = () => {
-      const ids = ['home', 'manifesto', 'map', 'souls', 'timeline', 'directory'];
+      const ids = ['home', 'manifesto', 'map', 'souls', 'timeline', 'directory', 'archive'];
       for (const id of ids) {
         const el = document.getElementById(id);
         if (!el) continue;
@@ -39,6 +40,7 @@ function TopNav({ t, lang, setLang }) {
     { id: 'souls', label: t.nav.souls },
     { id: 'timeline', label: t.nav.timeline },
     { id: 'directory', label: t.nav.directory },
+    { id: 'archive', label: t.nav.archive },
   ];
 
   return (
@@ -114,6 +116,7 @@ export default function App() {
       <SoulsSection t={t} lang={lang} />
       <TimelineSection t={t} lang={lang} />
       <DirectorySection t={t} lang={lang} />
+      <ArchiveSection t={t} lang={lang} />
       <Colophon t={t} lang={lang} />
     </>
   );
