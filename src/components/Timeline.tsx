@@ -130,18 +130,27 @@ export function TimelineSection({ t, lang }: SectionProps) {
 
         {/* Events positioned along the curve */}
         {t.events.map((e, i) => {
+          // 15 positions along the curving golden path, alternating sides.
+          // Spacing ~115px keeps cards from overlapping after we expanded
+          // the timeline from 9 to 15 events.
           const positions = [
             { x: '5%',  y: 60,   side: 'right' },
             { x: '55%', y: 170,  side: 'left'  },
-            { x: '20%', y: 300,  side: 'right' },
-            { x: '60%', y: 430,  side: 'left'  },
-            { x: '15%', y: 560,  side: 'right' },
-            { x: '60%', y: 700,  side: 'left'  },
-            { x: '10%', y: 840,  side: 'right' },
-            { x: '55%', y: 990,  side: 'left'  },
-            { x: '25%', y: 1140, side: 'right' },
+            { x: '15%', y: 290,  side: 'right' },
+            { x: '58%', y: 410,  side: 'left'  },
+            { x: '20%', y: 530,  side: 'right' },
+            { x: '55%', y: 650,  side: 'left'  },
+            { x: '10%', y: 770,  side: 'right' },
+            { x: '58%', y: 890,  side: 'left'  },
+            { x: '15%', y: 1010, side: 'right' },
+            { x: '55%', y: 1130, side: 'left'  },
+            { x: '12%', y: 1250, side: 'right' },
+            { x: '55%', y: 1370, side: 'left'  },
+            { x: '20%', y: 1490, side: 'right' },
+            { x: '55%', y: 1610, side: 'left'  },
+            { x: '15%', y: 1730, side: 'right' },
           ];
-          const pos = positions[i] || positions[0];
+          const pos = positions[i] || positions[positions.length - 1];
           return (
             <div
               key={e.year}

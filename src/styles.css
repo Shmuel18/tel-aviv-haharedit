@@ -1118,7 +1118,7 @@ body[data-lang="en"] .compass { right: auto; left: 30px; }
 .timeline-stage {
   position: relative;
   margin-top: 80px;
-  min-height: 1200px;
+  min-height: 1900px;
 }
 
 .timeline-path {
@@ -2988,7 +2988,7 @@ body[data-lang="en"] .compass { right: auto; left: 30px; }
   .section-title { font-size: clamp(26px, 7.5vw, 38px); }
   .section-lede { font-size: 14px; }
   .souls-stage { height: 1600px; }
-  .timeline-stage { height: auto; min-height: 1200px; }
+  .timeline-stage { height: auto; min-height: 2400px; }
   .timeline-event { width: 96%; left: 2% !important; }
   .syn-card { padding: 12px 14px; }
   .syn-card-name { font-size: 15px; }
