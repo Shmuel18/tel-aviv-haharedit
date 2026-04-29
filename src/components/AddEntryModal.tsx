@@ -1,17 +1,27 @@
-import { useState } from 'react';
+import { useState, type FormEvent } from 'react';
+import type { T } from '../types';
 
-export function AddEntryModal({ category, schema, fields, onSubmit, onClose, t }) {
-  const [values, setValues] = useState(() =>
+interface Props {
+  category: string;
+  schema: string[];
+  fields: Record<string, string>;
+  onSubmit: (entry: Record<string, string>) => void;
+  onClose: () => void;
+  t: T;
+}
+
+export function AddEntryModal({ schema, fields, onSubmit, onClose, t }: Props) {
+  const [values, setValues] = useState<Record<string, string>>(() =>
     Object.fromEntries(schema.map(f => [f, '']))
   );
 
-  const handleChange = (field, val) => {
+  const handleChange = (field: string, val: string) => {
     setValues(v => ({ ...v, [field]: val }));
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const cleaned = {};
+    const cleaned: Record<string, string> = {};
     for (const [k, v] of Object.entries(values)) {
       if (v.trim()) cleaned[k] = v.trim();
     }

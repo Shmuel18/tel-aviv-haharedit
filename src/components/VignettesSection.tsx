@@ -1,7 +1,12 @@
 import { useState } from 'react';
-import vignettes from '../data/vignettes.json';
+import vignettesRaw from '../data/vignettes.json';
+import type { Lang, T, Vignette } from '../types';
 
-export function VignettesSection({ t, lang }) {
+const vignettes = vignettesRaw as Vignette[];
+
+interface Props { t: T; lang: Lang; }
+
+export function VignettesSection({ t, lang }: Props) {
   const [activeIdx, setActiveIdx] = useState(0);
 
   return (

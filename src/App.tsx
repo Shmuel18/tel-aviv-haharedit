@@ -1,26 +1,33 @@
-import { useState, useEffect, lazy, Suspense } from 'react';
+import { useState, useEffect, lazy, Suspense, type Dispatch, type SetStateAction } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import { CONTENT } from './content.js';
+import { CONTENT } from './content';
+import type { Lang, T } from './types';
 
 gsap.registerPlugin(ScrollTrigger);
-import { Hero } from './components/Hero.jsx';
-import { MapSection } from './components/MapSection.jsx';
-import { SoulsSection } from './components/SoulsSection.jsx';
-import { TimelineSection, Manifesto, Colophon } from './components/Timeline.jsx';
-import { DirectorySection } from './components/DirectorySection.jsx';
-import { ArchiveSection } from './components/ArchiveSection.jsx';
-import { VignettesSection } from './components/VignettesSection.jsx';
-import { GlobalSearch } from './components/GlobalSearch.jsx';
-import { ScrollProgress } from './components/ScrollProgress.jsx';
-import { ErrorBoundary } from './components/ErrorBoundary.jsx';
+import { Hero } from './components/Hero';
+import { MapSection } from './components/MapSection';
+import { SoulsSection } from './components/SoulsSection';
+import { TimelineSection, Manifesto, Colophon } from './components/Timeline';
+import { DirectorySection } from './components/DirectorySection';
+import { ArchiveSection } from './components/ArchiveSection';
+import { VignettesSection } from './components/VignettesSection';
+import { GlobalSearch } from './components/GlobalSearch';
+import { ScrollProgress } from './components/ScrollProgress';
+import { ErrorBoundary } from './components/ErrorBoundary';
 
 // LiveMap pulls in Leaflet (~150 KB). Code-split so initial paint stays fast.
-const LiveMap = lazy(() => import('./components/LiveMap.jsx').then(m => ({ default: m.LiveMap })));
+const LiveMap = lazy(() => import('./components/LiveMap').then(m => ({ default: m.LiveMap })));
 import './styles.css';
 
-function TopNav({ t, lang, setLang }) {
-  const [activeSection, setActiveSection] = useState('home');
+interface TopNavProps {
+  t: T;
+  lang: Lang;
+  setLang: Dispatch<SetStateAction<Lang>>;
+}
+
+function TopNav({ t, lang, setLang }: TopNavProps) {
+  const [activeSection, setActiveSection] = useState<string>('home');
 
   useEffect(() => {
     let ticking = false;
@@ -84,7 +91,7 @@ function TopNav({ t, lang, setLang }) {
 }
 
 export default function App() {
-  const [lang, setLang] = useState('he');
+  const [lang, setLang] = useState<Lang>('he');
   const t = CONTENT[lang];
 
   useEffect(() => {

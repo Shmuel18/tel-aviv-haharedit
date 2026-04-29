@@ -1,49 +1,92 @@
 import { useState, useMemo, useEffect } from 'react';
-import synagoguesData from '../data/synagogues.json';
-import mikvaotData from '../data/mikvaot.json';
-import kosherData from '../data/kosher.json';
-import officeMinyanimData from '../data/office-minyanim.json';
-import eruvData from '../data/eruv.json';
-import gmachimData from '../data/gmachim.json';
-import historicalNotesData from '../data/historical-notes.json';
-import { AddEntryModal } from './AddEntryModal.jsx';
-import { ZmanimWidget } from './ZmanimWidget.jsx';
+import synagoguesRaw from '../data/synagogues.json';
+import mikvaotRaw from '../data/mikvaot.json';
+import kosherRaw from '../data/kosher.json';
+import officeMinyanimRaw from '../data/office-minyanim.json';
+import eruvRaw from '../data/eruv.json';
+import gmachimRaw from '../data/gmachim.json';
+import historicalNotesRaw from '../data/historical-notes.json';
+import { AddEntryModal } from './AddEntryModal';
+import { ZmanimWidget } from './ZmanimWidget';
+import type {
+  EruvArea,
+  Gmach,
+  HistoricalNote,
+  KosherBusiness,
+  Lang,
+  Mikve,
+  Neighborhood,
+  OfficeMinyan,
+  Synagogue,
+  T,
+} from '../types';
 
-// Index historical notes by "name|address" for fast lookup.
-const NOTES_INDEX = new Map(
-  historicalNotesData.map(n => [`${n.matchName}|${n.matchAddress}`, n])
-);
-function noteFor(item) {
-  if (!item || !item.name) return null;
-  return NOTES_INDEX.get(`${item.name}|${item.address || ''}`) || null;
+const synagoguesData = synagoguesRaw as Synagogue[];
+const mikvaotData = mikvaotRaw as Mikve[];
+const kosherData = kosherRaw as KosherBusiness[];
+const officeMinyanimData = officeMinyanimRaw as OfficeMinyan[];
+const eruvData = eruvRaw as EruvArea[];
+const gmachimData = gmachimRaw as Gmach[];
+const historicalNotesData = historicalNotesRaw as HistoricalNote[];
+
+// A directory item can be one of several shapes depending on the category.
+// We treat them as a flexible record at runtime; render code uses `string`
+// fields that all categories happen to share (name, address, notes...).
+type DirItem = Record<string, unknown> & {
+  _user?: boolean;
+  name?: string;
+  address?: string;
+};
+
+type CatId = 'synagogues' | 'mikvaot' | 'kosher' | 'office-minyanim' | 'eruv' | 'gmachim';
+
+interface CategoryDef {
+  label: { he: string; en: string };
+  icon: string;
+  schema: string[];
+  fields: { he: Record<string, string>; en: Record<string, string> };
+  filterKey: (item: DirItem) => string;
+  filterOptions: { he: string[]; en: string[] };
+  secondary: (item: DirItem) => string;
+  source: string;
+  manualOnly?: boolean;
+  primaryField?: string;
 }
 
-// Match a synagogue to a neighborhood by note tag or street keyword.
-function inNeighborhood(item, neighborhood) {
+// Index historical notes by "name|address" for fast lookup.
+const NOTES_INDEX = new Map<string, HistoricalNote>(
+  historicalNotesData.map(n => [`${n.matchName}|${n.matchAddress}`, n])
+);
+function noteFor(item: DirItem): HistoricalNote | null {
+  const name = item?.name as string | undefined;
+  if (!name) return null;
+  const addr = (item.address as string) || '';
+  return NOTES_INDEX.get(`${name}|${addr}`) || null;
+}
+
+function inNeighborhood(item: DirItem, neighborhood: Neighborhood | null): boolean {
   if (!neighborhood) return true;
   const note = noteFor(item);
   if (note?.neighborhoodId === neighborhood.id) return true;
-  const addr = item.address || '';
-  return (neighborhood.streetKeywords || []).some(k => addr.includes(k));
+  const addr = (item.address as string) || '';
+  return (neighborhood.streetKeywords || []).some((k: string) => addr.includes(k));
 }
 
 const STORAGE_KEY = 'taharedit_userdata_v1';
 
-const NUSACH_GROUPS = {
-  he: {
-    'ספרד': 'ספרד', 'עדות המזרח': 'עדות המזרח', 'אשכנז': 'אשכנז',
-    'תימן בלדי': 'תימן', 'תימן שאמי': 'תימן', 'תימן': 'תימן',
-    'חב"ד': 'חסידי', 'חסידי גור (חסידותית)': 'חסידי', 'חסידי': 'חסידי',
-    'מרוקו': 'עדות המזרח', 'ירושלמי': 'אשכנז',
-    'לפי החזן': 'אחר', '—': 'אחר',
-  },
+const NUSACH_GROUPS: Record<string, string> = {
+  'ספרד': 'ספרד', 'עדות המזרח': 'עדות המזרח', 'אשכנז': 'אשכנז',
+  'תימן בלדי': 'תימן', 'תימן שאמי': 'תימן', 'תימן': 'תימן',
+  'חב"ד': 'חסידי', 'חסידי גור (חסידותית)': 'חסידי', 'חסידי': 'חסידי',
+  'מרוקו': 'עדות המזרח', 'ירושלמי': 'אשכנז',
+  'לפי החזן': 'אחר', '—': 'אחר',
 };
 
-function nusachGroup(nusach) {
-  return NUSACH_GROUPS.he[nusach] || 'אחר';
+function nusachGroup(nusach: string): string {
+  return NUSACH_GROUPS[nusach] || 'אחר';
 }
 
-const CATEGORIES = {
+const CATEGORIES: Record<CatId, CategoryDef> = {
   synagogues: {
     label: { he: 'בתי כנסת', en: 'Synagogues' },
     icon: '✡',
@@ -52,9 +95,9 @@ const CATEGORIES = {
       he: { name: 'שם', nusach: 'נוסח', address: 'כתובת' },
       en: { name: 'Name', nusach: 'Rite', address: 'Address' },
     },
-    filterKey: (item) => nusachGroup(item.nusach),
+    filterKey: (item) => nusachGroup(String(item.nusach || '')),
     filterOptions: { he: ['הכל','ספרד','עדות המזרח','אשכנז','תימן','חסידי','אחר'], en: ['All','Sefarad','Edot','Ashkenaz','Yemenite','Hasidic','Other'] },
-    secondary: (item) => item.nusach,
+    secondary: (item) => String(item.nusach || ''),
     source: 'kipa.co.il',
   },
   mikvaot: {
@@ -65,9 +108,12 @@ const CATEGORIES = {
       he: { name: 'שם', type: 'סוג', address: 'כתובת' },
       en: { name: 'Name', type: 'Type', address: 'Address' },
     },
-    filterKey: (item) => item.type.includes('כלים') ? 'נשים+כלים' : item.type.trim(),
+    filterKey: (item) => {
+      const tp = String(item.type || '');
+      return tp.includes('כלים') ? 'נשים+כלים' : tp.trim();
+    },
     filterOptions: { he: ['הכל','נשים','נשים+כלים','גברים'], en: ['All','Women','Women+Vessels','Men'] },
-    secondary: (item) => item.type,
+    secondary: (item) => String(item.type || ''),
     source: 'kipa.co.il',
   },
   kosher: {
@@ -79,20 +125,20 @@ const CATEGORIES = {
       en: { name: 'Name', type: 'Type', address: 'Address', congregation: 'Kashrut' },
     },
     filterKey: (item) => {
-      const t = item.type;
-      if (t.includes('בשרי')) return 'בשרי';
-      if (t.includes('חלבי')) return 'חלבי';
-      if (t.includes('פרווה') || t.includes('פיצוחים')) return 'פרווה';
-      if (t.includes('מאפיה') || t.includes('קונדטוריה')) return 'מאפייה';
-      if (t.includes('מלון') || t.includes('אולם')) return 'מלון/אירועים';
-      if (t.includes('מרכול') || t.includes('חנות')) return 'חנות/מרכול';
+      const tp = String(item.type || '');
+      if (tp.includes('בשרי')) return 'בשרי';
+      if (tp.includes('חלבי')) return 'חלבי';
+      if (tp.includes('פרווה') || tp.includes('פיצוחים')) return 'פרווה';
+      if (tp.includes('מאפיה') || tp.includes('קונדטוריה')) return 'מאפייה';
+      if (tp.includes('מלון') || tp.includes('אולם')) return 'מלון/אירועים';
+      if (tp.includes('מרכול') || tp.includes('חנות')) return 'חנות/מרכול';
       return 'אחר';
     },
     filterOptions: {
       he: ['הכל','בשרי','חלבי','פרווה','מאפייה','מלון/אירועים','חנות/מרכול','אחר'],
       en: ['All','Meat','Dairy','Pareve','Bakery','Hotels','Shops','Other'],
     },
-    secondary: (item) => item.type + (item.congregation ? ` · ${item.congregation}` : ''),
+    secondary: (item) => String(item.type || '') + (item.congregation ? ` · ${item.congregation}` : ''),
     source: 'rabanut.co.il',
   },
   'office-minyanim': {
@@ -103,7 +149,7 @@ const CATEGORIES = {
       he: { name: 'שם', tower: 'מגדל', address: 'כתובת', floor: 'קומה', times: 'זמנים', nusach: 'נוסח', notes: 'הערות' },
       en: { name: 'Name', tower: 'Tower', address: 'Address', floor: 'Floor', times: 'Times', nusach: 'Rite', notes: 'Notes' },
     },
-    filterKey: (item) => item.tower || 'אחר',
+    filterKey: (item) => String(item.tower || 'אחר'),
     filterOptions: { he: ['הכל'], en: ['All'] },
     secondary: (item) => [item.tower, item.floor, item.times].filter(Boolean).join(' · '),
     source: 'הזנה ידנית',
@@ -117,7 +163,7 @@ const CATEGORIES = {
       he: { area: 'אזור', status: 'סטטוס', lastChecked: 'נבדק לאחרונה', notes: 'הערות' },
       en: { area: 'Area', status: 'Status', lastChecked: 'Last Checked', notes: 'Notes' },
     },
-    filterKey: (item) => item.status || 'לא ידוע',
+    filterKey: (item) => String(item.status || 'לא ידוע'),
     filterOptions: { he: ['הכל','כשר','לא כשר','חלקי','לא ידוע'], en: ['All','Kosher','Invalid','Partial','Unknown'] },
     secondary: (item) => `${item.status || '—'} · ${item.lastChecked || ''}`,
     primaryField: 'area',
@@ -132,7 +178,7 @@ const CATEGORIES = {
       he: { name: 'שם', category: 'קטגוריה', address: 'כתובת', phone: 'טלפון', kind: 'סוג', notes: 'הערות' },
       en: { name: 'Name', category: 'Category', address: 'Address', phone: 'Phone', kind: 'Kind', notes: 'Notes' },
     },
-    filterKey: (item) => item.category || 'אחר',
+    filterKey: (item) => String(item.category || 'אחר'),
     filterOptions: {
       he: ['הכל', 'שמחות ואירועים', 'מוצרי תינוקות', 'ציוד רפואי וסיוע', 'מתנות ובגדים', 'הלוואות כספים', 'עזרה אישית', 'כללי'],
       en: ['All', 'Events', 'Baby items', 'Medical', 'Gifts/Clothing', 'Loans', 'Personal Help', 'General'],
@@ -142,37 +188,49 @@ const CATEGORIES = {
   },
 };
 
-const BUILTIN_DATA = {
-  synagogues: synagoguesData,
-  mikvaot: mikvaotData,
-  kosher: kosherData,
-  'office-minyanim': officeMinyanimData,
-  eruv: eruvData,
-  gmachim: gmachimData,
+const BUILTIN_DATA: Record<CatId, DirItem[]> = {
+  synagogues: synagoguesData as unknown as DirItem[],
+  mikvaot: mikvaotData as unknown as DirItem[],
+  kosher: kosherData as unknown as DirItem[],
+  'office-minyanim': officeMinyanimData as unknown as DirItem[],
+  eruv: eruvData as unknown as DirItem[],
+  gmachim: gmachimData as unknown as DirItem[],
 };
 
-function loadUserData() {
+type UserData = Partial<Record<CatId, DirItem[]>>;
+
+function loadUserData(): UserData {
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
-    return raw ? JSON.parse(raw) : {};
+    return raw ? (JSON.parse(raw) as UserData) : {};
   } catch {
     return {};
   }
 }
 
-function saveUserData(data) {
+function saveUserData(data: UserData): void {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
 }
 
-export function DirectorySection({ t, lang }) {
-  const [activeCat, setActiveCat] = useState('synagogues');
-  const [query, setQuery] = useState('');
-  const [activeFilter, setActiveFilter] = useState(0);
-  const [heritageOnly, setHeritageOnly] = useState(false);
-  const [neighborhoodFilter, setNeighborhoodFilter] = useState(null);
-  const [userData, setUserData] = useState(() => loadUserData());
-  const [showAdd, setShowAdd] = useState(false);
-  const [expandedNote, setExpandedNote] = useState(null);
+interface FocusEventDetail {
+  category?: CatId;
+  name?: string;
+  address?: string;
+  neighborhoodId?: string;
+  neighborhoodName?: string;
+}
+
+interface Props { t: T; lang: Lang; }
+
+export function DirectorySection({ t, lang }: Props) {
+  const [activeCat, setActiveCat] = useState<CatId>('synagogues');
+  const [query, setQuery] = useState<string>('');
+  const [activeFilter, setActiveFilter] = useState<number>(0);
+  const [heritageOnly, setHeritageOnly] = useState<boolean>(false);
+  const [neighborhoodFilter, setNeighborhoodFilter] = useState<Neighborhood | null>(null);
+  const [userData, setUserData] = useState<UserData>(() => loadUserData());
+  const [showAdd, setShowAdd] = useState<boolean>(false);
+  const [expandedNote, setExpandedNote] = useState<string | null>(null);
 
   // Reset filter index when switching category
   useEffect(() => {
@@ -185,8 +243,9 @@ export function DirectorySection({ t, lang }) {
 
   // Listen for cross-section navigation (e.g., from Souls → "go to this synagogue")
   useEffect(() => {
-    const onFocus = (e) => {
-      const { category, name, address, neighborhoodId, neighborhoodName } = e.detail || {};
+    const onFocus = (e: Event) => {
+      const detail = (e as CustomEvent<FocusEventDetail>).detail || {};
+      const { category, name, address, neighborhoodId } = detail;
       if (category && category in CATEGORIES) {
         setActiveCat(category);
       }
@@ -196,7 +255,6 @@ export function DirectorySection({ t, lang }) {
         setNeighborhoodFilter(null);
         setTimeout(() => setExpandedNote(`${name}-${address || ''}-0`), 50);
       } else if (neighborhoodId) {
-        // Find the neighborhood object to access streetKeywords
         const nb = (t.neighborhoods || []).find(n => n.id === neighborhoodId);
         if (nb) {
           setNeighborhoodFilter(nb);
@@ -212,8 +270,8 @@ export function DirectorySection({ t, lang }) {
 
   const cat = CATEGORIES[activeCat];
   const builtin = BUILTIN_DATA[activeCat];
-  const userEntries = userData[activeCat] || [];
-  const all = [...builtin, ...userEntries.map(e => ({ ...e, _user: true }))];
+  const userEntries: DirItem[] = userData[activeCat] || [];
+  const all: DirItem[] = [...builtin, ...userEntries.map(e => ({ ...e, _user: true }))];
 
   const filterLabels = cat.filterOptions[lang] || cat.filterOptions.he;
   const heLabels = cat.filterOptions.he;
@@ -238,16 +296,16 @@ export function DirectorySection({ t, lang }) {
     ? all.filter(item => noteFor(item)).length
     : 0;
 
-  const handleAdd = (entry) => {
-    const next = { ...userData, [activeCat]: [...(userData[activeCat] || []), entry] };
+  const handleAdd = (entry: Record<string, string>) => {
+    const next: UserData = { ...userData, [activeCat]: [...(userData[activeCat] || []), entry as DirItem] };
     setUserData(next);
     saveUserData(next);
     setShowAdd(false);
   };
 
-  const handleDeleteUserEntry = (idx) => {
+  const handleDeleteUserEntry = (idx: number) => {
     const newEntries = userEntries.filter((_, i) => i !== idx);
-    const next = { ...userData, [activeCat]: newEntries };
+    const next: UserData = { ...userData, [activeCat]: newEntries };
     setUserData(next);
     saveUserData(next);
   };
@@ -264,17 +322,16 @@ export function DirectorySection({ t, lang }) {
   };
 
   const handleExportRoute = () => {
-    // Use the historically-noted synagogues as the curated route
     const route = synagoguesData
-      .filter(s => noteFor(s))
+      .filter(s => noteFor(s as unknown as DirItem))
       .map(s => {
-        const note = noteFor(s);
+        const note = noteFor(s as unknown as DirItem);
         return {
           stop: 0,
           name: s.name,
           address: s.address,
           year: note?.year,
-          note: note?.[lang] || note?.he,
+          note: note ? note[lang] : undefined,
           mapUrl: `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(s.address + ', תל אביב')}`,
         };
       })
@@ -285,7 +342,7 @@ export function DirectorySection({ t, lang }) {
       date: new Date().toISOString().slice(0, 10),
       source: 'kipa.co.il + curated historical research',
       stops: route,
-      googleMapsDirections: `https://www.google.com/maps/dir/${route.map(s => encodeURIComponent(s.address + ', תל אביב')).join('/')}`,
+      googleMapsDirections: `https://www.google.com/maps/dir/${route.map(s => encodeURIComponent((s.address || '') + ', תל אביב')).join('/')}`,
     };
 
     const blob = new Blob([JSON.stringify(exportObj, null, 2)], { type: 'application/json' });
@@ -299,13 +356,13 @@ export function DirectorySection({ t, lang }) {
 
   const handleOpenRouteInMaps = () => {
     const addrs = synagoguesData
-      .filter(s => noteFor(s))
+      .filter(s => noteFor(s as unknown as DirItem))
       .map(s => encodeURIComponent(s.address + ', תל אביב'))
       .join('/');
     window.open(`https://www.google.com/maps/dir/${addrs}`, '_blank');
   };
 
-  const primaryKey = cat.primaryField || 'name';
+  const primaryKey: string = cat.primaryField || 'name';
 
   return (
     <section className="directory-section" id="directory" data-screen-label="06 Directory">
@@ -342,19 +399,22 @@ export function DirectorySection({ t, lang }) {
 
         {/* Category tabs */}
         <div className="dir-tabs">
-          {Object.entries(CATEGORIES).map(([key, c]) => (
-            <button
-              key={key}
-              className={`dir-tab ${key === activeCat ? 'active' : ''}`}
-              onClick={() => setActiveCat(key)}
-            >
-              <span className="dir-tab-icon">{c.icon}</span>
-              <span className="dir-tab-label">{c.label[lang]}</span>
-              <span className="dir-tab-count">
-                {(BUILTIN_DATA[key]?.length || 0) + (userData[key]?.length || 0)}
-              </span>
-            </button>
-          ))}
+          {(Object.keys(CATEGORIES) as CatId[]).map((key) => {
+            const c = CATEGORIES[key];
+            return (
+              <button
+                key={key}
+                className={`dir-tab ${key === activeCat ? 'active' : ''}`}
+                onClick={() => setActiveCat(key)}
+              >
+                <span className="dir-tab-icon">{c.icon}</span>
+                <span className="dir-tab-label">{c.label[lang]}</span>
+                <span className="dir-tab-count">
+                  {(BUILTIN_DATA[key]?.length || 0) + (userData[key]?.length || 0)}
+                </span>
+              </button>
+            );
+          })}
         </div>
 
         {/* Controls */}
@@ -445,7 +505,9 @@ export function DirectorySection({ t, lang }) {
         <div className="syn-grid">
           {filtered.map((item, i) => {
             const note = activeCat === 'synagogues' ? noteFor(item) : null;
-            const cardKey = `${item[primaryKey]}-${item.address || ''}-${i}`;
+            const primary = String(item[primaryKey] || '');
+            const addrStr = String(item.address || '');
+            const cardKey = `${primary}-${addrStr}-${i}`;
             const isExpanded = expandedNote === cardKey;
             return (
               <article
@@ -458,7 +520,7 @@ export function DirectorySection({ t, lang }) {
                 </div>
                 <div className="syn-card-body">
                   <h3 className="syn-card-name">
-                    {item[primaryKey] || '—'}
+                    {primary || '—'}
                     {note && (
                       <button
                         className="syn-note-badge"
@@ -472,19 +534,19 @@ export function DirectorySection({ t, lang }) {
                   </h3>
                   <div className="syn-card-meta">
                     <span className="syn-nusach">{cat.secondary(item) || ''}</span>
-                    {item.address && (
+                    {addrStr && (
                       <a
                         className="syn-addr syn-addr-link"
-                        href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(item.address + ', תל אביב')}`}
+                        href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(addrStr + ', תל אביב')}`}
                         target="_blank"
                         rel="noreferrer"
                         title={t.directory.openMaps}
                       >
-                        <span>{item.address}</span>
+                        <span>{addrStr}</span>
                         <span className="syn-addr-icon">🗺</span>
                       </a>
                     )}
-                    {item.notes && <span className="syn-addr syn-notes">{item.notes}</span>}
+                    {item.notes != null && <span className="syn-addr syn-notes">{String(item.notes)}</span>}
                   </div>
 
                   {note && isExpanded && (

@@ -1,9 +1,18 @@
 import { useState, useEffect, useMemo } from 'react';
+import type { Lang, T } from '../types';
 
 const HEBCAL_URL = 'https://www.hebcal.com/zmanim?cfg=json&geonameid=293397'; // Tel Aviv
 const CACHE_KEY = 'taharedit_zmanim_v1';
 
-const FIELDS = [
+type ZmanimTimes = Record<string, string>;
+
+interface ZmanimField {
+  key: string;
+  he: string;
+  en: string;
+}
+
+const FIELDS: ZmanimField[] = [
   { key: 'alotHaShachar', he: 'עלות השחר', en: 'Alot HaShachar' },
   { key: 'sunrise', he: 'הנץ החמה', en: 'Sunrise' },
   { key: 'sofZmanShma', he: 'סוף ק״ש', en: 'Sof Zman Shma' },
@@ -20,33 +29,35 @@ function todayDateStr() {
   return d.toISOString().slice(0, 10);
 }
 
-function formatTime(iso) {
+function formatTime(iso?: string): string {
   if (!iso) return '—';
   const d = new Date(iso);
   return d.toLocaleTimeString('he-IL', { hour: '2-digit', minute: '2-digit', hour12: false });
 }
 
-function loadCached() {
+function loadCached(): ZmanimTimes | null {
   try {
     const raw = localStorage.getItem(CACHE_KEY);
     if (!raw) return null;
-    const obj = JSON.parse(raw);
+    const obj = JSON.parse(raw) as { date: string; times: ZmanimTimes };
     if (obj.date !== todayDateStr()) return null;
     return obj.times;
   } catch { return null; }
 }
 
-function saveCached(times) {
+function saveCached(times: ZmanimTimes): void {
   try {
     localStorage.setItem(CACHE_KEY, JSON.stringify({ date: todayDateStr(), times }));
   } catch { /* quota */ }
 }
 
-export function ZmanimWidget({ t, lang }) {
-  const [times, setTimes] = useState(() => loadCached());
-  const [loading, setLoading] = useState(!loadCached());
-  const [error, setError] = useState(null);
-  const [now, setNow] = useState(() => Date.now());
+interface Props { t: T; lang: Lang; }
+
+export function ZmanimWidget({ t, lang }: Props) {
+  const [times, setTimes] = useState<ZmanimTimes | null>(() => loadCached());
+  const [loading, setLoading] = useState<boolean>(!loadCached());
+  const [error, setError] = useState<string | null>(null);
+  const [now, setNow] = useState<number>(() => Date.now());
 
   // Tick once a minute so the "current"/"next" highlight stays fresh.
   useEffect(() => {

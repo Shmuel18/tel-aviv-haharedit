@@ -1,4 +1,7 @@
-function focusSynagogue(name, address) {
+import type { CSSProperties } from 'react';
+import type { Lang, T } from '../types';
+
+function focusSynagogue(name: string, address: string): void {
   const target = document.getElementById('directory');
   if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
   // give scroll a beat, then dispatch
@@ -9,7 +12,9 @@ function focusSynagogue(name, address) {
   }, 350);
 }
 
-export function SoulsSection({ t, lang }) {
+interface Props { t: T; lang: Lang; }
+
+export function SoulsSection({ t }: Props) {
   return (
     <section className="souls-section" id="souls" data-screen-label="04 Souls">
       <div className="section">
@@ -20,11 +25,13 @@ export function SoulsSection({ t, lang }) {
         <div className="souls-stage">
           {t.soulsList.map((s) => {
             const bioSide = s.x > 50 ? 'left' : 'right';
+            const linked = s.linkedSynagogue;
+            const soulStyle = { left: `${s.x}%`, top: `${s.y}%`, '--delay': `${s.delay}s` } as CSSProperties;
             return (
               <div
                 key={s.id}
                 className="soul"
-                style={{ left: `${s.x}%`, top: `${s.y}%`, '--delay': `${s.delay}s` }}
+                style={soulStyle}
               >
                 <div className="soul-portrait">
                   <SoulPortrait id={s.id} />
@@ -37,12 +44,12 @@ export function SoulsSection({ t, lang }) {
                 <div className={`soul-bio ${bioSide}`}>
                   <strong>{s.role}</strong>
                   {s.bio}
-                  {s.linkedSynagogue && (
+                  {linked && (
                     <button
                       className="soul-link"
-                      onClick={() => focusSynagogue(s.linkedSynagogue.name, s.linkedSynagogue.address)}
+                      onClick={() => focusSynagogue(linked.name, linked.address)}
                     >
-                      📍 {s.linkedSynagogue.label}: <em>{s.linkedSynagogue.name}</em>
+                      📍 {linked.label}: <em>{linked.name}</em>
                     </button>
                   )}
                 </div>
@@ -55,7 +62,7 @@ export function SoulsSection({ t, lang }) {
   );
 }
 
-function SoulPortrait({ id }) {
+function SoulPortrait({ id }: { id: number }) {
   // 8 stylized SVG portraits in archival style
   const variants = [
     // 1 - Rabbi Amiel: bearded, hat

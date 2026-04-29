@@ -1,13 +1,28 @@
 import { useState, useEffect, useMemo, useRef } from 'react';
 import Fuse from 'fuse.js';
-import synagoguesData from '../data/synagogues.json';
-import mikvaotData from '../data/mikvaot.json';
-import kosherData from '../data/kosher.json';
-import gmachimData from '../data/gmachim.json';
+import synagoguesRaw from '../data/synagogues.json';
+import mikvaotRaw from '../data/mikvaot.json';
+import kosherRaw from '../data/kosher.json';
+import gmachimRaw from '../data/gmachim.json';
+import type { Gmach, KosherBusiness, Lang, Mikve, Synagogue, T } from '../types';
 
-// Each entry: pre-flattened "blob" for fast lowercase substring matching.
-function buildIndex() {
-  const idx = [];
+const synagoguesData = synagoguesRaw as Synagogue[];
+const mikvaotData = mikvaotRaw as Mikve[];
+const kosherData = kosherRaw as KosherBusiness[];
+const gmachimData = gmachimRaw as Gmach[];
+
+type Cat = 'synagogues' | 'mikvaot' | 'kosher' | 'gmachim';
+
+interface IndexEntry {
+  cat: Cat;
+  name: string;
+  sub: string;
+  addr: string;
+  blob: string;
+}
+
+function buildIndex(): IndexEntry[] {
+  const idx: IndexEntry[] = [];
   for (const s of synagoguesData) {
     idx.push({
       cat: 'synagogues', name: s.name, sub: s.nusach, addr: s.address || '',
@@ -51,19 +66,21 @@ const FUSE = new Fuse(INDEX, {
   minMatchCharLength: 2,
 });
 
-const CAT_LABELS = {
+const CAT_LABELS: Record<Lang, Record<Cat, string>> = {
   he: { synagogues: 'בית כנסת', mikvaot: 'מקווה', kosher: 'כשר', gmachim: 'גמ"ח' },
   en: { synagogues: 'Synagogue', mikvaot: 'Mikve', kosher: 'Kosher', gmachim: 'Gemach' },
 };
 
-const CAT_ICON = { synagogues: '✡', mikvaot: '〰', kosher: '✓', gmachim: '♡' };
+const CAT_ICON: Record<Cat, string> = { synagogues: '✡', mikvaot: '〰', kosher: '✓', gmachim: '♡' };
 
-export function GlobalSearch({ t, lang }) {
-  const [query, setQuery] = useState('');
-  const [open, setOpen] = useState(false);
-  const inputRef = useRef(null);
+interface Props { t: T; lang: Lang; }
 
-  const results = useMemo(() => {
+export function GlobalSearch({ t, lang }: Props) {
+  const [query, setQuery] = useState<string>('');
+  const [open, setOpen] = useState<boolean>(false);
+  const inputRef = useRef<HTMLInputElement | null>(null);
+
+  const results = useMemo<IndexEntry[]>(() => {
     const q = query.trim();
     if (q.length < 2) return [];
     return FUSE.search(q, { limit: 30 }).map(r => r.item);
@@ -71,7 +88,7 @@ export function GlobalSearch({ t, lang }) {
 
   // Keyboard shortcut: Ctrl/Cmd + K opens
   useEffect(() => {
-    const onKey = (e) => {
+    const onKey = (e: KeyboardEvent) => {
       if ((e.ctrlKey || e.metaKey) && e.key.toLowerCase() === 'k') {
         e.preventDefault();
         setOpen(true);
@@ -83,7 +100,7 @@ export function GlobalSearch({ t, lang }) {
     return () => window.removeEventListener('keydown', onKey);
   }, []);
 
-  const handlePick = (entry) => {
+  const handlePick = (entry: IndexEntry) => {
     const target = document.getElementById('directory');
     target?.scrollIntoView({ behavior: 'smooth', block: 'start' });
     setTimeout(() => {

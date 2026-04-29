@@ -1,11 +1,14 @@
 import { useState, useMemo } from 'react';
-import synagoguesData from '../data/synagogues.json';
-import historicalNotes from '../data/historical-notes.json';
+import synagoguesRaw from '../data/synagogues.json';
+import historicalNotesRaw from '../data/historical-notes.json';
+import type { HistoricalNote, Lang, Neighborhood, Synagogue, T } from '../types';
 
-function countSynagoguesIn(neighborhood) {
+const synagoguesData = synagoguesRaw as Synagogue[];
+const historicalNotes = historicalNotesRaw as HistoricalNote[];
+
+function countSynagoguesIn(neighborhood: Neighborhood): number {
   if (!neighborhood?.streetKeywords?.length) return 0;
   const keywords = neighborhood.streetKeywords;
-  // From historical-notes that explicitly tag this neighborhood
   const taggedNames = new Set(
     historicalNotes
       .filter(n => n.neighborhoodId === neighborhood.id)
@@ -16,12 +19,12 @@ function countSynagoguesIn(neighborhood) {
     const key = `${s.name}|${s.address || ''}`;
     if (taggedNames.has(key)) { count++; continue; }
     const addr = s.address || '';
-    if (keywords.some(k => addr.includes(k))) count++;
+    if (keywords.some((k: string) => addr.includes(k))) count++;
   }
   return count;
 }
 
-function jumpToDirectoryWithNeighborhood(neighborhood) {
+function jumpToDirectoryWithNeighborhood(neighborhood: Neighborhood): void {
   const target = document.getElementById('directory');
   if (target) target.scrollIntoView({ behavior: 'smooth', block: 'start' });
   setTimeout(() => {
@@ -31,8 +34,10 @@ function jumpToDirectoryWithNeighborhood(neighborhood) {
   }, 350);
 }
 
-export function MapSection({ t, lang }) {
-  const [activeId, setActiveId] = useState(t.neighborhoods[0].id);
+interface Props { t: T; lang: Lang; }
+
+export function MapSection({ t, lang }: Props) {
+  const [activeId, setActiveId] = useState<string>(t.neighborhoods[0].id);
   const active = t.neighborhoods.find(n => n.id === activeId) || t.neighborhoods[0];
   const synCount = useMemo(() => countSynagoguesIn(active), [active]);
 

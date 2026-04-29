@@ -1,10 +1,11 @@
 import { useEffect, useRef } from 'react';
 import { gsap } from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import type { EventLink, Lang, T } from '../types';
 
 gsap.registerPlugin(ScrollTrigger);
 
-function followEventLink(link) {
+function followEventLink(link?: EventLink): void {
   if (!link) return;
   if (link.type === 'synagogue') {
     const target = document.getElementById('directory');
@@ -33,14 +34,17 @@ function followEventLink(link) {
   }
 }
 
-export function TimelineSection({ t, lang }) {
-  const stageRef = useRef(null);
+interface SectionProps { t: T; lang: Lang; }
+
+export function TimelineSection({ t, lang }: SectionProps) {
+  const stageRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
-    if (!stageRef.current) return;
+    const stage = stageRef.current;
+    if (!stage) return;
     const ctx = gsap.context(() => {
       // Animate the golden path drawing as user enters the section
-      const paths = stageRef.current.querySelectorAll('.timeline-path path');
+      const paths = stage.querySelectorAll<SVGPathElement>('.timeline-path path');
       paths.forEach(p => {
         const len = p.getTotalLength?.();
         if (!len) return;
@@ -50,7 +54,7 @@ export function TimelineSection({ t, lang }) {
           duration: 2.4,
           ease: 'power2.inOut',
           scrollTrigger: {
-            trigger: stageRef.current,
+            trigger: stage,
             start: 'top 80%',
             toggleActions: 'play none none none',
           },
@@ -58,7 +62,7 @@ export function TimelineSection({ t, lang }) {
       });
 
       // Stagger-reveal each timeline event
-      const events = stageRef.current.querySelectorAll('.timeline-event');
+      const events = stage.querySelectorAll('.timeline-event');
       events.forEach((el, i) => {
         gsap.fromTo(el,
           { opacity: 0, y: 30, scale: 0.96 },
@@ -166,7 +170,7 @@ export function TimelineSection({ t, lang }) {
   );
 }
 
-export function Manifesto({ t }) {
+export function Manifesto({ t }: { t: T }) {
   return (
     <section className="manifesto" id="manifesto" data-screen-label="02 Manifesto">
       <div className="manifesto-grid">
@@ -181,7 +185,7 @@ export function Manifesto({ t }) {
   );
 }
 
-export function Colophon({ t, lang }) {
+export function Colophon({ t }: { t: T; lang: Lang }) {
   return (
     <footer className="colophon" data-screen-label="06 Colophon">
       <div className="colophon-top">

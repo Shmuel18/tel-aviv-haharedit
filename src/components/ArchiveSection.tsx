@@ -1,6 +1,10 @@
 import archiveData from '../data/archive.json';
+import type { ArchiveItem, Lang, T } from '../types';
 
-export function ArchiveSection({ t, lang }) {
+interface Props { t: T; lang: Lang; }
+
+export function ArchiveSection({ t }: Props) {
+  const items = archiveData as ArchiveItem[];
   return (
     <section className="archive-section" id="archive" data-screen-label="07 Archive">
       <div className="section">
@@ -9,7 +13,7 @@ export function ArchiveSection({ t, lang }) {
         <p className="section-lede">{t.archive.lede}</p>
 
         <div className="archive-grid">
-          {archiveData.map((item, i) => (
+          {items.map((item, i) => (
             <article key={i} className="archive-item">
               <div className="archive-num">{String(i + 1).padStart(2, '0')}</div>
               <div className="archive-body">

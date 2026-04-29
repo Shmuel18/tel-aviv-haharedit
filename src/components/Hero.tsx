@@ -1,8 +1,13 @@
 import { useState, useEffect, useRef } from 'react';
+import type { Lang, T } from '../types';
 
-export function Hero({ t, lang }) {
-  const heroRef = useRef(null);
-  const [scrollY, setScrollY] = useState(0);
+interface Props { t: T; lang: Lang; }
+type FigureVariant = 'historic' | 'modern';
+type FigureType = 'rabbi' | 'woman' | 'modern1' | 'modern2';
+
+export function Hero({ t }: Props) {
+  const heroRef = useRef<HTMLElement | null>(null);
+  const [scrollY, setScrollY] = useState<number>(0);
 
   useEffect(() => {
     let ticking = false;
@@ -18,7 +23,7 @@ export function Hero({ t, lang }) {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
-  const p = (rate) => `translateY(${scrollY * rate}px)`;
+  const p = (rate: number) => `translateY(${scrollY * rate}px)`;
 
   return (
     <section className="hero" id="home" ref={heroRef} data-screen-label="01 Hero">
@@ -198,11 +203,11 @@ function BauhausRow() {
   );
 }
 
-function Figure({ variant, type }) {
+function Figure({ variant, type }: { variant: FigureVariant; type: FigureType }) {
   const isHistoric = variant === 'historic';
   const skin = isHistoric ? '#d4c0a0' : '#e6c8a8';
   const coat = type === 'rabbi' ? '#1a1410' : type === 'woman' ? '#3a2820' : type === 'modern1' ? '#7a4a30' : '#3a4a6a';
-  const hat = type === 'rabbi' ? '#0a0606' : type === 'woman' ? '#5a3020' : type === 'modern1' ? null : null;
+  const hat: string | null = type === 'rabbi' ? '#0a0606' : type === 'woman' ? '#5a3020' : null;
 
   return (
     <div className={`figure figure-${variant}`}>
@@ -245,12 +250,12 @@ function Figure({ variant, type }) {
         {/* hat / scarf */}
         {type === 'rabbi' && (
           <>
-            <ellipse cx="55" cy="38" rx="32" ry="14" fill={hat}/>
-            <rect x="32" y="30" width="46" height="14" fill={hat}/>
+            <ellipse cx="55" cy="38" rx="32" ry="14" fill={hat ?? undefined}/>
+            <rect x="32" y="30" width="46" height="14" fill={hat ?? undefined}/>
           </>
         )}
         {type === 'woman' && (
-          <path d="M 30,40 Q 30,30 55,28 Q 80,30 80,40 L 82,75 Q 70,82 55,82 Q 40,82 28,75 Z" fill={hat}/>
+          <path d="M 30,40 Q 30,30 55,28 Q 80,30 80,40 L 82,75 Q 70,82 55,82 Q 40,82 28,75 Z" fill={hat ?? undefined}/>
         )}
         {type === 'modern1' && (
           <>

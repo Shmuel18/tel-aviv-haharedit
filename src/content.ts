@@ -1,6 +1,7 @@
 // Bilingual content for "Tel Aviv HaCharedit"
+import type { ContentTree } from './types';
 
-export const CONTENT = {
+export const CONTENT: ContentTree = {
   he: {
     nav: {
       home: "דף הבית",

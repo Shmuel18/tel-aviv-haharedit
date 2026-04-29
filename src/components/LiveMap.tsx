@@ -1,36 +1,79 @@
 import { useState, useMemo, useEffect } from 'react';
 import { MapContainer, TileLayer, CircleMarker, Popup, useMap } from 'react-leaflet';
+import type { LatLngBoundsExpression, LatLngTuple } from 'leaflet';
 import 'leaflet/dist/leaflet.css';
 
-import synagoguesData from '../data/synagogues.json';
-import mikvaotData from '../data/mikvaot.json';
-import kosherData from '../data/kosher.json';
-import gmachimData from '../data/gmachim.json';
-import historicalNotes from '../data/historical-notes.json';
-import geocoded from '../data/geocoded.json';
+import synagoguesRaw from '../data/synagogues.json';
+import mikvaotRaw from '../data/mikvaot.json';
+import kosherRaw from '../data/kosher.json';
+import gmachimRaw from '../data/gmachim.json';
+import historicalNotesRaw from '../data/historical-notes.json';
+import geocodedRaw from '../data/geocoded.json';
+import type {
+  GeocodedMap,
+  Gmach,
+  HistoricalNote,
+  KosherBusiness,
+  Lang,
+  Mikve,
+  Synagogue,
+  T,
+} from '../types';
+
+const synagoguesData = synagoguesRaw as Synagogue[];
+const mikvaotData = mikvaotRaw as Mikve[];
+const kosherData = kosherRaw as KosherBusiness[];
+const gmachimData = gmachimRaw as Gmach[];
+const historicalNotes = historicalNotesRaw as HistoricalNote[];
+const geocoded = geocodedRaw as GeocodedMap;
 
 const NOTES_INDEX = new Map(
   historicalNotes.map(n => [`${n.matchName}|${n.matchAddress}`, n])
 );
 
-const TEL_AVIV_CENTER = [32.0853, 34.7818];
+const TEL_AVIV_CENTER: LatLngTuple = [32.0853, 34.7818];
 
-// Tab definitions with color + filter logic.
-const LAYERS = {
+type Cat = 'synagogues' | 'mikvaot' | 'kosher' | 'gmachim';
+
+interface LayerInfo {
+  he: string;
+  en: string;
+  color: string;
+  icon: string;
+}
+
+const LAYERS: Record<Cat, LayerInfo> = {
   synagogues: { he: 'בתי כנסת', en: 'Synagogues', color: '#8a2018', icon: '✡' },
   mikvaot:    { he: 'מקוואות', en: 'Mikvaot', color: '#2a4a6a', icon: '〰' },
   kosher:     { he: 'מסעדות כשרות', en: 'Kosher', color: '#5e3a18', icon: '✓' },
   gmachim:    { he: 'גמ"חים', en: 'Gemachim', color: '#b88a3e', icon: '♡' },
 };
 
-function buildPoints() {
-  const out = { synagogues: [], mikvaot: [], kosher: [], gmachim: [] };
-  const merge = (cat, data, fields) => {
+interface MapPoint {
+  cat: Cat;
+  name: string;
+  addr: string;
+  lat: number;
+  lng: number;
+  sub: string;
+  note: HistoricalNote | null;
+}
+
+type PointsByCat = Record<Cat, MapPoint[]>;
+
+function buildPoints(): PointsByCat {
+  const out: PointsByCat = { synagogues: [], mikvaot: [], kosher: [], gmachim: [] };
+
+  function merge<T extends { name: string; address?: string }>(
+    cat: Cat,
+    data: T[],
+    fields: (item: T) => string
+  ) {
     for (const item of data) {
       const addr = (item.address || '').trim();
       if (!addr) continue;
       const geo = geocoded[addr];
-      if (!geo || !geo.lat) continue;
+      if (!geo || typeof geo.lat !== 'number') continue;
       out[cat].push({
         cat,
         name: item.name,
@@ -38,26 +81,27 @@ function buildPoints() {
         lat: geo.lat,
         lng: geo.lng,
         sub: fields(item),
-        note: cat === 'synagogues' ? NOTES_INDEX.get(`${item.name}|${addr}`) : null,
+        note: cat === 'synagogues' ? NOTES_INDEX.get(`${item.name}|${addr}`) || null : null,
       });
     }
-  };
-  merge('synagogues', synagoguesData, x => x.nusach);
-  merge('mikvaot', mikvaotData, x => x.type);
-  merge('kosher', kosherData, x => `${x.type}${x.congregation ? ' · ' + x.congregation : ''}`);
-  merge('gmachim', gmachimData, x => `${x.kind || x.category || ''}`);
+  }
+
+  merge<Synagogue>('synagogues', synagoguesData, x => x.nusach);
+  merge<Mikve>('mikvaot', mikvaotData, x => x.type);
+  merge<KosherBusiness>('kosher', kosherData, x => `${x.type}${x.congregation ? ' · ' + x.congregation : ''}`);
+  merge<Gmach>('gmachim', gmachimData, x => `${x.kind || x.category || ''}`);
   return out;
 }
 
-const POINTS = buildPoints();
+const POINTS: PointsByCat = buildPoints();
 
-function FitBounds({ activePoints }) {
+function FitBounds({ activePoints }: { activePoints: MapPoint[] }) {
   const map = useMap();
   useEffect(() => {
     if (activePoints.length === 0) return;
     const lats = activePoints.map(p => p.lat);
     const lngs = activePoints.map(p => p.lng);
-    const bounds = [
+    const bounds: LatLngBoundsExpression = [
       [Math.min(...lats), Math.min(...lngs)],
       [Math.max(...lats), Math.max(...lngs)],
     ];
@@ -66,20 +110,23 @@ function FitBounds({ activePoints }) {
   return null;
 }
 
-export function LiveMap({ t, lang }) {
-  const [active, setActive] = useState({
+interface Props { t: T; lang: Lang; }
+
+type ActiveLayers = Record<Cat, boolean>;
+
+export function LiveMap({ t, lang }: Props) {
+  const [active, setActive] = useState<ActiveLayers>({
     synagogues: true,
     mikvaot: true,
     kosher: false, // 1095 points — off by default
     gmachim: true,
   });
-  const [hovered, setHovered] = useState(null);
 
-  const activePoints = useMemo(() => {
-    const out = [];
-    for (const cat of Object.keys(LAYERS)) {
+  const activePoints = useMemo<MapPoint[]>(() => {
+    const out: MapPoint[] = [];
+    (Object.keys(LAYERS) as Cat[]).forEach((cat) => {
       if (active[cat]) out.push(...POINTS[cat]);
-    }
+    });
     return out;
   }, [active]);
 
@@ -96,7 +143,8 @@ export function LiveMap({ t, lang }) {
 
         <div className="livemap-toolbar">
           <div className="livemap-layers">
-            {Object.entries(LAYERS).map(([key, l]) => {
+            {(Object.keys(LAYERS) as Cat[]).map((key) => {
+              const l = LAYERS[key];
               const count = POINTS[key].length;
               return (
                 <button
@@ -139,10 +187,6 @@ export function LiveMap({ t, lang }) {
                   fillColor: LAYERS[p.cat].color,
                   fillOpacity: p.note ? 0.85 : 0.55,
                   weight: p.note ? 2 : 1,
-                }}
-                eventHandlers={{
-                  mouseover: () => setHovered(p),
-                  mouseout: () => setHovered(null),
                 }}
               >
                 <Popup>

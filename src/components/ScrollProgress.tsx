@@ -1,6 +1,6 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, type ReactElement } from 'react';
 
-export function ScrollProgress() {
+export function ScrollProgress(): ReactElement {
   const [pct, setPct] = useState(0);
   const [showTop, setShowTop] = useState(false);
 
