@@ -5,11 +5,17 @@ export function ScrollProgress() {
   const [showTop, setShowTop] = useState(false);
 
   useEffect(() => {
+    let ticking = false;
     const onScroll = () => {
-      const max = document.documentElement.scrollHeight - window.innerHeight;
-      const pct = max > 0 ? (window.scrollY / max) * 100 : 0;
-      setPct(pct);
-      setShowTop(window.scrollY > 600);
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(() => {
+        const max = document.documentElement.scrollHeight - window.innerHeight;
+        const next = max > 0 ? (window.scrollY / max) * 100 : 0;
+        setPct(next);
+        setShowTop(window.scrollY > 600);
+        ticking = false;
+      });
     };
     window.addEventListener('scroll', onScroll, { passive: true });
     onScroll();

@@ -13,6 +13,7 @@ import { ArchiveSection } from './components/ArchiveSection.jsx';
 import { VignettesSection } from './components/VignettesSection.jsx';
 import { GlobalSearch } from './components/GlobalSearch.jsx';
 import { ScrollProgress } from './components/ScrollProgress.jsx';
+import { ErrorBoundary } from './components/ErrorBoundary.jsx';
 
 // LiveMap pulls in Leaflet (~150 KB). Code-split so initial paint stays fast.
 const LiveMap = lazy(() => import('./components/LiveMap.jsx').then(m => ({ default: m.LiveMap })));
@@ -22,17 +23,23 @@ function TopNav({ t, lang, setLang }) {
   const [activeSection, setActiveSection] = useState('home');
 
   useEffect(() => {
+    let ticking = false;
     const onScroll = () => {
-      const ids = ['home', 'manifesto', 'map', 'souls', 'vignettes', 'timeline', 'directory', 'livemap', 'archive'];
-      for (const id of ids) {
-        const el = document.getElementById(id);
-        if (!el) continue;
-        const r = el.getBoundingClientRect();
-        if (r.top <= 200 && r.bottom >= 200) {
-          setActiveSection(id);
-          break;
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(() => {
+        const ids = ['home', 'manifesto', 'map', 'souls', 'vignettes', 'timeline', 'directory', 'livemap', 'archive'];
+        for (const id of ids) {
+          const el = document.getElementById(id);
+          if (!el) continue;
+          const r = el.getBoundingClientRect();
+          if (r.top <= 200 && r.bottom >= 200) {
+            setActiveSection(id);
+            break;
+          }
         }
-      }
+        ticking = false;
+      });
     };
     window.addEventListener('scroll', onScroll, { passive: true });
     return () => window.removeEventListener('scroll', onScroll);
@@ -119,17 +126,19 @@ export default function App() {
       <ScrollProgress />
       <TopNav t={t} lang={lang} setLang={setLang} />
       <div className="edition-mark">{t.edition}</div>
-      <Hero t={t} lang={lang} />
-      <Manifesto t={t} />
-      <MapSection t={t} lang={lang} />
-      <SoulsSection t={t} lang={lang} />
-      <VignettesSection t={t} lang={lang} />
-      <TimelineSection t={t} lang={lang} />
-      <DirectorySection t={t} lang={lang} />
-      <Suspense fallback={<div style={{ minHeight: 400, display: 'grid', placeItems: 'center', fontFamily: 'var(--font-display)', color: 'var(--ink-muted)', fontStyle: 'italic' }}>טוען מפה...</div>}>
-        <LiveMap t={t} lang={lang} />
-      </Suspense>
-      <ArchiveSection t={t} lang={lang} />
+      <ErrorBoundary label="Hero"><Hero t={t} lang={lang} /></ErrorBoundary>
+      <ErrorBoundary label="Manifesto"><Manifesto t={t} /></ErrorBoundary>
+      <ErrorBoundary label="MapSection"><MapSection t={t} lang={lang} /></ErrorBoundary>
+      <ErrorBoundary label="Souls"><SoulsSection t={t} lang={lang} /></ErrorBoundary>
+      <ErrorBoundary label="Vignettes"><VignettesSection t={t} lang={lang} /></ErrorBoundary>
+      <ErrorBoundary label="Timeline"><TimelineSection t={t} lang={lang} /></ErrorBoundary>
+      <ErrorBoundary label="Directory"><DirectorySection t={t} lang={lang} /></ErrorBoundary>
+      <ErrorBoundary label="LiveMap" title="המפה החיה לא נטענה" message="כל שאר האתר ממשיך כרגיל. בדוק חיבור אינטרנט וטען מחדש.">
+        <Suspense fallback={<div style={{ minHeight: 400, display: 'grid', placeItems: 'center', fontFamily: 'var(--font-display)', color: 'var(--ink-muted)', fontStyle: 'italic' }}>טוען מפה...</div>}>
+          <LiveMap t={t} lang={lang} />
+        </Suspense>
+      </ErrorBoundary>
+      <ErrorBoundary label="Archive"><ArchiveSection t={t} lang={lang} /></ErrorBoundary>
       <Colophon t={t} lang={lang} />
     </>
   );

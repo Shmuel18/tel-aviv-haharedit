@@ -26,6 +26,72 @@
 
 html { scroll-behavior: smooth; }
 
+/* Error boundary fallback — keeps the rest of the page alive */
+.error-boundary {
+  display: flex;
+  gap: 18px;
+  align-items: flex-start;
+  padding: 32px 28px;
+  margin: 24px 6%;
+  background: var(--cream-light);
+  border: 1px dashed var(--wine);
+  border-radius: 1px;
+  color: var(--ink);
+}
+
+.error-boundary-mark {
+  font-size: 32px;
+  color: var(--wine);
+  line-height: 1;
+  flex-shrink: 0;
+}
+
+.error-boundary-body { flex: 1; min-width: 0; }
+
+.error-boundary-body strong {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--wine-deep);
+  margin-bottom: 6px;
+}
+
+.error-boundary-body p {
+  font-size: 14px;
+  color: var(--ink-soft);
+  margin-bottom: 14px;
+  line-height: 1.5;
+}
+
+.error-boundary-detail {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  background: var(--ink);
+  color: var(--gold-light);
+  padding: 8px 10px;
+  margin: 8px 0 14px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+}
+
+.error-boundary-retry {
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 600;
+  padding: 7px 16px;
+  background: var(--ink-soft);
+  color: var(--cream-light);
+  border: 1px solid var(--ink-soft);
+  cursor: pointer;
+  transition: all 0.18s;
+}
+
+.error-boundary-retry:hover {
+  background: var(--wine);
+  border-color: var(--wine);
+}
+
 /* Skip-to-content (a11y) — visible only when keyboard-focused */
 .skip-to-content {
   position: fixed;
