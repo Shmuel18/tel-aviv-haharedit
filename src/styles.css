@@ -3022,3 +3022,71 @@ body[data-lang="en"] .compass { right: auto; left: 30px; }
   }
   .soul { animation: none !important; }
 }
+
+/* ===== Hasidic courts layer (live map) ===== */
+.livemap-toggle-courts { font-weight: 600; }
+
+.court-popup {
+  max-height: 380px;
+  overflow-y: auto;
+  font-family: var(--font-body);
+  color: var(--ink);
+  direction: rtl;
+  text-align: right;
+  padding-inline-end: 4px;
+}
+.court-popup-head { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 8px; }
+.court-chip {
+  font-family: var(--font-mono);
+  font-size: 10px;
+  letter-spacing: 0.02em;
+  padding: 2px 7px;
+  border-radius: 999px;
+  background: var(--cream-deep);
+  color: var(--ink-soft);
+  border: 1px solid var(--paper-line);
+  white-space: nowrap;
+}
+.court-chip-layer { background: #ece4f2; color: #4a1d6e; border-color: #d4c2e2; }
+.court-chip-conf.court-conf-high { background: #4a1d6e; color: #f5ede0; border-color: #4a1d6e; }
+.court-chip-conf.court-conf-medium { background: #ece4f2; color: #5b2a78; border-color: #c9b3da; }
+.court-chip-conf.court-conf-low { background: var(--cream); color: var(--ink-muted); }
+.court-chip-err { background: #f3e7e3; color: #8a3b25; border-color: #e0c4ba; }
+
+.court-popup-title {
+  font-family: var(--font-display);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.25;
+  color: var(--wine-deep);
+  margin-bottom: 2px;
+}
+.court-popup-addr { font-size: 12.5px; margin-bottom: 6px; }
+.court-popup-addr a { color: var(--wine); text-decoration: none; }
+.court-popup-addr a:hover { text-decoration: underline; }
+.court-popup-mapaddr { font-size: 11px; color: var(--ink-muted); margin-top: 2px; }
+.court-popup-meta {
+  display: flex; flex-wrap: wrap; gap: 4px 10px;
+  font-size: 12px; color: var(--ink-soft);
+  font-family: var(--font-mono);
+  margin-bottom: 8px;
+}
+
+.court-popup-img { margin: 0 0 8px; text-align: center; }
+.court-popup-img img {
+  max-width: 100%; max-height: 180px; border-radius: 4px;
+  border: 1px solid var(--paper-line); object-fit: cover;
+}
+.court-popup-img figcaption { font-size: 10.5px; color: var(--ink-muted); margin-top: 3px; line-height: 1.35; }
+.court-img-credit { display: inline-block; font-size: 9.5px; color: var(--ink-muted); margin-top: 2px; }
+
+.court-popup-story, .court-popup-sig {
+  font-size: 13px; line-height: 1.6; margin: 0 0 8px; color: var(--ink);
+}
+.court-popup-sig { color: var(--ink-soft); font-size: 12.5px; }
+
+.court-popup-sources { border-top: 1px solid var(--paper-line); padding-top: 6px; }
+.court-popup-sources strong { font-family: var(--font-mono); font-size: 10px; color: var(--ink-muted); text-transform: uppercase; letter-spacing: 0.05em; }
+.court-popup-sources ul { margin: 4px 0 0; padding-inline-start: 16px; }
+.court-popup-sources li { font-size: 11.5px; line-height: 1.5; margin-bottom: 2px; }
+.court-popup-sources a { color: var(--wine); }

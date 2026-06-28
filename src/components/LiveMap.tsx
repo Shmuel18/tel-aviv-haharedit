@@ -9,9 +9,11 @@ import kosherRaw from '../data/kosher.json';
 import gmachimRaw from '../data/gmachim.json';
 import historicalNotesRaw from '../data/historical-notes.json';
 import geocodedRaw from '../data/geocoded.json';
+import courtsRaw from '../data/hasidic-courts.json';
 import type {
   GeocodedMap,
   Gmach,
+  HasidicCourt,
   HistoricalNote,
   KosherBusiness,
   Lang,
@@ -26,6 +28,7 @@ const kosherData = kosherRaw as KosherBusiness[];
 const gmachimData = gmachimRaw as Gmach[];
 const historicalNotes = historicalNotesRaw as HistoricalNote[];
 const geocoded = geocodedRaw as GeocodedMap;
+const courtsData = courtsRaw as HasidicCourt[];
 
 const NOTES_INDEX = new Map(
   historicalNotes.map(n => [`${n.matchName}|${n.matchAddress}`, n])
@@ -95,18 +98,113 @@ function buildPoints(): PointsByCat {
 
 const POINTS: PointsByCat = buildPoints();
 
-function FitBounds({ activePoints }: { activePoints: MapPoint[] }) {
+// ---- Hasidic courts layer ----
+
+const COURTS = courtsData.filter(c => typeof c.lat === 'number' && typeof c.lng === 'number');
+
+const COURT_LAYER_LABEL: Record<string, { he: string; en: string }> = {
+  'shtibel':      { he: 'שטיבל', en: 'Shtibel' },
+  'beit-midrash': { he: 'בית מדרש', en: 'Beit Midrash' },
+  'yeshiva':      { he: 'ישיבה', en: 'Yeshiva' },
+};
+
+const CONF_LABEL: Record<string, { he: string; en: string }> = {
+  high:   { he: 'ודאות גבוהה', en: 'High confidence' },
+  medium: { he: 'ודאות בינונית', en: 'Medium confidence' },
+  low:    { he: 'ודאות נמוכה', en: 'Low confidence' },
+};
+
+const STATUS_LABEL: Record<string, { he: string; en: string }> = {
+  active:     { he: 'פעיל', en: 'Active' },
+  closed:     { he: 'נסגר', en: 'Closed' },
+  demolished: { he: 'נהרס', en: 'Demolished' },
+  moved:      { he: 'עבר', en: 'Moved' },
+  unknown:    { he: 'לא ידוע', en: 'Unknown' },
+};
+
+const MAPERR_LABEL: Record<string, { he: string; en: string }> = {
+  'wrong-number':    { he: 'מספר בית תוקן', en: 'House number corrected' },
+  'wrong-dynasty':   { he: 'חסידות תוקנה', en: 'Dynasty corrected' },
+  'not-a-synagogue': { he: 'לא בית כנסת', en: 'Not a synagogue' },
+  'unverifiable':    { he: 'לא אומת', en: 'Unverified' },
+  'relocated':       { he: 'מוקם מחדש', en: 'Relocated' },
+  'none':            { he: '', en: '' },
+};
+
+// Visual encoding: purple shades by confidence; gray/hollow for hard map errors.
+function courtStyle(c: HasidicCourt) {
+  const hardError = c.mapError === 'not-a-synagogue' || c.verdict === 'likely-fabricated';
+  const radius = c.layer === 'yeshiva' ? 8 : c.layer === 'beit-midrash' ? 7 : 6;
+  if (hardError) {
+    return { color: '#8a8580', fillColor: '#bfb9b0', fillOpacity: 0.35, weight: 1, dashArray: '3 3', radius };
+  }
+  const color = c.confidence === 'high' ? '#4a1d6e' : c.confidence === 'medium' ? '#7b4fa0' : '#a98fc2';
+  return { color, fillColor: color, fillOpacity: c.confidence === 'high' ? 0.85 : c.confidence === 'medium' ? 0.65 : 0.45, weight: c.mapError !== 'none' ? 2 : 1, dashArray: undefined as string | undefined, radius };
+}
+
+function CourtPopup({ c, lang }: { c: HasidicCourt; lang: Lang }) {
+  const L = (m: Record<string, { he: string; en: string }>, k: string) => (m[k] ? m[k][lang] : k);
+  const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(c.address)}`;
+  const title = c.dynastyShort || c.dynasty || c.name_he;
+  return (
+    <div className="court-popup">
+      <div className="court-popup-head">
+        <span className="court-chip court-chip-layer">{L(COURT_LAYER_LABEL, c.layer)}</span>
+        <span className={`court-chip court-chip-conf court-conf-${c.confidence}`}>{L(CONF_LABEL, c.confidence)}</span>
+        {c.status !== 'unknown' && <span className="court-chip">{L(STATUS_LABEL, c.status)}</span>}
+        {c.mapError !== 'none' && <span className="court-chip court-chip-err">{L(MAPERR_LABEL, c.mapError)}</span>}
+      </div>
+
+      <div className="court-popup-title">{title}</div>
+      <div className="court-popup-addr">
+        <a href={mapsUrl} target="_blank" rel="noreferrer">{c.address} 🗺</a>
+        {c.mapAddress && <div className="court-popup-mapaddr">{lang === 'he' ? 'במפה המקורית' : 'on source map'}: <s>{c.mapAddress}</s></div>}
+      </div>
+
+      {(c.founder || c.year) && (
+        <div className="court-popup-meta">
+          {c.year && <span>{c.year}</span>}
+          {c.founder && <span>{c.founder}</span>}
+        </div>
+      )}
+
+      {c.image && (
+        <figure className="court-popup-img">
+          <img src={c.image.url} alt={c.image.caption || title} loading="lazy" />
+          {c.image.caption && <figcaption>{c.image.caption}</figcaption>}
+          <a className="court-img-credit" href={c.image.source} target="_blank" rel="noreferrer">{c.image.license}</a>
+        </figure>
+      )}
+
+      {c.story_he && <p className="court-popup-story">{c.story_he}</p>}
+      {c.significance_he && <p className="court-popup-sig">{c.significance_he}</p>}
+
+      {c.sources.length > 0 && (
+        <div className="court-popup-sources">
+          <strong>{lang === 'he' ? 'מקורות' : 'Sources'}</strong>
+          <ul>
+            {c.sources.slice(0, 6).map((s, i) => (
+              <li key={i}><a href={s.url} target="_blank" rel="noreferrer">{s.title}</a>{s.publisher ? ` · ${s.publisher}` : ''}</li>
+            ))}
+          </ul>
+        </div>
+      )}
+    </div>
+  );
+}
+
+function FitBounds({ coords }: { coords: { lat: number; lng: number }[] }) {
   const map = useMap();
   useEffect(() => {
-    if (activePoints.length === 0) return;
-    const lats = activePoints.map(p => p.lat);
-    const lngs = activePoints.map(p => p.lng);
+    if (coords.length === 0) return;
+    const lats = coords.map(p => p.lat);
+    const lngs = coords.map(p => p.lng);
     const bounds: LatLngBoundsExpression = [
       [Math.min(...lats), Math.min(...lngs)],
       [Math.max(...lats), Math.max(...lngs)],
     ];
     map.fitBounds(bounds, { padding: [30, 30] });
-  }, [activePoints.length, map]);
+  }, [coords.length, map]);
   return null;
 }
 
@@ -116,11 +214,12 @@ type ActiveLayers = Record<Cat, boolean>;
 
 export function LiveMap({ t, lang }: Props) {
   const [active, setActive] = useState<ActiveLayers>({
-    synagogues: true,
-    mikvaot: true,
-    kosher: false, // 1095 points — off by default
-    gmachim: true,
+    synagogues: false,
+    mikvaot: false,
+    kosher: false,
+    gmachim: false,
   });
+  const [showCourts, setShowCourts] = useState<boolean>(true);
 
   const activePoints = useMemo<MapPoint[]>(() => {
     const out: MapPoint[] = [];
@@ -130,9 +229,16 @@ export function LiveMap({ t, lang }: Props) {
     return out;
   }, [active]);
 
+  const boundsCoords = useMemo(() => {
+    const c: { lat: number; lng: number }[] = activePoints.map(p => ({ lat: p.lat, lng: p.lng }));
+    if (showCourts) COURTS.forEach(k => c.push({ lat: k.lat, lng: k.lng }));
+    return c;
+  }, [activePoints, showCourts]);
+
   const totalGeocoded = Object.values(POINTS).reduce((a, b) => a + b.length, 0);
   const totalAll = synagoguesData.length + mikvaotData.length + kosherData.length + gmachimData.length;
   const coveragePct = totalAll ? Math.round((totalGeocoded / totalAll) * 100) : 0;
+  const shownCount = activePoints.length + (showCourts ? COURTS.length : 0);
 
   return (
     <section className="livemap-section" id="livemap" data-screen-label="08 Live Map">
@@ -143,6 +249,15 @@ export function LiveMap({ t, lang }: Props) {
 
         <div className="livemap-toolbar">
           <div className="livemap-layers">
+            <button
+              className={`livemap-toggle livemap-toggle-courts ${showCourts ? 'active' : ''}`}
+              onClick={() => setShowCourts(v => !v)}
+              style={showCourts ? { borderColor: '#4a1d6e', background: '#4a1d6e', color: '#f5ede0' } : { color: '#4a1d6e' }}
+            >
+              <span className="lm-toggle-icon">✦</span>
+              <span className="lm-toggle-label">{lang === 'he' ? 'חצרות חסידיות (היסטורי)' : 'Hasidic Courts (historical)'}</span>
+              <span className="lm-toggle-count">{COURTS.length}</span>
+            </button>
             {(Object.keys(LAYERS) as Cat[]).map((key) => {
               const l = LAYERS[key];
               const count = POINTS[key].length;
@@ -161,7 +276,7 @@ export function LiveMap({ t, lang }: Props) {
             })}
           </div>
           <div className="livemap-stats">
-            <strong>{activePoints.length}</strong> {t.livemap.shown} ·{' '}
+            <strong>{shownCount}</strong> {t.livemap.shown} ·{' '}
             <span title={`${totalGeocoded} / ${totalAll} מ-1408 ערכים מוקמו`}>{coveragePct}% {t.livemap.coverage}</span>
           </div>
         </div>
@@ -207,18 +322,30 @@ export function LiveMap({ t, lang }: Props) {
                 </Popup>
               </CircleMarker>
             ))}
-            <FitBounds activePoints={activePoints} />
+
+            {showCourts && COURTS.map((c) => {
+              const st = courtStyle(c);
+              return (
+                <CircleMarker
+                  key={c.id}
+                  center={[c.lat, c.lng]}
+                  radius={st.radius}
+                  pathOptions={{ color: st.color, fillColor: st.fillColor, fillOpacity: st.fillOpacity, weight: st.weight, dashArray: st.dashArray }}
+                >
+                  <Popup maxWidth={340} minWidth={280}>
+                    <CourtPopup c={c} lang={lang} />
+                  </Popup>
+                </CircleMarker>
+              );
+            })}
+
+            <FitBounds coords={boundsCoords} />
           </MapContainer>
         </div>
 
-        {totalGeocoded === 0 && (
-          <div className="livemap-empty">
-            {t.livemap.geocoding}
-          </div>
-        )}
-
         <div className="livemap-source">
           {t.livemap.source}: <a href="https://www.openstreetmap.org/" target="_blank" rel="noreferrer">OpenStreetMap</a> · Nominatim geocoding
+          {' · '}{lang === 'he' ? 'חצרות חסידיות: מחקר עצמאי על בסיס ד"ר מיכל גלטר ומפת המקור' : 'Hasidic courts: independent research after Dr. Michal Glatter & the source map'}
         </div>
       </div>
     </section>

@@ -179,7 +179,7 @@ export const CONTENT: ContentTree = {
     livemap: {
       kicker: "גיאוגרפיה · מפה חיה",
       title: "המפה החיה של תל אביב הדתית",
-      lede: "כל הערכים במדריך — בתי כנסת, מקוואות, מסעדות כשרות וגמ\"חים — מסומנים על המפה האמיתית של העיר. נקודות גדולות יותר וכהות יותר = יש להם 'הידעת?' היסטורי.",
+      lede: "שכבת ברירת המחדל: ~100 חצרות חסידיות היסטוריות (1940–1965) — שטיבלעך, בתי מדרש וישיבות — כל נקודה עם חסידות, אדמו\"ר, סיפור, מקורות ותג-ביטחון, מחקר עצמאי על בסיס ד\"ר מיכל גלטר. ניתן להוסיף גם את שכבות המדריך: בתי כנסת, מקוואות, מסעדות כשרות וגמ\"חים.",
       shown: "נקודות מוצגות",
       coverage: "כיסוי",
       geocoding: "המיפוי הגיאוגרפי בתהליך — חזור בעוד כמה דקות.",
@@ -370,7 +370,7 @@ export const CONTENT: ContentTree = {
     livemap: {
       kicker: "Geography · Living Map",
       title: "The Living Map of Religious Tel Aviv",
-      lede: "Every directory entry — synagogues, mikvaot, kosher restaurants, gemachs — pinned on the real city map. Larger, darker dots have a historical 'Did you know?' attached.",
+      lede: "Default layer: ~100 historical Hasidic courts (1940–1965) — shtiblech, study houses and yeshivas — each pin with dynasty, rebbe, story, sources and a confidence badge; independent research after Dr. Michal Glatter. You can also add the directory layers: synagogues, mikvaot, kosher restaurants and gemachs.",
       shown: "points shown",
       coverage: "coverage",
       geocoding: "Geographic mapping in progress — please come back in a few minutes.",

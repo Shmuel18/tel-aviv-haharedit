@@ -85,6 +85,40 @@ export interface GeoCoord {
 
 export type GeocodedMap = Record<string, GeoCoord | null>;
 
+// ===== Hasidic courts (historical research layer) =====
+
+export interface CourtSource { title: string; url: string; publisher?: string; }
+export interface CourtImage { url: string; license: string; source: string; caption?: string; }
+
+export type CourtLayer = 'shtibel' | 'beit-midrash' | 'yeshiva';
+export type CourtStatus = 'active' | 'closed' | 'demolished' | 'moved' | 'unknown';
+export type CourtConfidence = 'high' | 'medium' | 'low';
+export type CourtMapError = 'none' | 'wrong-number' | 'wrong-dynasty' | 'not-a-synagogue' | 'unverifiable' | 'relocated';
+
+export interface HasidicCourt {
+  id: string;
+  name_he: string;
+  dynasty: string;
+  dynastyShort: string;
+  layer: CourtLayer;
+  lat: number;
+  lng: number;
+  address: string;
+  mapAddress: string;
+  founder: string;
+  year: string;
+  dynastyBackground_he: string;
+  story_he: string;
+  significance_he: string;
+  glatterMatch_he: string;
+  status: CourtStatus;
+  confidence: CourtConfidence;
+  verdict: string;
+  mapError: CourtMapError;
+  sources: CourtSource[];
+  image: CourtImage | null;
+}
+
 // ===== Localized content tree =====
 
 export type Lang = 'he' | 'en';
