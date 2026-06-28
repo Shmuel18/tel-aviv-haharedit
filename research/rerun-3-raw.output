@@ -1,0 +1,383 @@
+{
+  "summary": "Full run: research ~100 Hasidic Tel Aviv sites using Glatter archival source as primary + web enrichment, each adversarially verified",
+  "agentCount": 7,
+  "logs": [
+    "Glatter index built: 55 institutions"
+  ],
+  "result": [
+    {
+      "site": {
+        "name": "לבונטין 14 - גור",
+        "dynasty": "גור",
+        "address": "לבונטין 14, תל אביב",
+        "layer": "בתי כנסת ושטיבלך",
+        "lat": 32.06184,
+        "lng": 34.77569,
+        "note": ""
+      },
+      "research": {
+        "name": "לבונטין 14 - גור (לא אומת)",
+        "dynasty": "גור",
+        "dynastyBackground_he": "חסידות גור היא מהחצרות החסידיות הגדולות ביותר בעולם, שמקורה בעיירה גור (גורא קלוואריה) שבפולין. החצר נוסדה במאה ה-19 על ידי רבי יצחק מאיר אלתר, בעל \"חידושי הרי\\\"ם\". בתקופת הנדונה (1940-1965) עמד בראש החסידות רבי אברהם מרדכי אלתר (\"אמרי אמת\"), ולאחריו רבי ישראל אלתר (\"בית ישראל\"). בתל אביב היה גרעין חסידי גור הגדול ביותר מבין החצרות בעיר; לפי מדד גלאטר הגיעו חסידי גור ל-16 בתי תפילה בראשית תש\\\"ך (1960), והפעילו את ישיבת חידושי הרי\\\"ם ואת קופת גמ\\\"ח \"אחינו חסידי גור\". האדמו\\\"ר עצמו ישב בירושלים, ותל אביב שימשה מרכז חסידי משני. חשוב להבחין בין החצר העולמית לבין בית התפילה המקומי הספציפי הנדון כאן.",
+        "story_he": "לא נמצא כל ביסוס – לא במדד גלאטר ולא במקורות הרשת – לקיומו של שטיבל או בית כנסת של חסידי גור (או של חסידות כלשהי) ברחוב לבונטין 14 בתל אביב. הכתובת לבונטין 14 מזוהה היטב כ\"בית סטרלינג\" – בניין מגורים ומסחר היסטורי בסגנון אקלקטי שתוכנן על ידי האדריכל יהודה מגידוביץ' בשנת 1926 עבור צבי סטרלינג, סמוך לגן החשמל בשכונה שנקראה אז \"רמת השרון\" (כיום \"מתחם לבונטין\"). הבניין שופץ סביב 2009 והוסב לשבע דירות מגורים ושתי חנויות עם מעלית. אין באף מקור שנבדק אזכור של בית כנסת או שטיבל גור בכתובת זו. לעומת זאת, בית הכנסת הרשמי של חסידי גור בתל אביב, כפי שמופיע במועצה הדתית תל אביב-יפו, נמצא ברחוב פיירברג 17 (נוסח אשכנז), ולא ברחוב לבונטין. מקורות עבריים מתעדים שטיבל גור מוקדם ברחוב התבור, את ישיבת חידושי הרי\\\"ם שעברה לרחוב פרץ 12, ובית כנסת גור ברחוב אחד העם שעבר לימים לרחוב פיירברג – אך אף לא אחד מהם קשור לרחוב לבונטין.",
+        "significance_he": "אין משמעות חסידית ידועה לכתובת לבונטין 14 – זהו בניין מורשת אדריכלי (בית סטרלינג, מגידוביץ' 1926) ולא מוסד דתי. הסימון במפה ככל הנראה שגוי. המשמעות ההיסטורית האמיתית של נוכחות גור בתל אביב מתמקדת ברחובות אחרים: התבור, פרץ 12 (ישיבת חידושי הרי\\\"ם), אחד העם ופיירברג 17.",
+        "glatterMatch_he": "מדד גלאטר מתעד את חסידי גור כ\"גרעין החסידי הגדול ביותר... אשר הגיע ל-16 בתי תפילה בראשית תש\\\"ך (1960)\", יחד עם ישיבת חידושי הרי\\\"ם וקופת גמ\\\"ח \"אחינו חסידי גור\". אסמכתא ארכיונית: אעת\\\"א, חטיבה 8, מיכל 2331, תיק 30-1960-2; גנזך קידוש השם, ש-22-1-ב. כמו כן מוזכר ש\"במעמד השתתף גם האדמו\\\"ר ישראל אלתר מגור\". חשוב: גלאטר אינו נוקב באף רחוב או מספר בית עבור גור, ובוודאי שאינו מזכיר את רחוב לבונטין. לפיכך הכתובת לבונטין 14 אינה נתמכת על ידי גלאטר כלל.",
+        "founder": "",
+        "foundingYear": "unknown",
+        "address": "לבונטין 14, תל אביב",
+        "correctedAddress": "פיירברג 17, תל אביב (בית הכנסת הרשמי של חסידי גור לפי המועצה הדתית ת\"א-יפו; לבונטין 14 הוא \"בית סטרלינג\", בניין מגורים היסטורי)",
+        "currentStatus": "unknown",
+        "mapErrorFlag": "not-a-synagogue",
+        "confidence": "low",
+        "images": [],
+        "sources": [
+          {
+            "title": "חסידי גור – המועצה הדתית תל אביב יפו (בית הכנסת בפיירברג 17)",
+            "url": "https://rabanut.co.il/synagogue/%D7%97%D7%A1%D7%99%D7%93%D7%99-%D7%92%D7%95%D7%A8/",
+            "publisher": "המועצה הדתית תל אביב-יפו"
+          },
+          {
+            "title": "בית סטרלינג – רחוב לבונטין 14 – תל אביב",
+            "url": "https://golden-lotus.co.il/sterling/",
+            "publisher": "לוטוס הזהב / מתחם לבונטין"
+          },
+          {
+            "title": "רח׳ לבונטין – רחובות תל-אביב",
+            "url": "https://tlv-streets.yonbergman.com/street/45-levontin",
+            "publisher": "רחובות תל-אביב (יון ברגמן)"
+          },
+          {
+            "title": "ישיבת חידושי הרי\"ם (גור) – ויקיפדיה",
+            "url": "https://he.wikipedia.org/wiki/%D7%99%D7%A9%D7%99%D7%91%D7%AA_%D7%97%D7%99%D7%93%D7%95%D7%A9%D7%99_%D7%94%D7%A8%D7%99%22%D7%9D",
+            "publisher": "ויקיפדיה העברית"
+          },
+          {
+            "title": "חסידות גור – ויקיפדיה",
+            "url": "https://he.wikipedia.org/wiki/%D7%97%D7%A1%D7%99%D7%93%D7%95%D7%AA_%D7%92%D7%95%D7%A8",
+            "publisher": "ויקיפדיה העברית"
+          }
+        ],
+        "gaps": "לא נמצאה כל ראיה לקיום שטיבל/בית כנסת גור ברחוב לבונטין 14. הכתובת מזוהה כ\"בית סטרלינג\" – בניין מגורים ומסחר היסטורי (מגידוביץ' 1926), לא מוסד דתי. בית הכנסת הרשמי של חסידי גור בת\"א נמצא בפיירברג 17 לפי המועצה הדתית, ומקורות נוספים מצביעים על רחובות התבור, פרץ 12 ואחד העם. ייתכן שעורך המפה התבלבל בין רחובות או הזין כתובת שגויה. מדד גלאטר אינו נוקב במספר בית או רחוב כלשהו עבור גור, ואינו מזכיר את לבונטין. ה-lat/lng במפה (32.06184, 34.77569) אכן נופלים באזור מתחם לבונטין/גן החשמל – אזור היסטורי אך ללא בית כנסת גור ידוע. לא צורפה תמונת אדמו\\\"ר משום שלא ניתן לשייך אדמו\\\"ר ספציפי לכתובת זו, והכתובת עצמה אינה מאומתת כמוסד חסידי. נדרשת בדיקה ישירה בארכיון תיקי הבניין של תל אביב (את\\\"ב) או במקור המפה הקהילתי כדי לאשש/להפריך סופית."
+      },
+      "verdict": {
+        "overallVerdict": "solid",
+        "addressCheck": "NO — neither Glatter nor any web source places a Gur shtiebel/synagogue at Levontin 14. The Glatter index entry for Gur contains NO street and NO house number at all — only \"16 בתי תפילה בראשית תש\\\"ך (1960)\", the Chidushei HaRim yeshiva, and the \"אחינו חסידי גור\" gemach (ref אעת\"א, חטיבה 8, מיכל 2331, תיק 30-1960-2). So Glatter affirmatively does NOT support Levontin 14, and cannot support the corrected address either — Fierberg 17 comes only from the Tel Aviv-Jaffa Religious Council (rabanut.co.il), which I confirmed lists \"חסידי גור\" at \"פיירברג 17, לב העיר\", nusach Ashkenaz, gabbai Shlomo Schwartz. Levontin 14 is independently confirmed as \"Beit Sterling,\" a 1926 Magidovitch eclectic residential/commercial building (golden-lotus.co.il), with no religious use. The map pin (32.06184, 34.77569) falls in the Levontin/Gan HaHashmal area, consistent with Beit Sterling but unrelated to Gur. The mapErrorFlag \"not-a-synagogue\" and confidence \"low\" are correct.",
+        "sourceQuality": "High and honest. All 5 cited URLs resolve and genuinely support their claims: (1) rabanut.co.il confirms Gur at Fierberg 17, nusach Ashkenaz; (2) golden-lotus.co.il confirms Beit Sterling, Magidovitch, 1926, Tzvi Sterling, restored 2009 into 7 apartments + 2 shops, NO synagogue; (3) tlv-streets.yonbergman.com is about Z.D. Levontin the man, mentions no synagogue on Levontin (only the Great Synagogue on Allenby), consistent with the claim; (4)+(5) Hebrew Wikipedia on Chidushei HaRim yeshiva and Gur Hasidism corroborate the dynasty background. Independent search confirmed the yeshiva began in the Gur shtiebel on HaTavor St, moved to Peretz 12 in 1939 (building inaugurated 1953), and that Gur's TA institutions are on Bar-Ilan, Fierberg and Yavne — matching the research. No fabricated or dead URLs found.",
+        "corrections": "The research is a correct DEBUNK and needs no factual correction — its conclusion (Levontin 14 is not a Gur institution; it is Beit Sterling) is right. One nuance to tighten: the \"correctedAddress\" should NOT be presented as Glatter-supported. Glatter gives no address for Gur at all; Fierberg 17 is sourced solely from the present-day Religious Council — a contemporary administrative listing, not Glatter, and not necessarily the 1940-1965 location. On the period framing: Imrei Emet led 1940-1948 (died Shavuot 5708/1948), Beit Yisrael succeeded 1948-1965 — the dynastyBackground states this correctly. Founder empty and foundingYear \"unknown\" are appropriate since no institution exists at this address. No anachronisms or conflations introduced by the research.",
+        "dynastyCheck": "Dynasty attribution to גור (Gur/Ger) is historically accurate: founded 1859 by Rabbi Yitzchak Meir Alter (Chidushei HaRim) in Góra Kalwaria, Poland; led 1940-1948 by Avraham Mordechai Alter (Imrei Emet), then Israel Alter (Beit Yisrael) from 1948. Rebbe sat in Jerusalem; Tel Aviv a secondary center. Confirmed via Hebrew Wikipedia. BUT the dynasty is NOT tied to Levontin 14 — the attribution is only to the dynasty's general TA presence, not this address.",
+        "founderCheck": "No founder is claimed (founder field empty) — correct, because no Gur institution is verified at Levontin 14. The dynasty founder (Yitzchak Meir Alter, Chidushei HaRim, 1859) is real and correctly described in the background, and is NOT falsely attached to this address. No fabricated founder.",
+        "foundingYearCheck": "foundingYear \"unknown\" is correct and defensible — no Gur institution exists at Levontin 14. Beit Sterling itself dates to 1926 (Magidovitch), confirmed, but that is a residential building, not the claimed religious institution. The Glatter \"1960\" figure refers to Gur reaching 16 prayer houses citywide, not to any Levontin address.",
+        "imageCheck": "No images claimed (images array empty), correct and appropriately cautious — the research explicitly notes it did not attach a rebbe portrait because no specific rebbe can be tied to this unverified address. No fabricated image URLs, no gravestone-as-portrait errors. Nothing to flag.",
+        "flaggedClaims": [
+          "correctedAddress phrasing risks implying Glatter supports Fierberg 17 — Glatter gives NO address for Gur; Fierberg 17 is sourced only from the present-day Religious Council and may not reflect the 1940-1965 location.",
+          "The map pin label 'לבונטין 14 - גור' is the core error being debunked: coordinates land at Beit Sterling, a 1926 residential building, with zero evidence of Gur/Hasidic use — correctly flagged not-a-synagogue.",
+          "Minor: the period header '(1940-1965)' should be read as Imrei Emet 1940-1948 then Beit Yisrael 1948-1965; the JSON background states this correctly but the split is worth making explicit."
+        ]
+      }
+    },
+    {
+      "site": {
+        "name": "מרכז בעלי מלאכה 39 - גור/סקווירה",
+        "dynasty": "גור/סקווירה",
+        "address": "מרכז בעלי מלאכה 39, תל אביב",
+        "layer": "בתי כנסת ושטיבלך",
+        "lat": 32.06957,
+        "lng": 34.77515,
+        "note": ""
+      },
+      "research": {
+        "name": "מרכז בעלי מלאכה 39 - גור/סקווירה (לא אומת)",
+        "dynasty": "גור/סקווירה (לא אומת)",
+        "dynastyBackground_he": "חסידות גור היא מהחצרות החסידיות הגדולות, שמקורה בעיירה גורא קלוואריה (גור) שבפולין, ומשפחת אלתר עומדת בראשה. בתל אביב התרכזו חסידי גור בלב העיר מאז שנות העשרים, ובראשית תש\"ך (1960) הם היו הגרעין החסידי הגדול ביותר בעיר עם כ-16 בתי תפילה, ישיבת חידושי הרי\"ם וקופת גמ\"ח 'אחינו חסידי גור' (לפי מפתח גלאטר; אעת\"א, חטיבה 8, מיכל 2331, תיק 30-1960-2; גנזך קידוש השם ש-22-1-ב). חסידות סקווירא היא ענף של שושלת צ'רנוביל שמקורה בעיר סקווירא שבאוקראינה ובראשה משפחת טברסקי. קהילותיה בארץ ישראל (ירושלים, בני ברק, ביתר עילית ובית שמש) התפתחו רק החל משנות התשעים, ולא היה לה מרכז היסטורי בתל אביב לפני 1980.",
+        "story_he": "לא נמצא כל מקור — לא במפתח גלאטר ולא ברשת — המעיד על קיומו של שטיבל או בית כנסת חסידי בכתובת 'מרכז בעלי מלאכה 39, תל אביב'. 'מרכז בעלי מלאכה' היא שכונה ורחוב בלב תל אביב, שנוסדו בשנים 1912–1913 בידי בעלי מלאכה ובראשם מתתיהו וינוקור ומנחם שיינקין. בית הכנסת היחיד המתועד ברחוב זה הוא בית הכנסת המרכזי 'גאולת ישראל' בכתובת מרכז בעלי מלאכה 16 (לא 39), שנוסד ב-1927 באופי אשכנזי-ציוני כללי ומבנה הקבע נחנך ב-1937; מאז 1990 הוא בבעלות חסידות חב\"ד — ואין לו כל קשר לגור או לסקווירא. ביחס למספר 39 עצמו, מקורות נדל\"ן ועירוניים מתארים בניין מגורים בן 15 יחידות דיור שעבר שיפוץ חזיתות במסגרת התחדשות עירונית, ולא מוסד דת. חסידי גור בלב העיר מתועדים בכתובות אחרות (בית הכנסת/שטיבלאך גור ברחוב פיירברג 17, וכן שטיבלים ברחובות רש\"י, מלצר ועוד), ולא ברחוב מרכז בעלי מלאכה. סקווירא כלל לא נכחה בתל אביב היסטורית.",
+        "glatterMatch_he": "במפתח גלאטר אין כל רישום לכתובת 'מרכז בעלי מלאכה' או למספר 39, ואין בו כלל ערך לחסידות סקווירא בתל אביב. הערך היחיד הקרוב הוא ערך כללי לחסידות גור — ללא רחוב ומספר בית — המתאר 'בתי תפילה / שטיבלך (16 בתי תפילה בראשית תש\"ך 1960); ישיבת חידושי הרי\"ם; קופת גמ\"ח אחינו חסידי גור' (אעת\"א, חטיבה 8, מיכל 2331, תיק 30-1960-2; גנזך קידוש השם, ש-22-1-ב), וכן ערך נפרד 'גור / רבי ישראל אלתר — מרכז חסידי בעיר (האדמו\"ר ישב בירושלים)'. אף אחד מהם אינו מקשר את גור לכתובת זו, ואין במפתח שום אסמכתא ארכיונית לאתר חסידי במרכז בעלי מלאכה 39.",
+        "significance_he": "לא ניתן לייחס משמעות חסידית לכתובת זו. הכתובת 'מרכז בעלי מלאכה 39' היא בניין מגורים, ולא נמצא בה בית כנסת או שטיבל חסידי כלשהו. הייחוס למפה (גור/סקווירה) אינו נתמך בשום מקור: לסקווירא לא היה מרכז בתל אביב לפני 1980, ומרכזי גור בלב העיר היו ברחובות אחרים (פיירברג 17, רש\"י, מלצר). נראה כי רישום זה במפה הקהילתית שגוי או מבלבל בין הרחוב לבית הכנסת 'גאולת ישראל' (במספר 16, חב\"ד מ-1990) שאף הוא אינו גור/סקווירא.",
+        "mapErrorFlag": "not-a-synagogue",
+        "sources": [
+          {
+            "title": "מרכז בעלי מלאכה (שכונה) – ויקיפדיה",
+            "url": "https://he.wikipedia.org/wiki/%D7%9E%D7%A8%D7%9B%D7%96_%D7%91%D7%A2%D7%9C%D7%99_%D7%9E%D7%9C%D7%90%D7%9B%D7%94_(%D7%A9%D7%9B%D7%95%D7%A0%D7%94)"
+          },
+          {
+            "title": "בית כנסת גאולת ישראל – ויקיפדיה",
+            "url": "https://he.wikipedia.org/wiki/%D7%91%D7%99%D7%AA_%D7%9B%D7%A0%D7%A1%D7%AA_%D7%92%D7%90%D7%95%D7%9C%D7%AA_%D7%99%D7%A9%D7%A8%D7%90%D7%9C"
+          },
+          {
+            "title": "מרכז בעלי מלאכה 39 | עזרה ובצרון (פרויקט שיפוץ בניין מגורים)",
+            "url": "https://www.e-b.co.il/projects/%D7%9E%D7%A8%D7%9B%D7%96-%D7%91%D7%A2%D7%9C%D7%99-%D7%9E%D7%9C%D7%90%D7%9B%D7%94-39/"
+          },
+          {
+            "title": "חסידות סקווירה – ויקיפדיה",
+            "url": "https://he.wikipedia.org/wiki/%D7%97%D7%A1%D7%99%D7%93%D7%95%D7%AA_%D7%A1%D7%A7%D7%95%D7%95%D7%99%D7%A8%D7%90"
+          },
+          {
+            "title": "חסידי גור < המועצה הדתית תל אביב יפו (פיירברג 17)",
+            "url": "https://rabanut.co.il/synagogue/%D7%97%D7%A1%D7%99%D7%93%D7%99-%D7%92%D7%95%D7%A8/"
+          },
+          {
+            "title": "חסידות גור – ויקיפדיה",
+            "url": "https://he.wikipedia.org/wiki/%D7%97%D7%A1%D7%99%D7%93%D7%95%D7%AA_%D7%92%D7%95%D7%A8"
+          }
+        ],
+        "confidence": "low",
+        "gaps": "לא נמצא כל מקור (לא בגלאטר ולא ברשת) המאשר קיום בית כנסת או שטיבל חסידי בכתובת מרכז בעלי מלאכה 39. מקורות נדל\"ן מצביעים על בניין מגורים בן 15 יח\"ד שעבר התחדשות עירונית בכתובת זו. הייחוס במפה ל'גור/סקווירה' אינו נתמך: סקווירא כלל לא נכחה בתל אביב לפני 1980 (קהילותיה בישראל מאז שנות התשעים בלבד), וגור התרכזה ברחובות אחרים בלב העיר (פיירברג 17, רש\"י, מלצר). ייתכן בלבול עם בית הכנסת 'גאולת ישראל' ברחוב זה במספר 16 (חב\"ד מ-1990, אשכנזי-ציוני במקור), שאף הוא אינו גור/סקווירא. לא נכלל דיוקן אדמו\"ר משום שלא מזוהה אדמו\"ר או חצר ספציפיים עם כתובת זו. נדרשת בדיקה ארכיונית ישירה (את\"ב — ארכיון תיקי הבניין של תל אביב) לאתר 39 כדי לשלול לחלוטין שימוש דתי כלשהו בעבר; הסבירות נמוכה.",
+        "correctedAddress": "",
+        "currentStatus": "unknown",
+        "images": []
+      },
+      "verdict": {
+        "overallVerdict": "likely-fabricated",
+        "addressCheck": "NO support for a Hasidic institution at \"מרכז בעלי מלאכה 39\". Both the open web and the Glatter index confirm this. (1) e-b.co.il documents number 39 as a 15-unit RESIDENTIAL building that underwent a facade renovation under urban-renewal — no synagogue/shtiebel. (2) The only documented synagogue on this street is Geulat Israel at number 16 (NOT 39), confirmed via he.wikipedia: founded 1937 (fundraising from 1933), originally Ashkenazi-Zionist/general in character, and Chabad-owned since 1990 — it has no link to Gur or Skver. (3) The Glatter index supplied contains NO entry for \"מרכז בעלי מלאכה\" and NO house number 39 anywhere. Glatter therefore does NOT override the open-web reasoning here — it AGREES with it. The \"39\" attribution appears to be a map error, most plausibly a confusion with Geulat Israel at #16.",
+        "sourceQuality": "Mixed but adequate, and honestly disclosed. The cited URLs resolve and genuinely support the research: he.wikipedia \"מרכז בעלי מלאכה (שכונה)\", he.wikipedia \"בית כנסת גאולת ישראל\" (confirms #16, 1937, Ashkenazi-Zionist, Chabad since 1990), e-b.co.il (confirms #39 = 15-unit residential renovation), he.wikipedia \"חסידות סקווירא\", rabanut.co.il \"חסידי גור\" (confirms Gur synagogue at Feierberg 17, no Merkaz Baalei Melakha), and he.wikipedia \"חסידות גור\". The Glatter archival refs (אעת\"א חטיבה 8 מיכל 2331 תיק 30-1960-2; גנזך קידוש השם ש-22-1-ב) are reproduced faithfully from the index but are dynasty-level only and do NOT cite this address. No fabricated/dead URLs detected. No image URLs to verify (images array empty — correct).",
+        "corrections": "1) DELETE the address-level institution: there is no Gur or Skver synagogue at Merkaz Baalei Melakha 39 — it is a residential building. 2) If the map intended a real synagogue on this street, the correct entry is Geulat Israel at Merkaz Baalei Melakha 16 — Ashkenazi-Zionist (founded 1937), Chabad-owned since 1990 — NOT Gur and NOT Skver. 3) Gur's Tel Aviv presence should be mapped at Feierberg 17 (and Rashi/Meltzer area), not here. 4) SOFTEN the absolute claim that \"Skver had no presence in Tel Aviv before 1980 / was entirely absent historically\": he.wikipedia documents a \"Rebbe of Skver–Tel Aviv\" (Rabbi Yitzchak Twersky) who resided in Tel Aviv at the end of his life (he emigrated to the US in 1926, Bronx, then Tel Aviv) — an individual rebbe's late-life residence, NOT a community center, and NOT tied to this address; organized Skver communities in Israel do date from the 1990s. 5) Keep the dual \"גור/סקווירה\" label flagged as fabricated/conflated — no source ties either dynasty to #39. 6) mapErrorFlag \"not-a-synagogue\" and confidence \"low\" are both correct and should stand.",
+        "dynastyCheck": "Dynasty attribution FAILS. The combined \"גור/סקווירה\" tag is unsupported and internally implausible: these are two unrelated courts (Gur = Alter family, Poland/Góra Kalwaria; Skver = Twersky family, Chernobyl branch, Ukraine) and no source links either to this address. Gur was real and large in central Tel Aviv but located on other streets (Feierberg 17, etc.). Skver had no community center in Tel Aviv; only an individual \"Skver–Tel Aviv\" rebbe (R. Yitzchak Twersky) lived there late in life. Pairing them at one residential address is a conflation.",
+        "founderCheck": "No founder is asserted for this address, which is correct — none exists. Neither the web nor Glatter identifies any rebbe, founder, or court at Merkaz Baalei Melakha 39. The research properly omits a founder and a portrait. (The dynasty-level figure Glatter ties to Gur in Tel Aviv is Rabbi Israel Alter, who actually sat in Jerusalem, not at this address.)",
+        "foundingYearCheck": "No founding year is asserted for the #39 institution — correct, since it does not exist as a Hasidic site. Adjacent dates that DO appear are defensible: neighborhood founded 1912–1913; Geulat Israel #16 founded 1937 (fundraising from 1933), Chabad from 1990; Gur reaching ~16 prayer houses by 1960 (תש\"ך) per Glatter; Skver organized Israeli communities from the 1990s. No anachronistic founding year is fabricated for #39 itself.",
+        "imageCheck": "No images to verify — the images array is empty, which is the correct and honest choice given no rebbe or court is identified with this address. No fabricated portrait URLs, no gravestone images. Pass.",
+        "flaggedClaims": [
+          "Address: a Gur/Skver Hasidic institution at 'מרכז בעלי מלאכה 39' — FABRICATED; #39 is a 15-unit residential building (e-b.co.il), no synagogue.",
+          "Dynasty: combined 'גור/סקווירה' label — UNSUPPORTED CONFLATION of two unrelated courts; neither tied to this address by any source.",
+          "Skver absolute absence: 'לא היה לה מרכז היסטורי בתל אביב' / 'סקווירא כלל לא נכחה בתל אביב היסטורית' — OVERSTATED; he.wikipedia documents R. Yitzchak Twersky, 'Rebbe of Skver–Tel Aviv', resident in Tel Aviv late in life (individual, not a center).",
+          "Implicit map placement equating #39 with a synagogue — likely a confusion with Geulat Israel at #16 (Ashkenazi-Zionist 1937, Chabad 1990), which is itself neither Gur nor Skver.",
+          "Glatter support: there is NO Merkaz Baalei Melakha or #39 entry and NO Skver entry in the supplied Glatter index — confirming the address is unsupported by the authoritative source as well."
+        ]
+      }
+    },
+    {
+      "site": {
+        "name": "נחמני 58 - גור/ז'ידיטשוב",
+        "dynasty": "גור/ז'ידיטשוב",
+        "address": "נחמני 58, תל אביב",
+        "layer": "בתי מדרש",
+        "lat": 32.06435,
+        "lng": 34.78007,
+        "note": ""
+      },
+      "research": {
+        "name": "נחמני 58 - גור/ז'ידיטשוב",
+        "dynasty": "גור / ז'ידיטשוב (זידיצ'וב)",
+        "dynastyBackground_he": "חסידות גור היא מהגדולות והמשפיעות בעולם החסידי, שמוצאה בעיר גורה קלוואריה (גור) שבפולין, ושושלת אדמו\"ריה מבית אלתר (\"חידושי הרי\"ם\", \"שפת אמת\", \"אמרי אמת\"). בתל אביב היו חסידי גור הגרעין החסידי הגדול ביותר בעיר, ולפי גלאטר הגיעו ל-16 בתי תפילה (שטיבלך) בראשית תש\"ך (1960), לצד ישיבת חידושי הרי\"ם וקופת גמ\"ח, אף שמרכז החסידות והאדמו\"ר (רבי ישראל אלתר, \"בית ישראל\") ישבו בירושלים. חסידות ז'ידיטשוב (זידיצ'וב) היא חסידות גליצאית עתיקה מבית רבי צבי הירש מזידיצ'וב, ענף של שושלת קומרנא-זידיצ'וב; בתל אביב היא נזכרת אצל גלאטר רק כשם ברשימת \"מרכזים חסידיים אחרים בעיר\" (נספח 4), ללא אדמו\"ר, רחוב, מספר או שנה. שילוב שתי החסידויות הללו תחת כתובת אחת אינו מוכר במקורות ונראה כשיוך שגוי במפה.",
+        "glatterMatch_he": "אין במפתח גלאטר התאמה לכתובת נחמני 58. ערך גור מופיע אצל גלאטר רק באופן כללי: \"חסידי גור שהיו הגרעין החסידי הגדול ביותר, אשר הגיע ל-16 בתי תפילה בראשית תש\"ך (1960)\" — ללא רחוב ומספר; ההפניות הארכיוניות כלליות (אעת\"א, חטיבה 8, מיכל 2331, תיק 30-1960-2; גנזך קידוש השם, ש-22-1-ב). ערך ז'ידיטשוב מופיע אצל גלאטר אך ורק כשם ברשימת נספח 4: \"מרכזים חסידיים אחרים בעיר היו עבור החסידויות האלה: ... זידיצ'וב\" — בלי אדמו\"ר, רחוב, מספר בית, שנה או הפניה ארכיונית פרטנית. גלאטר אינו קושר לא את גור ולא את ז'ידיטשוב לרחוב נחמני בכלל ולמספר 58 בפרט.",
+        "story_he": "לא נמצא תיעוד — לא אצל גלאטר ולא במקורות הרשת (עברית ואנגלית) — לבית מדרש או שטיבל של חסידי גור או ז'ידיטשוב ברחוב נחמני 58 בתל אביב. הכתובת נחמני 58 קיימת (הרחוב נמשך עד מספר 67 בערך), אך אף מדריך בתי כנסת — המועצה הדתית תל אביב-יפו (rabanut.co.il), כיפה, tlv10 — אינו מציין בה מוסד חסידי. הנוכחות החסידית המתועדת היחידה ברחוב נחמני קשורה דווקא לחצר סדיגורה: האדמו\"ר רבי אברהם יעקב פרידמן מסדיגורה התיישב ב-1937 בבניין \"בית נושא-חן\" שבפינת נחמני 27 / אחד-העם 45, וביתו שימש גם בית כנסת. בית המדרש הפעיל של חסידי גור בתל אביב רשום היום במועצה הדתית בכתובת פיירברג 17 (לב העיר), ולא ברחוב נחמני. לפיכך אין בידי לספר סיפור ייסוד אמין של מוסד גור/ז'ידיטשוב בנחמני 58, והערך נראה בלתי מאומת.",
+        "significance_he": "לא ניתן לקבוע משמעות היסטורית למוסד חסידי בכתובת נחמני 58, מאחר שלא נמצא תיעוד לקיומו. ברמה הכללית, חסידי גור היו הקיבוץ החסידי הגדול ביותר בתל אביב (16 שטיבלך ב-1960), אך ריכוזיהם המתועדים אינם בנחמני; וז'ידיטשוב הייתה נוכחות שולית בעיר ללא כתובת ידועה. הרחוב נחמני עצמו זוהה במקורות עם חצר סדיגורה (פינת אחד-העם), ולא עם גור או ז'ידיטשוב.",
+        "mapErrorFlag": "unverifiable",
+        "correctedAddress": "",
+        "currentStatus": "unknown",
+        "address": "נחמני 58, תל אביב",
+        "founder": "unknown",
+        "foundingYear": "unknown",
+        "confidence": "low",
+        "sources": [
+          {
+            "title": "חסידי גור < המועצה הדתית תל אביב יפו (בית המדרש הפעיל בפיירברג 17, לא בנחמני)",
+            "url": "https://rabanut.co.il/synagogue/%D7%97%D7%A1%D7%99%D7%93%D7%99-%D7%92%D7%95%D7%A8/",
+            "publisher": "המועצה הדתית תל אביב-יפו"
+          },
+          {
+            "title": "כשרחוב שינקין היה חרדי: החסידים של תל אביב (סדיגורה בפינת נחמני/אחד-העם)",
+            "url": "https://www.ynet.co.il/judaism/article/bkwg004azy",
+            "publisher": "ynet"
+          },
+          {
+            "title": "בית נושא-חן - תל-אביב - רחוב אחד-העם (סדיגורה בפינת נחמני 27 / אחד-העם 45)",
+            "url": "https://golden-lotus.co.il/nosse-chen/",
+            "publisher": "לוטוס הזהב"
+          },
+          {
+            "title": "רחוב נחמני, תל אביב - טווח מספרי בתים (1 עד 67, כולל 58)",
+            "url": "https://zips.co.il/street/%D7%AA%D7%9C-%D7%90%D7%91%D7%99%D7%91-%D7%99%D7%A4%D7%95/%D7%A0%D7%97%D7%9E%D7%A0%D7%99",
+            "publisher": "Zips"
+          },
+          {
+            "title": "אדמו\"רים ברחובות תל אביב, 1965-1940 (מיכל גלאטר, עיונים 36) - מקור הציטוטים על גור ועל זידיצ'וב",
+            "url": "https://in.bgu.ac.il/bgi/iyunim/36/36-Michal-Glatter.pdf",
+            "publisher": "אוניברסיטת בן-גוריון, עיונים בתקומת ישראל"
+          }
+        ],
+        "gaps": "לא נמצאה כל ראיה — בגלאטר או ברשת — לבית מדרש/שטיבל של גור או של ז'ידיטשוב בנחמני 58. גלאטר נותן לגור רק \"16 בתי תפילה\" כלליים בלי רחוב ומספר, ולז'ידיטשוב (זידיצ'וב) רק שם ברשימת נספח 4 בלי אדמו\"ר/רחוב/מספר/שנה. הכתובת נחמני 58 קיימת אך אינה מופיעה באף מדריך בתי כנסת. הנוכחות החסידית היחידה המתועדת בנחמני היא סדיגורה (פינת נחמני 27/אחד-העם 45), חסידות שונה ובמספר אחר. שילוב גור+ז'ידיטשוב באותה כתובת אינו מוכר ונראה אנומלי. לכן הערך מסומן unverifiable. לא צורפה תמונה: לא נקבע אדמו\"ר/חצר ספציפי לכתובת זו, ולכן אין דיוקן רב מאומת לקשר אליה (להבדיל מתמונה כלשהי שתהיה ספקולטיבית). נדרשת בדיקה בתיקי הבניין של עיריית תל אביב (את\"ב) לכתובת נחמני 58 כדי לאשש או להפריך."
+      },
+      "verdict": {
+        "overallVerdict": "likely-fabricated",
+        "addressCheck": "NO. Neither Glatter nor any open-web source ties Gur or Zhiditshov to Nachmani 58 (or to Nachmani street at all). The Glatter index gives Gur ONLY a generic \"16 prayer houses / shtiblech in early 1960\" entry plus Yeshivat Chidushei HaRim and a gemach — with NO street and NO house number (archival refs are city-wide: אעת\"א חטיבה 8 מיכל 2331; גנזך קדה\"ש ש-22-1-ב). Zhiditshov (זידיצ'וב) appears in Glatter ONLY as a bare name in the Appendix 4 list of \"other Hasidic centers in the city\" — no Rebbe, street, number, year, or archival reference. Unlike the institutions Glatter pins to exact house numbers via Tel Aviv Archive (את\"ב) building files (e.g. Boyhush at Rothschild 112, Munkatch at HaAvoda 15, Lelov at Mohliver 37, Stratin at Hillel HaZaken 10), Gur and Zhiditshov get NO at\"b file and NO number. The web search snippet of the Glatter PDF itself confirms only the generic \"16 prayer houses at the start of 1960\" framing with no address. So the (corrected) house number 58 is wholly unsupported. The address Nachmani 58 physically exists (street runs ~1-67), but no synagogue directory (rabanut.co.il, Kipa, tlv10) lists any Hasidic institution there.",
+        "sourceQuality": "Mixed but the cited sources are real and the negative-evidence reasoning is sound. The Glatter article (Iyunim b'Tekumat Yisrael 36, BGU) is a genuine peer-reviewed academic source and resolves in search (title confirmed: \"אדמו\"רים ברחובות תל אביב 1940-1965\"); the direct PDF fetch was blocked by the server (ECONNREFUSED) but its content is corroborated by the search snippet (Gur = largest nucleus, 16 prayer houses early 1960) and matches the supplied authoritative index. rabanut.co.il confirms the ACTIVE Gur beit midrash is at Feierberg 17, NOT Nachmani — directly undercutting a Nachmani attribution. ynet and golden-lotus independently confirm the only documented Hasidic presence on Nachmani is Sadigura (corner Nachmani 27 / Achad Ha'am 45, from 1937), a DIFFERENT court at a DIFFERENT number. Zips confirms the house-number range. Dynasty backgrounds independently verified via Hebrew Wikipedia/Hamichlol: Gur (Alter dynasty, Gora Kalwaria, Chidushei HaRim/Sfat Emet/Imrei Emet/Beit Yisrael=R'Yisrael Alter, center in Jerusalem) and Zhiditshov (R'Tzvi Hirsch Eichenstein, Galicia, sibling branch of Komarno) are both accurate.",
+        "corrections": "1) DELETE or downgrade this entry to non-existent: no founder, year, or address can be sustained for a Gur/Zhiditshov institution at Nachmani 58. The \"unverifiable\" flag is correct; arguably it should be \"likely map error / fabrication.\" 2) The DYNASTY ATTRIBUTION is internally incoherent: combining Gur (Polish, Alter dynasty) and Zhiditshov (Galician, Eichenstein/Komarno branch) under one address is an anomalous conflation found in NO source — these are unrelated courts and would never share a single beit midrash. 3) founder=unknown and foundingYear=unknown are the only defensible values (do not invent any). 4) If the map intended a real Nachmani Hasidic site, the correct attribution is SADIGORA at the corner of Nachmani 27 / Achad Ha'am 45 (Rebbe Avraham Yaakov Friedman, settled 1937, \"Beit Nose-Chen\") — a different dynasty and a different number; do not silently relabel #58 as #27. 5) The active Gur beit midrash today is Feierberg 17, not Nachmani. 6) Correctly, NO portrait image was attached; that restraint is appropriate since no specific Rebbe is tied to this address — adding any portrait would be speculative. 7) Recommended next step matches the research: pull the את\"ב (Tel Aviv building-file) record for Nachmani 58 to confirm it was never a Hasidic site.",
+        "dynastyCheck": "Both dynasties are real and accurately described individually, BUT pairing them at one address is unsupported and conflated. Gur: correctly the Alter dynasty from Gora Kalwaria (Chidushei HaRim, Sfat Emet, Imrei Emet, Beit Yisrael = R' Yisrael Alter), largest Hasidic group in TA, center/Rebbe in Jerusalem — all verified. Zhiditshov: correctly an old Galician court of R' Tzvi Hirsch (Eichenstein) of Zhiditshov, sibling branch of Komarno-Zhiditshov — verified. No source links the two together or to Nachmani 58.",
+        "foundingYearCheck": "No founding year is asserted (foundingYear=unknown), which is correct — no source provides one for Nachmani 58. The only year Glatter gives Gur is 1960 (the city-wide \"16 prayer houses\" snapshot), which is NOT a founding date for any address. Zhiditshov has no year in Glatter at all. The \"1937\" that appears in the research text belongs to Sadigura's Nachmani-27 residence, not to this entry.",
+        "founderCheck": "founder=unknown is correct and defensible. No source names any founder of a Gur or Zhiditshov institution at Nachmani 58. The dynasty-level Rebbes are real (R' Yisrael Alter of Gur, in Jerusalem; R' Tzvi Hirsch of Zhiditshov, 19th c. Galicia) but neither is tied to this address. No fabricated founder was asserted — good.",
+        "imageCheck": "No image was attached, which is the correct call. Since no specific Rebbe or court is tied to Nachmani 58, any portrait would be speculative/misleading. No fabricated image URL is present to flag.",
+        "flaggedClaims": [
+          "CONFLATION: Gur (Polish/Alter) + Zhiditshov (Galician/Eichenstein-Komarno) merged under one address — unsupported by any source.",
+          "UNSUPPORTED ADDRESS: Nachmani 58 is tied to neither dynasty in Glatter; Glatter gives Gur no street/number and Zhiditshov only a bare Appendix-4 name.",
+          "GEOGRAPHIC MISMATCH: the only documented Hasidic presence on Nachmani is Sadigora at corner Nachmani 27 / Achad Ha'am 45 (1937) — a different court at a different number; risk of the map conflating #27 Sadigora with a phantom #58 Gur/Zhiditshov.",
+          "RED HERRING ACTIVE SITE: the real active Gur beit midrash is at Feierberg 17 (rabanut.co.il), not Nachmani — further evidence #58 is spurious.",
+          "SOURCE-ACCESS CAVEAT: the Glatter PDF could not be fetched directly (server ECONNREFUSED); content confirmed via search snippet and the supplied index rather than full-text read."
+        ]
+      }
+    }
+  ],
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Glatter index"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Research"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 3,
+      "title": "Verify"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "glatter-index",
+      "phaseIndex": 1,
+      "phaseTitle": "Glatter index",
+      "agentId": "ae63a4dbe6e36a25e",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782625859215,
+      "queuedAt": 1782625859131,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "promptPreview": "You are extracting a structured index from an authoritative Hebrew academic source: Michal Glatter, \"Admorim in the streets of Tel Aviv 1940-1965\" (Bar-Ilan / Iyunim journal), including its appendices 1-4 (maps of Hasidic centers in 1940/1949/1965 and a table of Tel Aviv rebbes with dynasty, origin town and arrival year). The text was extracted from PDF and Hebrew word-order within a line may be i…",
+      "lastProgressAt": 1782625972290,
+      "tokens": 75871,
+      "toolCalls": 1,
+      "durationMs": 113074,
+      "resultPreview": "{\"institutions\":[{\"dynasty\":\"מודז'יץ\",\"rebbe\":\"רבי שמואל אליהו טאוב\",\"street\":\"דיזנגוף\",\"number\":\"36\",\"year\":\"1936\",\"origin\":\"קראטשוב\",\"type\":\"בית מדרש / מרכז חסידות\",\"archivalRef\":\"את\\\"ב, תיק 1870360, מסמכים 190260, 190293, 190295, 190569, 190567\",\"quote\":\"מרכז חסידות מודז'יץ בראשות האדמו\\\"ר שמואל אליהו טאוב ברחוב דיזנגוף 36 נבנה מראש לפי תכניות לבית מדרש גדול\"},{\"dynasty\":\"מודז'יץ\",\"rebbe\":\"רבי …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "research:גור",
+      "phaseIndex": 2,
+      "phaseTitle": "Research",
+      "agentId": "acb866f77fa2e768f",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782625972361,
+      "queuedAt": 1782625972301,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "לבונטין 14 - גור (לא אומת)",
+      "promptPreview": "First call ToolSearch with query \"select:WebSearch,WebFetch\" to load web tools, then use WebSearch and WebFetch. You are a meticulous historian of Hasidic Tel Aviv before 1980. Research ONE institution and return structured data.\n\nTARGET (from a community-made map; its address/dynasty MAY contain errors):\n{\"name\":\"לבונטין 14 - גור\",\"dynasty\":\"גור\",\"address\":\"לבונטין 14, תל אביב\",\"layer\":\"בתי כנסת …",
+      "lastProgressAt": 1782626186363,
+      "tokens": 41706,
+      "toolCalls": 13,
+      "durationMs": 214002,
+      "resultPreview": "{\"name\":\"לבונטין 14 - גור (לא אומת)\",\"dynasty\":\"גור\",\"dynastyBackground_he\":\"חסידות גור היא מהחצרות החסידיות הגדולות ביותר בעולם, שמקורה בעיירה גור (גורא קלוואריה) שבפולין. החצר נוסדה במאה ה-19 על ידי רבי יצחק מאיר אלתר, בעל \\\"חידושי הרי\\\\\\\"ם\\\". בתקופת הנדונה (1940-1965) עמד בראש החסידות רבי אברהם מרדכי אלתר (\\\"אמרי אמת\\\"), ולאחריו רבי ישראל אלתר (\\\"בית ישראל\\\"). בתל אביב היה גרעין חסידי גור הגדול…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "research:גור/סקווירה",
+      "phaseIndex": 2,
+      "phaseTitle": "Research",
+      "agentId": "aecf8da774e3c437a",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782625972362,
+      "queuedAt": 1782625972302,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "מרכז בעלי מלאכה 39 - גור/סקווירה (לא אומת)",
+      "promptPreview": "First call ToolSearch with query \"select:WebSearch,WebFetch\" to load web tools, then use WebSearch and WebFetch. You are a meticulous historian of Hasidic Tel Aviv before 1980. Research ONE institution and return structured data.\n\nTARGET (from a community-made map; its address/dynasty MAY contain errors):\n{\"name\":\"מרכז בעלי מלאכה 39 - גור/סקווירה\",\"dynasty\":\"גור/סקווירה\",\"address\":\"מרכז בעלי מלאכה…",
+      "lastProgressAt": 1782626125267,
+      "tokens": 42616,
+      "toolCalls": 10,
+      "durationMs": 152905,
+      "resultPreview": "{\"name\":\"מרכז בעלי מלאכה 39 - גור/סקווירה (לא אומת)\",\"dynasty\":\"גור/סקווירה (לא אומת)\",\"dynastyBackground_he\":\"חסידות גור היא מהחצרות החסידיות הגדולות, שמקורה בעיירה גורא קלוואריה (גור) שבפולין, ומשפחת אלתר עומדת בראשה. בתל אביב התרכזו חסידי גור בלב העיר מאז שנות העשרים, ובראשית תש\\\"ך (1960) הם היו הגרעין החסידי הגדול ביותר בעיר עם כ-16 בתי תפילה, ישיבת חידושי הרי\\\"ם וקופת גמ\\\"ח 'אחינו חסידי גור' …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "research:גור/ז'ידיטשוב",
+      "phaseIndex": 2,
+      "phaseTitle": "Research",
+      "agentId": "a4d8bccf9c233f51e",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782625972363,
+      "queuedAt": 1782625972302,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "נחמני 58 - גור/ז'ידיטשוב",
+      "promptPreview": "First call ToolSearch with query \"select:WebSearch,WebFetch\" to load web tools, then use WebSearch and WebFetch. You are a meticulous historian of Hasidic Tel Aviv before 1980. Research ONE institution and return structured data.\n\nTARGET (from a community-made map; its address/dynasty MAY contain errors):\n{\"name\":\"נחמני 58 - גור/ז'ידיטשוב\",\"dynasty\":\"גור/ז'ידיטשוב\",\"address\":\"נחמני 58, תל אביב\",\"l…",
+      "lastProgressAt": 1782626225412,
+      "tokens": 47486,
+      "toolCalls": 20,
+      "durationMs": 253049,
+      "resultPreview": "{\"name\":\"נחמני 58 - גור/ז'ידיטשוב\",\"dynasty\":\"גור / ז'ידיטשוב (זידיצ'וב)\",\"dynastyBackground_he\":\"חסידות גור היא מהגדולות והמשפיעות בעולם החסידי, שמוצאה בעיר גורה קלוואריה (גור) שבפולין, ושושלת אדמו\\\"ריה מבית אלתר (\\\"חידושי הרי\\\"ם\\\", \\\"שפת אמת\\\", \\\"אמרי אמת\\\"). בתל אביב היו חסידי גור הגרעין החסידי הגדול ביותר בעיר, ולפי גלאטר הגיעו ל-16 בתי תפילה (שטיבלך) בראשית תש\\\"ך (1960), לצד ישיבת חידושי הרי\\…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "verify:גור/סקווירה",
+      "phaseIndex": 3,
+      "phaseTitle": "Verify",
+      "agentId": "af1c4c85357198957",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782626125286,
+      "queuedAt": 1782626125269,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "likely-fabricated",
+      "promptPreview": "First call ToolSearch with query \"select:WebSearch,WebFetch\" to load web tools, then use WebSearch and WebFetch. You are an adversarial fact-checker. Assume the research JSON below (about a Hasidic institution in Tel Aviv) may contain fabrication or conflation, and try to break it.\n\nCLAIM:\n{\"name\":\"מרכז בעלי מלאכה 39 - גור/סקווירה (לא אומת)\",\"dynasty\":\"גור/סקווירה (לא אומת)\",\"dynastyBackground_he\"…",
+      "lastProgressAt": 1782626224305,
+      "tokens": 40947,
+      "toolCalls": 9,
+      "durationMs": 99019,
+      "resultPreview": "{\"overallVerdict\":\"likely-fabricated\",\"addressCheck\":\"NO support for a Hasidic institution at \\\"מרכז בעלי מלאכה 39\\\". Both the open web and the Glatter index confirm this. (1) e-b.co.il documents number 39 as a 15-unit RESIDENTIAL building that underwent a facade renovation under urban-renewal — no synagogue/shtiebel. (2) The only documented synagogue on this street is Geulat Israel at number 16 (…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "verify:גור",
+      "phaseIndex": 3,
+      "phaseTitle": "Verify",
+      "agentId": "a99cc63a0a1b93a42",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782626186366,
+      "queuedAt": 1782626186365,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "solid",
+      "promptPreview": "First call ToolSearch with query \"select:WebSearch,WebFetch\" to load web tools, then use WebSearch and WebFetch. You are an adversarial fact-checker. Assume the research JSON below (about a Hasidic institution in Tel Aviv) may contain fabrication or conflation, and try to break it.\n\nCLAIM:\n{\"name\":\"לבונטין 14 - גור (לא אומת)\",\"dynasty\":\"גור\",\"dynastyBackground_he\":\"חסידות גור היא מהחצרות החסידיות …",
+      "lastProgressAt": 1782626308064,
+      "tokens": 39489,
+      "toolCalls": 8,
+      "durationMs": 121697,
+      "resultPreview": "{\"overallVerdict\":\"solid\",\"addressCheck\":\"NO — neither Glatter nor any web source places a Gur shtiebel/synagogue at Levontin 14. The Glatter index entry for Gur contains NO street and NO house number at all — only \\\"16 בתי תפילה בראשית תש\\\\\\\"ך (1960)\\\", the Chidushei HaRim yeshiva, and the \\\"אחינו חסידי גור\\\" gemach (ref אעת\\\"א, חטיבה 8, מיכל 2331, תיק 30-1960-2). So Glatter affirmatively does NO…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 7,
+      "label": "verify:גור/ז'ידיטשוב",
+      "phaseIndex": 3,
+      "phaseTitle": "Verify",
+      "agentId": "a5fc0132ef14506c4",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782626225413,
+      "queuedAt": 1782626225413,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "likely-fabricated",
+      "promptPreview": "First call ToolSearch with query \"select:WebSearch,WebFetch\" to load web tools, then use WebSearch and WebFetch. You are an adversarial fact-checker. Assume the research JSON below (about a Hasidic institution in Tel Aviv) may contain fabrication or conflation, and try to break it.\n\nCLAIM:\n{\"name\":\"נחמני 58 - גור/ז'ידיטשוב\",\"dynasty\":\"גור / ז'ידיטשוב (זידיצ'וב)\",\"dynastyBackground_he\":\"חסידות גור …",
+      "lastProgressAt": 1782626383830,
+      "tokens": 43071,
+      "toolCalls": 12,
+      "durationMs": 158416,
+      "resultPreview": "{\"overallVerdict\":\"likely-fabricated\",\"addressCheck\":\"NO. Neither Glatter nor any open-web source ties Gur or Zhiditshov to Nachmani 58 (or to Nachmani street at all). The Glatter index gives Gur ONLY a generic \\\"16 prayer houses / shtiblech in early 1960\\\" entry plus Yeshivat Chidushei HaRim and a gemach — with NO street and NO house number (archival refs are city-wide: אעת\\\"א חטיבה 8 מיכל 2331; …"
+    }
+  ],
+  "totalTokens": 331186,
+  "totalToolCalls": 73
+}

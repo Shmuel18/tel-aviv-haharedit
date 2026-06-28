@@ -1,0 +1,1200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>מפת תל אביב החסידית</name>
+    <description>עד 1980 פעלו בתל אביב כ-150 מוסדות שייצגו קרוב לשישים חסידויות. מפת המוסדות - המתפרסמת כאן לראשונה - ממחישה את הנוכחות החסידית החיה בלב העיר שהייתה בירת החסידוּת של ישראל, והפכה סמל החילוניות הישראלית.</description>
+    <Style id="icon-1526-7CB342-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1526-7CB342-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1526-7CB342">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1526-7CB342-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1526-7CB342-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1526-7CB342-nodesc-normal">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1526-7CB342-nodesc-highlight">
+      <IconStyle>
+        <color>ff42b37c</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1526-7CB342-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1526-7CB342-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1526-7CB342-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1547-FBC02D-normal">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1547-FBC02D-highlight">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1547-FBC02D">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1547-FBC02D-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1547-FBC02D-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1547-FBC02D-nodesc-normal">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1547-FBC02D-nodesc-highlight">
+      <IconStyle>
+        <color>ff2dc0fb</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1547-FBC02D-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1547-FBC02D-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1547-FBC02D-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1675-0288D1-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+    </Style>
+    <Style id="icon-1675-0288D1-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+    </Style>
+    <StyleMap id="icon-1675-0288D1">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1675-0288D1-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1675-0288D1-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Style id="icon-1675-0288D1-nodesc-normal">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <Style id="icon-1675-0288D1-nodesc-highlight">
+      <IconStyle>
+        <color>ffd18802</color>
+        <scale>1</scale>
+        <Icon>
+          <href>https://www.gstatic.com/mapspro/images/stock/503-wht-blank_maps.png</href>
+        </Icon>
+      </IconStyle>
+      <LabelStyle>
+        <scale>1</scale>
+      </LabelStyle>
+      <BalloonStyle>
+        <text><![CDATA[<h3>$[name]</h3>]]></text>
+      </BalloonStyle>
+    </Style>
+    <StyleMap id="icon-1675-0288D1-nodesc">
+      <Pair>
+        <key>normal</key>
+        <styleUrl>#icon-1675-0288D1-nodesc-normal</styleUrl>
+      </Pair>
+      <Pair>
+        <key>highlight</key>
+        <styleUrl>#icon-1675-0288D1-nodesc-highlight</styleUrl>
+      </Pair>
+    </StyleMap>
+    <Folder>
+      <name>בתי כנסת ושטיבלך</name>
+      <Placemark>
+        <name>שמעון רוקח 20</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7663823,32.0607218,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>הרב קוק 36</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7674178,32.070905,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>מרמורק 20</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7808833,32.0712371,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>נווה שאנן 33</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7803671,32.0580179,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>בר אילן 4</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7765721,32.0700843,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>שמרלינג 10</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7629553,32.0611038,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>מרכז בעלי מלאכה 35</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7747024,32.0696203,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[שדרות רוטשילד 12 - אוז'רוב]]></name>
+        <description><![CDATA[1953 - רבי משה יחיאל הלוי אפשטיין מאוז'רוב]]></description>
+        <styleUrl>#icon-1675-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            34.7703544,32.0628278,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[פיארברג 17 - אוז'רוב]]></name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7764059,32.0683191,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[לאן א' 5 - אוז'רוב]]></name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7766172,32.0690151,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>טשרניחובסקי 12 - אוטניה</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7714874,32.0723003,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>גאולה 32 - אוטניה</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7681906,32.0713543,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>מרכז בעלי מלאכה 25 - אוסטרובצה</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7740303,32.0698066,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>יוחנן הסנדלר 19 - אוסטרובצה</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7734619,32.0701311,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>הקישון 67 - אלכסנדר</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7701724,32.0560868,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>המגיד 10 - אמישנוב</name>
+        <description>1946 - רבי ירחמיאל יהודה מאיר קאליש מאמישנוב</description>
+        <styleUrl>#icon-1675-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            34.7791433,32.0667471,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>זבולון 17 - אמישנוב</name>
+        <description>1946 - רבי ירחמיאל יהודה מאיר קאליש מאמישנוב</description>
+        <styleUrl>#icon-1675-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            34.7728084,32.0593685,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>שלמה המלך 16</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.776723,32.0779156,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>החלוצים 43 - אמישנוב</name>
+        <description>1946 - רבי ירחמיאל יהודה מאיר קאליש מאמישנוב</description>
+        <styleUrl>#icon-1675-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            34.7726774,32.0572014,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[ברדיצ'בסקי 3 - אמישנוב]]></name>
+        <description>1946 - רבי ירחמיאל יהודה מאיר קאליש מאמישנוב</description>
+        <styleUrl>#icon-1675-0288D1</styleUrl>
+        <Point>
+          <coordinates>
+            34.7794715,32.0713998,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>יבנה 4 - אשלג</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7724806,32.066822,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>פלורנטין 44 - אשלג</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7715987,32.0561735,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>בלפור 44 - אשלג</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7778386,32.0664401,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>יבנה 32 - בויאן</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7735423,32.0642271,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>מונטיפיורי 7 - בויאן</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7697682,32.0648235,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[מלצ'ט 40 - בויאן]]></name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7761792,32.0701622,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>שדרות רוטשילד 64 - בוקרשט</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.777364,32.0651798,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>זבולון 25 - ביאלה-אוזרוב</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7726725,32.0587445,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>מרכז בעלי מלאכה 5 - ביאלה-מונקטש</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7719782,32.0703773,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>לילינבלום 4 - ביאליסטוק-קוברין</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7675208,32.0617847,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>דרך יפו 13 - ברסלב</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7701401,32.0605299,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>נחלת בנימין - ברסלב</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.772054,32.062376,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>יצחק אלחנן 27 - ברסלב</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7686144,32.0644225,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>נחלת בנימין 23 - גור</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7703044,32.0671108,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>פלורנטין 14 - גור</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.768502,32.0560849,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ברזילי 4 - גור</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7750767,32.0621473,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>נווה שאנן 41 - גור</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7806157,32.0574925,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>אחד העם 65 - גור</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.6479823,31.8015568,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>יהודה הלוי 85 - גור</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7772524,32.064733,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>לבונטין 14 - גור</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7756892,32.0618412,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>מרכז בעלי מלאכה 39 - גור/סקווירה</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7751451,32.0695679,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>בלפור 50 - גור/סדיגורה</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7784614,32.0662847,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>גרוזנברג 14 - גור</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7697319,32.0659555,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[מלצ'ט 42 - הורנסטייפל]]></name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7764687,32.0703401,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[לילינבלום 16 - ויז'ניץ]]></name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7689745,32.061931,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>נחמני 41 - זלטופול</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7799862,32.0652993,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[עין יעקב 11 - חב"ד]]></name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7635062,32.0621005,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[מונטיפיורי 36 - חב"ד]]></name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7734319,32.0654884,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[גרוזנברג 14 - חב"ד]]></name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7697319,32.0659555,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[קלישר 40 - חב"ד]]></name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7697113,32.0652897,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[המלך ג'ורג' 15 - חב"ד]]></name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7719495,32.0709407,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>יהודה הלוי 8 - חנצין</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7682453,32.0612075,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>לילינבלום 8 - חנצין</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7677969,32.0618128,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>יהודה הלוי 3 - חרסון</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7675178,32.0612665,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>אחד העם 69 - טשורטקוב</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7771242,32.0682859,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>כפר גלעדי 31 - טשורטקוב/מודזיץ</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7704459,32.0585884,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>לילינבלום 11 - לובלין/מודזיץ</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7689452,32.0621369,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[האר"י 5 - לוצק]]></name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7682077,32.0705593,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>זבולון 21 - ללוב</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7727828,32.0591474,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>מוהליבר 27 - ללוב</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7685061,32.0659647,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>מוהליבר 39 - ללוב</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7693858,32.0668038,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>דיזנגוף 87 - מודזיץ</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7741397,32.077463,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>מזרחי 5 - מודזיץ</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7694005,32.0598504,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>בוגרשוב 50 - מודזיץ</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7714173,32.0759902,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[אהרונוביץ' 3 - מודזיץ]]></name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7718825,32.0782313,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>העבודה 15 - מונקטש</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7741846,32.0704191,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[הפלמ"ח 10 - נדבורנה]]></name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7935581,32.0631502,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>נחמני 37 - נדבורנה</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7775999,32.0653005,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>אוליפנט 17 - סדיגורה</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7815073,32.0653916,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>בצלאל יפה 10 - סדיגורה-פשמישל</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7753749,32.0649369,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[רש"י 30 - סוקולוב]]></name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.773494,32.0714332,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>אלנבי 58 - סטולין-קרלין</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7701037,32.0703358,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>הלל הזקן 1 - סטרטין</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7693455,32.0706118,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>בורוכוב 8 - סטריקוב</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7748097,32.0720235,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>יוסף הנשיא 13 - סטריקוב</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7738135,32.0688574,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>טיומקין 9 - סלונים</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.778366,32.0643436,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>נחלת בנימין 9 - סלונים</name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7700911,32.0684949,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[רש"י 1 - סלונים]]></name>
+        <styleUrl>#icon-1675-0288D1-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7715667,32.0724522,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>בתי מדרש</name>
+      <Placemark>
+        <name>דיזנגוף 222</name>
+        <styleUrl>#icon-1526-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7754871,32.088578,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>בן יהודה 155</name>
+        <styleUrl>#icon-1526-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7733189,32.0882396,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>יבנה 10</name>
+        <styleUrl>#icon-1526-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7726205,32.0663715,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>מנשה בן ישראל 18</name>
+        <styleUrl>#icon-1526-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.777635,32.0554575,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>שדרות רוטשילד 112 - בוהוש</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzXkPFfdxaSftjpoGkwD56SUv4QeP-bDkkTMKhRJomCZgwmdwFzB2AhDJLzPW2MqtZxXnO94u1a-I40bitXNdk97k2sknMGiOYI5CIC6hMrqbf2iF9IsGWzBgGyU8gp7jQAIqcmfD9wJiCu1sYLLW5yOcmnmEcJJBLqHIwSg9rvNQd3PI24onkIUAyJWd1TV7xpKMXTJb0DWw?fife=s16383" height="200" width="auto" /><br><br>1951 - רבי יצחק פרידמן מבוהוש עולה לארץ. בתמונה: הזמנת האדמור מבוהוש לחגיגות יום העצמאות בחתימה מועדים לשמחה]]></description>
+        <styleUrl>#icon-1526-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzXkPFfdxaSftjpoGkwD56SUv4QeP-bDkkTMKhRJomCZgwmdwFzB2AhDJLzPW2MqtZxXnO94u1a-I40bitXNdk97k2sknMGiOYI5CIC6hMrqbf2iF9IsGWzBgGyU8gp7jQAIqcmfD9wJiCu1sYLLW5yOcmnmEcJJBLqHIwSg9rvNQd3PI24onkIUAyJWd1TV7xpKMXTJb0DWw?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            34.7785217,32.0688942,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>אחד העם 63 - בלז</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxketL279Jr7ntxQSz_8skhIoSUHKHtBoDr8Sx1XFxNvOqSy27FmuMC4lIjVA5fFEz-75I__JIPMHAgJwEKvJ3xlXXrrhB4fWX-WElacl2T7AajROST3aRVaTN1wdKlx2rPjbL_UJ-qD6Ms6vlW6VkDC2Oso7E2arTUUQ5IzNl9MxUHNNPyFQc4qvKWmG6vxBqrMV0LYCPtIw?fife=s16383" height="200" width="auto" /><br><br>1944 - רבי אהרן רוקח מבלז עולה לארץ. בתמונות: חסידי בלז בתל אביב.<br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gw0hyRRXfS8R2RIkX_gLXA6kTyZQke2aheS6WJZVYrZ0ATcppFqwl74Zpdg7tScatZ1u54aMFSzLVfJVMSv7Vd9O_TJzSoUf2tfGwN0wft84aIEox5ZWf0hMrkAkZNAKBz4Ryfcx0Q2JAy1WsQ-66jvLeQqPT31ZQYRne4-NGxNytxy4e9P_memfRljztU06u8J-a0RzG4Z-g?fife=s16383" height="200" width="auto" /><br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gzthye7oijK7wY2JwyPovXS48cWwxVlGjPW6R2_TEouFBEnKbdRB7W9vE5h5_4ZNJe9TzGYCzyDb_nYcwQ0z0ft4ZfW-pK5eAc0IZO3mpY4bxzuOA0yUCpnWwV0GX6UQRCHCxtpb4gbl3g0PtMoNOvGXdOBONBXmF9iI84FnAJsPzn4vNn6CJnCxIK8Scr9NVlMXsbKZAydhw?fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1526-7CB342</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxketL279Jr7ntxQSz_8skhIoSUHKHtBoDr8Sx1XFxNvOqSy27FmuMC4lIjVA5fFEz-75I__JIPMHAgJwEKvJ3xlXXrrhB4fWX-WElacl2T7AajROST3aRVaTN1wdKlx2rPjbL_UJ-qD6Ms6vlW6VkDC2Oso7E2arTUUQ5IzNl9MxUHNNPyFQc4qvKWmG6vxBqrMV0LYCPtIw?fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gw0hyRRXfS8R2RIkX_gLXA6kTyZQke2aheS6WJZVYrZ0ATcppFqwl74Zpdg7tScatZ1u54aMFSzLVfJVMSv7Vd9O_TJzSoUf2tfGwN0wft84aIEox5ZWf0hMrkAkZNAKBz4Ryfcx0Q2JAy1WsQ-66jvLeQqPT31ZQYRne4-NGxNytxy4e9P_memfRljztU06u8J-a0RzG4Z-g?fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gzthye7oijK7wY2JwyPovXS48cWwxVlGjPW6R2_TEouFBEnKbdRB7W9vE5h5_4ZNJe9TzGYCzyDb_nYcwQ0z0ft4ZfW-pK5eAc0IZO3mpY4bxzuOA0yUCpnWwV0GX6UQRCHCxtpb4gbl3g0PtMoNOvGXdOBONBXmF9iI84FnAJsPzn4vNn6CJnCxIK8Scr9NVlMXsbKZAydhw?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            34.776867,32.0676644,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>הקונגרס 25 - גור</name>
+        <styleUrl>#icon-1526-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.775102,32.0566384,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>פיארברג 17 - גור</name>
+        <styleUrl>#icon-1526-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7764059,32.0683191,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[ק"ם 87 - גור]]></name>
+        <styleUrl>#icon-1526-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.8370568,32.1136346,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[ק"ם 89 - גור]]></name>
+        <styleUrl>#icon-1526-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.8370559,32.1136351,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>שדרות נורדאו 65 - גור</name>
+        <styleUrl>#icon-1526-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7795041,32.0922885,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>נחמני 34 - גור</name>
+        <styleUrl>#icon-1526-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7772044,32.0652457,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[נחמני 58 - גור/ז'ידיטשוב]]></name>
+        <styleUrl>#icon-1526-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.780074,32.0643478,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>גוש חלב 28 - גור</name>
+        <styleUrl>#icon-1526-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7755407,32.0860196,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>הקישון 33 - גור</name>
+        <styleUrl>#icon-1526-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7700408,32.0582536,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[שינקין 25 - גרודז'ינסק]]></name>
+        <styleUrl>#icon-1526-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7740119,32.06917,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>ביאליק 19 - הוסיאטין</name>
+        <styleUrl>#icon-1526-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.8147356,32.0808532,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>שדרות בן גוריון 71 - ווסלוי</name>
+        <styleUrl>#icon-1526-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7758654,32.0839462,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[נחלת בנימין 23 - חב"ד]]></name>
+        <styleUrl>#icon-1526-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7703044,32.0671108,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>דיזנגוף 36 - מודזיץ</name>
+        <styleUrl>#icon-1526-7CB342-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7771365,32.0746317,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>ישיבות</name>
+      <Placemark>
+        <name>נמירובר 24 - גור</name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GwLmDe_mWp0032z05BU2eOOH24gwPKVVGWYYQ0aQbHFZ4cKtU8famvZdCBFVzz1bA7_0yOVwJkoFSM1D-GgFPh3xNSsog32PPcu8Nlki4xpMy-st1q7eBi2273c2vL5J-QgqZuUI9e2A9HUu7jQkKq8oFeyBLwoDD_fy936YYaOiS-Gpv5QSOeFSzCkFRRLYIdPxDcq95rTx9o?fife=s16383" height="200" width="auto" /><br><br>1969 - חנוכת ישיבת 'חידושי הרי"ם' של חסידות גור (בתמונה: מבנה הישיבה כיום)]]></description>
+        <styleUrl>#icon-1547-FBC02D</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GwLmDe_mWp0032z05BU2eOOH24gwPKVVGWYYQ0aQbHFZ4cKtU8famvZdCBFVzz1bA7_0yOVwJkoFSM1D-GgFPh3xNSsog32PPcu8Nlki4xpMy-st1q7eBi2273c2vL5J-QgqZuUI9e2A9HUu7jQkKq8oFeyBLwoDD_fy936YYaOiS-Gpv5QSOeFSzCkFRRLYIdPxDcq95rTx9o?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            34.8339526,32.1122237,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>פרץ אוניקובסקי 13 - גור</name>
+        <styleUrl>#icon-1547-FBC02D-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7946338,32.1070726,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[פיארברג 13 - ויז'ניץ]]></name>
+        <description><![CDATA[<img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzToPT8AvGTUWcWdi44r2tjDjL47tRJO9hp7HLGJWZSaeaw9leXD7IFWvH99lnrEthOX4oFKqcmJJ947c3WqZ6WK-k9ZrNF8rbcEd_59RI216Rb_E54y8BcmTgKuNDLhT82XGV4rwuyvISLoGO-CnyiIQu_DpHMbnMlohEAjMNJk28_dV5kRRwj2c2g8zBH0B76iewpwUWKSA?fife=s16383" height="200" width="auto" /><br><br>1944 - רבי אליעזר האגר מוויז'ניץ (בתמונה)<br><br>1946 - הקמת ישיבת 'בית ישראל ודמשק אליעזר' של חסידות ויז'ניץ <br><br>1947 - רבי חיים מאיר האגר מויז'ניץ  <br><br><img src="https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzVt6aGfAGnGS_HbPFpkraJQfZ7MYP7wifk3c87KfUwh-9MnOUlRb5O5Rj8535TSiJuc5U0luv-ZbIm4bPQZINQvydqih2Bh8q0eX3nGc83AFR6u-zuxr3fKeSU1Hpug3FXe-GQpPbRiyJYyEfWvKKTQNjZ5INLkrL2uhOtOoBLGHc0g0aAOkxec6bzt6GtkDt3uashg1sMXw?fife=s16383" height="200" width="auto" />]]></description>
+        <styleUrl>#icon-1547-FBC02D</styleUrl>
+        <ExtendedData>
+          <Data name="gx_media_links">
+            <value>https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzToPT8AvGTUWcWdi44r2tjDjL47tRJO9hp7HLGJWZSaeaw9leXD7IFWvH99lnrEthOX4oFKqcmJJ947c3WqZ6WK-k9ZrNF8rbcEd_59RI216Rb_E54y8BcmTgKuNDLhT82XGV4rwuyvISLoGO-CnyiIQu_DpHMbnMlohEAjMNJk28_dV5kRRwj2c2g8zBH0B76iewpwUWKSA?fife=s16383 https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzVt6aGfAGnGS_HbPFpkraJQfZ7MYP7wifk3c87KfUwh-9MnOUlRb5O5Rj8535TSiJuc5U0luv-ZbIm4bPQZINQvydqih2Bh8q0eX3nGc83AFR6u-zuxr3fKeSU1Hpug3FXe-GQpPbRiyJYyEfWvKKTQNjZ5INLkrL2uhOtOoBLGHc0g0aAOkxec6bzt6GtkDt3uashg1sMXw?fife=s16383</value>
+          </Data>
+        </ExtendedData>
+        <Point>
+          <coordinates>
+            34.776359,32.0680536,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name><![CDATA[הרב קוק 16 - חב"ד]]></name>
+        <styleUrl>#icon-1547-FBC02D-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7659176,32.071351,0
+          </coordinates>
+        </Point>
+      </Placemark>
+      <Placemark>
+        <name>חסאן בק יפו - נדבורנה</name>
+        <styleUrl>#icon-1547-FBC02D-nodesc</styleUrl>
+        <Point>
+          <coordinates>
+            34.7634163,32.0663643,0
+          </coordinates>
+        </Point>
+      </Placemark>
+    </Folder>
+    <Folder>
+      <name>שכבה ללא שם</name>
+    </Folder>
+    <Folder>
+      <name>שכבה ללא שם</name>
+    </Folder>
+  </Document>
+</kml>

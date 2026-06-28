@@ -1,0 +1,929 @@
+﻿[
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "שמעון רוקח 20",
+        "coords":  "34.7663823,32.0607218,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "הרב קוק 36",
+        "coords":  "34.7674178,32.070905,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "מרמורק 20",
+        "coords":  "34.7808833,32.0712371,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "נווה שאנן 33",
+        "coords":  "34.7803671,32.0580179,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "בר אילן 4",
+        "coords":  "34.7765721,32.0700843,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "שמרלינג 10",
+        "coords":  "34.7629553,32.0611038,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "מרכז בעלי מלאכה 35",
+        "coords":  "34.7747024,32.0696203,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "שדרות רוטשילד 12 - אוז\u0027רוב",
+        "coords":  "34.7703544,32.0628278,0",
+        "descLen":  42,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  "1953 - רבי משה יחיאל הלוי אפשטיין מאוז\u0027רוב"
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "פיארברג 17 - אוז\u0027רוב",
+        "coords":  "34.7764059,32.0683191,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "לאן א\u0027 5 - אוז\u0027רוב",
+        "coords":  "34.7766172,32.0690151,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "טשרניחובסקי 12 - אוטניה",
+        "coords":  "34.7714874,32.0723003,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "גאולה 32 - אוטניה",
+        "coords":  "34.7681906,32.0713543,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "מרכז בעלי מלאכה 25 - אוסטרובצה",
+        "coords":  "34.7740303,32.0698066,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "יוחנן הסנדלר 19 - אוסטרובצה",
+        "coords":  "34.7734619,32.0701311,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "הקישון 67 - אלכסנדר",
+        "coords":  "34.7701724,32.0560868,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "המגיד 10 - אמישנוב",
+        "coords":  "34.7791433,32.0667471,0",
+        "descLen":  44,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  "1946 - רבי ירחמיאל יהודה מאיר קאליש מאמישנוב"
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "זבולון 17 - אמישנוב",
+        "coords":  "34.7728084,32.0593685,0",
+        "descLen":  44,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  "1946 - רבי ירחמיאל יהודה מאיר קאליש מאמישנוב"
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "שלמה המלך 16",
+        "coords":  "34.776723,32.0779156,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "החלוצים 43 - אמישנוב",
+        "coords":  "34.7726774,32.0572014,0",
+        "descLen":  44,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  "1946 - רבי ירחמיאל יהודה מאיר קאליש מאמישנוב"
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "ברדיצ\u0027בסקי 3 - אמישנוב",
+        "coords":  "34.7794715,32.0713998,0",
+        "descLen":  44,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  "1946 - רבי ירחמיאל יהודה מאיר קאליש מאמישנוב"
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "יבנה 4 - אשלג",
+        "coords":  "34.7724806,32.066822,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "פלורנטין 44 - אשלג",
+        "coords":  "34.7715987,32.0561735,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "בלפור 44 - אשלג",
+        "coords":  "34.7778386,32.0664401,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "יבנה 32 - בויאן",
+        "coords":  "34.7735423,32.0642271,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "מונטיפיורי 7 - בויאן",
+        "coords":  "34.7697682,32.0648235,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "מלצ\u0027ט 40 - בויאן",
+        "coords":  "34.7761792,32.0701622,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "שדרות רוטשילד 64 - בוקרשט",
+        "coords":  "34.777364,32.0651798,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "זבולון 25 - ביאלה-אוזרוב",
+        "coords":  "34.7726725,32.0587445,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "מרכז בעלי מלאכה 5 - ביאלה-מונקטש",
+        "coords":  "34.7719782,32.0703773,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "לילינבלום 4 - ביאליסטוק-קוברין",
+        "coords":  "34.7675208,32.0617847,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "דרך יפו 13 - ברסלב",
+        "coords":  "34.7701401,32.0605299,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "נחלת בנימין - ברסלב",
+        "coords":  "34.772054,32.062376,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "יצחק אלחנן 27 - ברסלב",
+        "coords":  "34.7686144,32.0644225,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "נחלת בנימין 23 - גור",
+        "coords":  "34.7703044,32.0671108,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "פלורנטין 14 - גור",
+        "coords":  "34.768502,32.0560849,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "ברזילי 4 - גור",
+        "coords":  "34.7750767,32.0621473,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "נווה שאנן 41 - גור",
+        "coords":  "34.7806157,32.0574925,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "אחד העם 65 - גור",
+        "coords":  "34.6479823,31.8015568,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "יהודה הלוי 85 - גור",
+        "coords":  "34.7772524,32.064733,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "לבונטין 14 - גור",
+        "coords":  "34.7756892,32.0618412,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "מרכז בעלי מלאכה 39 - גור/סקווירה",
+        "coords":  "34.7751451,32.0695679,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "בלפור 50 - גור/סדיגורה",
+        "coords":  "34.7784614,32.0662847,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "גרוזנברג 14 - גור",
+        "coords":  "34.7697319,32.0659555,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "מלצ\u0027ט 42 - הורנסטייפל",
+        "coords":  "34.7764687,32.0703401,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "לילינבלום 16 - ויז\u0027ניץ",
+        "coords":  "34.7689745,32.061931,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "נחמני 41 - זלטופול",
+        "coords":  "34.7799862,32.0652993,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "עין יעקב 11 - חב\"ד",
+        "coords":  "34.7635062,32.0621005,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "מונטיפיורי 36 - חב\"ד",
+        "coords":  "34.7734319,32.0654884,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "גרוזנברג 14 - חב\"ד",
+        "coords":  "34.7697319,32.0659555,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "קלישר 40 - חב\"ד",
+        "coords":  "34.7697113,32.0652897,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "המלך ג\u0027ורג\u0027 15 - חב\"ד",
+        "coords":  "34.7719495,32.0709407,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "יהודה הלוי 8 - חנצין",
+        "coords":  "34.7682453,32.0612075,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "לילינבלום 8 - חנצין",
+        "coords":  "34.7677969,32.0618128,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "יהודה הלוי 3 - חרסון",
+        "coords":  "34.7675178,32.0612665,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "אחד העם 69 - טשורטקוב",
+        "coords":  "34.7771242,32.0682859,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "כפר גלעדי 31 - טשורטקוב/מודזיץ",
+        "coords":  "34.7704459,32.0585884,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "לילינבלום 11 - לובלין/מודזיץ",
+        "coords":  "34.7689452,32.0621369,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "האר\"י 5 - לוצק",
+        "coords":  "34.7682077,32.0705593,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "זבולון 21 - ללוב",
+        "coords":  "34.7727828,32.0591474,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "מוהליבר 27 - ללוב",
+        "coords":  "34.7685061,32.0659647,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "מוהליבר 39 - ללוב",
+        "coords":  "34.7693858,32.0668038,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "דיזנגוף 87 - מודזיץ",
+        "coords":  "34.7741397,32.077463,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "מזרחי 5 - מודזיץ",
+        "coords":  "34.7694005,32.0598504,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "בוגרשוב 50 - מודזיץ",
+        "coords":  "34.7714173,32.0759902,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "אהרונוביץ\u0027 3 - מודזיץ",
+        "coords":  "34.7718825,32.0782313,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "העבודה 15 - מונקטש",
+        "coords":  "34.7741846,32.0704191,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "הפלמ\"ח 10 - נדבורנה",
+        "coords":  "34.7935581,32.0631502,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "נחמני 37 - נדבורנה",
+        "coords":  "34.7775999,32.0653005,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "אוליפנט 17 - סדיגורה",
+        "coords":  "34.7815073,32.0653916,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "בצלאל יפה 10 - סדיגורה-פשמישל",
+        "coords":  "34.7753749,32.0649369,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "רש\"י 30 - סוקולוב",
+        "coords":  "34.773494,32.0714332,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "אלנבי 58 - סטולין-קרלין",
+        "coords":  "34.7701037,32.0703358,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "הלל הזקן 1 - סטרטין",
+        "coords":  "34.7693455,32.0706118,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "בורוכוב 8 - סטריקוב",
+        "coords":  "34.7748097,32.0720235,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "יוסף הנשיא 13 - סטריקוב",
+        "coords":  "34.7738135,32.0688574,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "טיומקין 9 - סלונים",
+        "coords":  "34.778366,32.0643436,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "נחלת בנימין 9 - סלונים",
+        "coords":  "34.7700911,32.0684949,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי כנסת ושטיבלך",
+        "name":  "רש\"י 1 - סלונים",
+        "coords":  "34.7715667,32.0724522,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי מדרש",
+        "name":  "דיזנגוף 222",
+        "coords":  "34.7754871,32.088578,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי מדרש",
+        "name":  "בן יהודה 155",
+        "coords":  "34.7733189,32.0882396,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי מדרש",
+        "name":  "יבנה 10",
+        "coords":  "34.7726205,32.0663715,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי מדרש",
+        "name":  "מנשה בן ישראל 18",
+        "coords":  "34.777635,32.0554575,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי מדרש",
+        "name":  "שדרות רוטשילד 112 - בוהוש",
+        "coords":  "34.7785217,32.0688942,0",
+        "descLen":  433,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  "\u003cimg src=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzXkPFfdxaSftjpoGkwD56SUv4QeP-bDkkTMKhRJomCZgwmdwFzB2AhDJLzPW2MqtZxXnO94u1a-I40bitXNdk97k2sknMGiOYI5CIC6hMrqbf2iF9IsGWzBgGyU8gp7jQAIqcmfD9wJiCu1sYLLW5yOcmnmEcJJBLqHIwSg9rvNQd3PI24onkIUAyJWd1TV7xpKMXTJb0DWw?fife=s16383\" height=\"200\" width=\"auto\" /\u003e\u003cbr\u003e\u003cbr\u003e1951 - רבי יצחק פרידמן מבוהוש עולה לארץ. בתמונה: הזמנת האדמור מבוהוש לחגיגות יום העצמאות בחתימה מועדים לשמחה"
+    },
+    {
+        "layer":  "בתי מדרש",
+        "name":  "אחד העם 63 - בלז",
+        "coords":  "34.776867,32.0676644,0",
+        "descLen":  1040,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  "\u003cimg src=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GxketL279Jr7ntxQSz_8skhIoSUHKHtBoDr8Sx1XFxNvOqSy27FmuMC4lIjVA5fFEz-75I__JIPMHAgJwEKvJ3xlXXrrhB4fWX-WElacl2T7AajROST3aRVaTN1wdKlx2rPjbL_UJ-qD6Ms6vlW6VkDC2Oso7E2arTUUQ5IzNl9MxUHNNPyFQc4qvKWmG6vxBqrMV0LYCPtIw?fife=s16383\" height=\"200\" width=\"auto\" /\u003e\u003cbr\u003e\u003cbr\u003e1944 - רבי אהרן רוקח מבלז עולה לארץ. בתמונות: חסידי בלז בתל אביב.\u003cbr\u003e\u003cbr\u003e\u003cimg src=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gw0hyRRXfS8R2RIkX_gLXA6kTyZQke2aheS6WJZVYrZ0ATcppFqwl74Zpdg7tScatZ1u54aMFSzLVfJVMSv7Vd9O_TJzSoUf2tfGwN0wft84aIEox5ZWf0hMrkAkZNAKBz4Ryfcx0Q2JAy1WsQ-66jvLeQqPT31ZQYRne4-NGxNytxy4e9P_memfRljztU06u8J-a0RzG4Z-g?fife=s16383\" height=\"200\" width=\"auto\" /\u003e\u003cbr\u003e\u003cbr\u003e\u003cimg src=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_Gzthye7oijK7wY2JwyPovXS48cWwxVlGjPW6R2_TEouFBEnKbdRB7W9vE5h5_4ZNJe9TzGYCzyDb_nYcwQ0z0ft4ZfW-pK5eAc0IZO3mpY4bxzuOA0yUCpnWwV0GX6UQRCHCxtpb4gbl3g0PtMoNOvGXdOBONBXmF9iI84FnAJsPzn4vNn6CJnCxIK8Scr9NVlMXsbKZAydhw?fife=s16383\" height=\"200\" width=\"auto\" /\u003e"
+    },
+    {
+        "layer":  "בתי מדרש",
+        "name":  "הקונגרס 25 - גור",
+        "coords":  "34.775102,32.0566384,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי מדרש",
+        "name":  "פיארברג 17 - גור",
+        "coords":  "34.7764059,32.0683191,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי מדרש",
+        "name":  "ק\"ם 87 - גור",
+        "coords":  "34.8370568,32.1136346,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי מדרש",
+        "name":  "ק\"ם 89 - גור",
+        "coords":  "34.8370559,32.1136351,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי מדרש",
+        "name":  "שדרות נורדאו 65 - גור",
+        "coords":  "34.7795041,32.0922885,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי מדרש",
+        "name":  "נחמני 34 - גור",
+        "coords":  "34.7772044,32.0652457,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי מדרש",
+        "name":  "נחמני 58 - גור/ז\u0027ידיטשוב",
+        "coords":  "34.780074,32.0643478,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי מדרש",
+        "name":  "גוש חלב 28 - גור",
+        "coords":  "34.7755407,32.0860196,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי מדרש",
+        "name":  "הקישון 33 - גור",
+        "coords":  "34.7700408,32.0582536,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי מדרש",
+        "name":  "שינקין 25 - גרודז\u0027ינסק",
+        "coords":  "34.7740119,32.06917,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי מדרש",
+        "name":  "ביאליק 19 - הוסיאטין",
+        "coords":  "34.8147356,32.0808532,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי מדרש",
+        "name":  "שדרות בן גוריון 71 - ווסלוי",
+        "coords":  "34.7758654,32.0839462,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי מדרש",
+        "name":  "נחלת בנימין 23 - חב\"ד",
+        "coords":  "34.7703044,32.0671108,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "בתי מדרש",
+        "name":  "דיזנגוף 36 - מודזיץ",
+        "coords":  "34.7771365,32.0746317,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "ישיבות",
+        "name":  "נמירובר 24 - גור",
+        "coords":  "34.8339526,32.1122237,0",
+        "descLen":  400,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  "\u003cimg src=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GwLmDe_mWp0032z05BU2eOOH24gwPKVVGWYYQ0aQbHFZ4cKtU8famvZdCBFVzz1bA7_0yOVwJkoFSM1D-GgFPh3xNSsog32PPcu8Nlki4xpMy-st1q7eBi2273c2vL5J-QgqZuUI9e2A9HUu7jQkKq8oFeyBLwoDD_fy936YYaOiS-Gpv5QSOeFSzCkFRRLYIdPxDcq95rTx9o?fife=s16383\" height=\"200\" width=\"auto\" /\u003e\u003cbr\u003e\u003cbr\u003e1969 - חנוכת ישיבת \u0027חידושי הרי\"ם\u0027 של חסידות גור (בתמונה: מבנה הישיבה כיום)"
+    },
+    {
+        "layer":  "ישיבות",
+        "name":  "פרץ אוניקובסקי 13 - גור",
+        "coords":  "34.7946338,32.1070726,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "ישיבות",
+        "name":  "פיארברג 13 - ויז\u0027ניץ",
+        "coords":  "34.776359,32.0680536,0",
+        "descLen":  804,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  "\u003cimg src=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzToPT8AvGTUWcWdi44r2tjDjL47tRJO9hp7HLGJWZSaeaw9leXD7IFWvH99lnrEthOX4oFKqcmJJ947c3WqZ6WK-k9ZrNF8rbcEd_59RI216Rb_E54y8BcmTgKuNDLhT82XGV4rwuyvISLoGO-CnyiIQu_DpHMbnMlohEAjMNJk28_dV5kRRwj2c2g8zBH0B76iewpwUWKSA?fife=s16383\" height=\"200\" width=\"auto\" /\u003e\u003cbr\u003e\u003cbr\u003e1944 - רבי אליעזר האגר מוויז\u0027ניץ (בתמונה)\u003cbr\u003e\u003cbr\u003e1946 - הקמת ישיבת \u0027בית ישראל ודמשק אליעזר\u0027 של חסידות ויז\u0027ניץ \u003cbr\u003e\u003cbr\u003e1947 - רבי חיים מאיר האגר מויז\u0027ניץ  \u003cbr\u003e\u003cbr\u003e\u003cimg src=\"https://mymaps.usercontent.google.com/hostedimage/m/*/3AE5a_GzVt6aGfAGnGS_HbPFpkraJQfZ7MYP7wifk3c87KfUwh-9MnOUlRb5O5Rj8535TSiJuc5U0luv-ZbIm4bPQZINQvydqih2Bh8q0eX3nGc83AFR6u-zuxr3fKeSU1Hpug3FXe-GQpPbRiyJYyEfWvKKTQNjZ5INLkrL2uhOtOoBLGHc0g0aAOkxec6bzt6GtkDt3uashg1sMXw?fife=s16383\" height=\"200\" width=\"auto\" /\u003e"
+    },
+    {
+        "layer":  "ישיבות",
+        "name":  "הרב קוק 16 - חב\"ד",
+        "coords":  "34.7659176,32.071351,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    },
+    {
+        "layer":  "ישיבות",
+        "name":  "חסאן בק יפו - נדבורנה",
+        "coords":  "34.7634163,32.0663643,0",
+        "descLen":  0,
+        "imgCount":  0,
+        "images":  "",
+        "desc":  ""
+    }
+]

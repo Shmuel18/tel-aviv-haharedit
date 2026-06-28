@@ -1,0 +1,691 @@
+{
+  "summary": "Pilot: research 6 Hasidic Tel Aviv sites — sources, stories, free-licensed images — then adversarially fact-check each",
+  "agentCount": 12,
+  "logs": [],
+  "result": [
+    {
+      "site": {
+        "name": "אחד העם 63 - בלז",
+        "dynasty": "בלז (Belz)",
+        "type": "בית מדרש",
+        "address": "אחד העם 63, תל אביב",
+        "approx": "32.0677, 34.7769",
+        "note": "1944 - רבי אהרן רוקח מבלז עולה לארץ; חסידי בלז בתל אביב"
+      },
+      "research": {
+        "name": "בית מדרש חסידי בעלז - אחד העם 63, תל אביב",
+        "dynasty": "בלז (Belz)",
+        "dynastyBackground_he": "חסידות בעלז הוקמה בתחילת המאה ה-19 בעיירה בלז שבגליציה המזרחית (כיום אוקראינה) על ידי רבי שלום רוקח, \"השר שלום\", מייסד השושלת. השושלת התפרסמה כאחת מחסידויות הענק של גליציה והונהגה במשך הדורות על ידי בני משפחת רוקח.",
+        "story_he": "בט' בשבט ה'תש\"ד (3 בפברואר 1944) עלה לארץ ישראל רבי אהרן רוקח, האדמו\"ר הרביעי של חסידות בעלז, לאחר שניצל מהשואה ובריחה ממושכת ברחבי אירופה. הוא קבע את ביתו ברחוב אחד העם במרכז תל אביב (אחד העם 63), ושם התקיימו התפילות והטישים. החסידים רכשו בעבורו את הבית, ובאותם ימים כל חסידי בעלז בארץ אחרי השואה - כ-200 משפחות בלבד - יכלו להיכנס אל תוך \"הבניין הקטן ברחוב אחד העם\", מה שנשא מסר של המשכיות לחסידים ששכלו את בני משפחותיהם. באותה תקופה אף אנשים שכבר לא שמרו מצוות נהגו להגיע לאדמו\"ר כדי להשתתף בטישים ולקבל ברכה.",
+        "significance_he": "המבנה ברחוב אחד העם 63 היה המוקד הראשון של חסידות בעלז המשוקמת בארץ ישראל לאחר השואה, סביב האדמו\"ר רבי אהרן רוקח שהנהיג מכאן את שיקום החסידות עד פטירתו בכ' באב ה'תשי\"ז (1957). המקום עודנו פעיל כיום: עדיין מתגוררות כמה עשרות משפחות של חסידי בעלז במרכז תל אביב, המתפללות במבנה שברחוב אחד העם, ובמקום פועל גם תלמוד תורה. בית הכנסת רשום במאגר הרשמי של המועצה הדתית תל אביב-יפו עם זמני תפילה ושיעור דף יומי. בהמשך, בסוף ימיו של רבי אהרן ולאחריו, נבנו ישיבה ובית מדרש מרכזיים יותר (ברחוב אגריפס בירושלים), אך השטיבל בתל אביב נותר כמוקד מקומי לחסידי בעלז בעיר.",
+        "founder": "רבי אהרן רוקח (האדמו\"ר הרביעי מבעלז)",
+        "foundingYear": "1944",
+        "address": "אחד העם 63, תל אביב-יפו",
+        "currentStatus": "active",
+        "confidence": "high",
+        "gaps": "לא אומת תאריך מדויק של \"ייסוד\" בית הכנסת כמוסד נפרד מעצם מגוריו של האדמו\"ר במקום החל מ-1944; מקורות שונים מנסחים זאת כ\"קבע את ביתו\" / \"פתחו בית כנסת\" ולא מצוין מועד הקמה פורמלי. לא אומת שמו של מייסד/ממסד מקומי נפרד מהאדמו\"ר עצמו (למשל גבאי או נדבן ספציפי שרכש את הבניין). מקור אחד (ynet) נקב בתאריך עלייה 17 בינואר 1944 בעוד ויקיפדיה נוקבת ב-3 בפברואר 1944 (ט' בשבט תש\"ד) - קיים פער קל בין המקורות לגבי התאריך הלועזי המדויק. לא אומת באופן עצמאי מספר הבית \"63\" מעבר לרישומי המועצה הדתית והאתר העירוני; ייתכן שהאדמו\"ר התגורר/התפלל בכתובת מעט שונה ברחוב אחד העם בתקופות שונות.",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Aharon_Rokeach.jpg",
+            "license": "Public domain (PD-Israel; term of copyright expired)",
+            "source": "https://commons.wikimedia.org/wiki/File:Aharon_Rokeach.jpg",
+            "caption": "רבי אהרן רוקח (1880-1957), האדמו\"ר הרביעי מבעלז, מייסד מוקד החסידות בתל אביב ברחוב אחד העם"
+          }
+        ],
+        "sources": [
+          {
+            "title": "חסידי בעלזא - המועצה הדתית תל אביב יפו (רישום בית הכנסת, אחד העם 63)",
+            "url": "https://rabanut.co.il/synagogue/%D7%97%D7%A1%D7%99%D7%93%D7%99-%D7%91%D7%A2%D7%9C%D7%96%D7%90/",
+            "publisher": "המועצה הדתית תל אביב-יפו"
+          },
+          {
+            "title": "כשחילונים ביקשו ברכה מהאדמו\"ר: פעם היו חסידויות בתל אביב",
+            "url": "https://www.ynet.co.il/judaism/article/ryvs11n9p5",
+            "publisher": "ynet"
+          },
+          {
+            "title": "אהרן רוקח - ויקיפדיה",
+            "url": "https://he.wikipedia.org/wiki/%D7%90%D7%94%D7%A8%D7%9F_%D7%A8%D7%95%D7%A7%D7%97",
+            "publisher": "ויקיפדיה העברית"
+          },
+          {
+            "title": "חסידות בעלז - ויקיפדיה",
+            "url": "https://he.wikipedia.org/wiki/%D7%97%D7%A1%D7%99%D7%93%D7%95%D7%AA_%D7%91%D7%A2%D7%9C%D7%96",
+            "publisher": "ויקיפדיה העברית"
+          },
+          {
+            "title": "File:Aharon Rokeach.jpg - Wikimedia Commons (license page)",
+            "url": "https://commons.wikimedia.org/wiki/File:Aharon_Rokeach.jpg",
+            "publisher": "Wikimedia Commons"
+          }
+        ]
+      },
+      "verdict": {
+        "overallVerdict": "mostly-solid",
+        "sourceQuality": "All five cited URLs resolve and genuinely support their claims. (1) rabanut.co.il — official Tel Aviv Religious Council registry — confirms synagogue \"חסידי בעלזא\" at אחד העם 63, with the exact prayer times and a daf yomi shiur Sun-Thu at 6:00, exactly as claimed. (2) ynet article ryvs11n9p5 resolves and is the strongest source: it explicitly uses the section header \"חסידות בעלז, רחוב אחד העם 63\", confirms ~200 post-Holocaust families, the secular-visitors-for-blessings detail, and the 17 January 1944 departure date. (3) he.wikipedia \"אהרן רוקח\" confirms 4th Belz Rebbe, immigration ט' בשבט תש\"ד = 3 Feb 1944, settled on Achad Ha'am St (but does NOT specify number 63), died 18 Aug 1957, born 1880. (4) he.wikipedia \"חסידות בעלז\" confirms founder Shalom Rokeach \"Sar Shalom\", early 19th c., Belz/Eastern Galicia, Rokeach-family succession. (5) Wikimedia Commons file page exists and the upload URL resolves to a real 13.1KB JPEG. No invented or irrelevant sources detected.",
+        "corrections": "The JSON is substantially accurate and, unusually, its own \"gaps\" field honestly pre-discloses the two real soft spots (the 17 Jan vs 3 Feb 1944 date discrepancy, and that the number \"63\" is sourced only to the council registry + ynet, not Wikipedia). Both of those are confirmed accurate by independent fetch. The one genuine error to correct: the significance_he conflates the historic Belz yeshiva on Agrippas Street (Jerusalem) with the modern CENTRAL beit midrash. The central/main beit midrash of Belz is the \"World Center for Torah and Hasidut\" (בית המדרש הגדול) in Kiryat Belz, located between Dvar Shalom and Divrei Chaim streets — not on Agrippas. Agrippas was the historic yeshiva site (founded ~1950, building ~1954). Recommend rewording to \"ישיבה ובית מדרש מרכזיים בירושלים (תחילה ברחוב אגריפס, ובהמשך בית המדרש הגדול בקריית בעלז)\". Also, the two 1944 dates are NOT contradictory: 17 Jan 1944 = departure from Europe (per ynet); 3 Feb 1944 (ט' בשבט) = arrival in Eretz Israel (per Wikipedia) — not a true conflict, just two different events; the gaps field slightly mischaracterizes them as competing \"aliyah dates.\"",
+        "founderCheck": "Real and correctly tied to THIS address. Aharon Rokeach (1880-1957), 4th Belz Rebbe, is a real, well-documented figure. Multiple independent sources (belztlv.org, ynet, secondary mapping sites) confirm he personally settled at/near Achad Ha'am 63 in Tel Aviv after fleeing the Holocaust, and that his modest home itself served as the synagogue — so the founder is plausibly and specifically tied to this Tel Aviv address, not merely to the dynasty elsewhere. The JSON is careful and correct to frame him as the founder of the local focal point rather than asserting a formal \"founding\" event with a separate gabbai/donor (it explicitly flags that gap).",
+        "foundingYearCheck": "1944 is defensible as the year the Belz focal point in Tel Aviv began, since that is when Aharon Rokeach arrived and established his home/shul on Achad Ha'am. The JSON correctly notes there is no formal institutional \"founding\" date distinct from his taking up residence — an honest and accurate caveat. Year stands.",
+        "dynastyCheck": "Holds fully. Belz (בעלז) founded by Rabbi Shalom Rokeach (\"Sar Shalom\") in Belz, Eastern Galicia (today Ukraine), early 19th century; led by the Rokeach family across generations (Shalom → Yehoshua → Yissachar Dov → Aharon → current Yissachar Dov). Aharon Rokeach was indeed the 4th Rebbe. Dynasty attribution and background paragraph are accurate.",
+        "imageCheck": "Real and genuinely free-licensed. The Wikimedia Commons file File:Aharon_Rokeach.jpg exists, and the upload.wikimedia.org URL resolves to an actual 13.1KB JPEG. License is Public Domain (PD-Israel, copyright term expired) as claimed — accurate, since the subject/photo predates the relevant cutoffs. Caption is reasonable, though \"מייסד מוקד החסידות בתל אביב\" is an interpretive phrasing rather than a formal title.",
+        "flaggedClaims": [
+          "CONFLATION (real error): significance_he places the central Belz beit midrash 'ברחוב אגריפס בירושלים'. The MAIN/central beit midrash is the World Center (בית המדרש הגדול) in Kiryat Belz, between Dvar Shalom & Divrei Chaim streets — Agrippas was only the historic yeshiva (c.1950/1954).",
+          "MISCHARACTERIZATION (minor): gaps treats 17 Jan 1944 (ynet) and 3 Feb 1944 (Wikipedia) as conflicting aliyah dates. They are actually two distinct events — departure from Europe vs arrival in Eretz Israel — not a contradiction.",
+          "WEAKLY SOURCED (disclosed): the house number '63' is corroborated only by the religious-council registry and ynet/mapping sites; Wikipedia gives only the street. The JSON honestly flags this. Not fabricated, but single-stream for the exact number.",
+          "INTERPRETIVE (minor): image caption and significance frame Aharon Rokeach as 'מייסד מוקד החסידות בתל אביב' — a descriptive characterization, not a documented formal founding act; consistent with sources but not a literal quoted title."
+        ]
+      }
+    },
+    {
+      "site": {
+        "name": "שדרות רוטשילד 112 - בוהוש",
+        "dynasty": "בוהוש (Bohush)",
+        "type": "בית מדרש",
+        "address": "שדרות רוטשילד 112, תל אביב",
+        "approx": "32.0689, 34.7785",
+        "note": "1951 - רבי יצחק פרידמן מבוהוש עולה לארץ"
+      },
+      "research": {
+        "name": "בית הכנסת/בית המדרש של חסידות בוהוש - שדרות רוטשילד, תל אביב",
+        "dynasty": "בוהוש (Bohush)",
+        "dynastyBackground_he": "חסידות בוהוש היא חצר חסידית מענפי בית רוז'ין, שמייסדה היה רבי יצחק (איזיק) פרידמן (1834–1896), נכדו של רבי ישראל מרוז'ין מייסד חסידות רוז'ין. החצר התבססה בעיירה בוהוש (Bohush) שבחבל מולדובה ברומניה, בקרבת העיר בקאו, סביב שנת 1866, ושגשגה שם עד שעברה את מרכזה לארץ ישראל; כיום מרכזה בבני ברק.",
+        "story_he": "רבי יצחק פרידמן מבוהוש (\"השני\"), הרביעי בשושלת אדמו\"רי בוהוש, עלה לארץ ישראל בי\"ד באייר תשי\"א (1951) עם אשתו ובתו והתיישב בתל אביב, שם פתח בית כנסת בשדרות רוטשילד. לפי מקורות הוא התגורר בשדרות רוטשילד פינת רחוב שינקין (אזור רוטשילד 112). בשנת תשל\"ב (1972) פתח בבית מדרשו בתל אביב כולל אברכים (שלימים עבר לבני ברק). בשנת תשמ\"ז (1987) עבר בעצמו לבני ברק, שם כבר היה בית כנסת של חסידי בוהוש.",
+        "significance_he": "זהו השטיבל/בית הכנסת המקומי של חסידות בוהוש בתל אביב, ולא חצר האם של החסידות. עם מעבר האדמו\"ר ומרכז החסידות לבני ברק בשלהי שנות ה-80, איבד בית הכנסת ברוטשילד את תפקידו כמושב האדמו\"ר. לפי ויקיפדיה והמכלול, בניין בית הכנסת בתל אביב משמש כיום את בית המדרש \"באר מים חיים\" בראשות רבי אפרים דב טייטלבוים, האדמו\"ר מהוסאקוב (מענפי שושלת סיגט), כך שהמקום פעיל אך כבר אינו בית כנסת בוהוש פעיל.",
+        "founder": "רבי יצחק פרידמן מבוהוש (\"השני\"), האדמו\"ר הרביעי בשושלת בוהוש (1903–1992)",
+        "foundingYear": "1951",
+        "address": "שדרות רוטשילד 112 (אזור הפינה עם רחוב שינקין), תל אביב",
+        "currentStatus": "active",
+        "confidence": "medium",
+        "gaps": "לא הצלחתי לאמת במקור טקסטואלי את מספר הבית המדויק \"112\"; המקורות נוקבים ב\"שדרות רוטשילד\" ו\"פינת רחוב שינקין\" בלבד (רוטשילד 112 אכן ממוקם באזור הפינה עם שינקין, ולכן ההתאמה סבירה אך לא מאומתת ישירות). מאמר אקדמי של אוניברסיטת בן-גוריון על אדמו\"רים ברחובות תל אביב 1940–1965 (in.bgu.ac.il/bgi/iyunim/36/36-Michal-Glatter.pdf), שעשוי היה לאשש את המספר המדויק, סירב להיטען (ECONNREFUSED) ולא נבדק. פרט נוסף שעלה בסיכום חיפוש — שהאדמו\"ר מהוסאקוב מפעיל במקום הכנסת אורחים ובית תמחוי — לא ניתן היה לאמת מילולית מתוך גוף המאמר ולכן הובא בזהירות. לא נמצאה תמונה חופשית: הדיוקן היחיד של רבי יצחק פרידמן הוא קובץ מקומי בויקיפדיה העברית שאינו בויקישיתוף (דף הקובץ בקומונס מחזיר 404), ולכן ככל הנראה אינו ברישיון חופשי ולא נכלל. סטטוס \"active\" מתייחס לבניין/בית המדרש הפעיל כיום (\"באר מים חיים\"), בעוד שכבית כנסת בוהוש ייעודי המקום למעשה אינו פעיל עוד.",
+        "images": [],
+        "sources": [
+          {
+            "title": "יצחק פרידמן (בוהוש, השני) – ויקיפדיה",
+            "url": "https://he.wikipedia.org/wiki/%D7%99%D7%A6%D7%97%D7%A7_%D7%A4%D7%A8%D7%99%D7%93%D7%9E%D7%9F_(%D7%91%D7%95%D7%94%D7%95%D7%A9,_%D7%94%D7%A9%D7%A0%D7%99)",
+            "publisher": "ויקיפדיה העברית"
+          },
+          {
+            "title": "חסידות בוהוש – ויקיפדיה",
+            "url": "https://he.wikipedia.org/wiki/%D7%97%D7%A1%D7%99%D7%93%D7%95%D7%AA_%D7%91%D7%95%D7%94%D7%95%D7%A9",
+            "publisher": "ויקיפדיה העברית"
+          },
+          {
+            "title": "יהדות אורתודוקסית בתל אביב – ויקיפדיה",
+            "url": "https://he.wikipedia.org/wiki/%D7%99%D7%94%D7%93%D7%95%D7%AA_%D7%90%D7%95%D7%A8%D7%AA%D7%95%D7%93%D7%95%D7%A7%D7%A1%D7%99%D7%AA_%D7%91%D7%AA%D7%9C_%D7%90%D7%91%D7%99%D7%91",
+            "publisher": "ויקיפדיה העברית"
+          },
+          {
+            "title": "רבי יצחק פרידמן (בוהוש, השני) – המכלול",
+            "url": "https://www.hamichlol.org.il/%D7%A8%D7%91%D7%99_%D7%99%D7%A6%D7%97%D7%A7_%D7%A4%D7%A8%D7%99%D7%93%D7%9E%D7%9F_(%D7%91%D7%95%D7%94%D7%95%D7%A9,_%D7%94%D7%A9%D7%A0%D7%99)",
+            "publisher": "המכלול"
+          },
+          {
+            "title": "חסידות בוהוש – המכלול",
+            "url": "https://www.hamichlol.org.il/%D7%97%D7%A1%D7%99%D7%93%D7%95%D7%AA_%D7%91%D7%95%D7%94%D7%95%D7%A9",
+            "publisher": "המכלול"
+          }
+        ]
+      },
+      "verdict": {
+        "founderCheck": "REAL and correctly tied to the dynasty, with one wrinkle. Rabbi Yitzchak (Isaac) Friedman \"the Second\" of Bohush (1903–1992), 4th in the Bohush dynasty, is a genuine historical figure. Hebrew Wikipedia and Michlol both confirm: born כ\"ו אייר תרס\"ג / 23 May 1903; died י\"ד אב תשנ\"ב / 13 Aug 1992; \"הרביעי בשושלת\"; immigrated י\"ד אייר תשי\"א (1951) and \"פתח בית כנסת בשדרות רוטשילד\" in Tel Aviv. So the founder IS plausibly and specifically tied to a Rothschild Blvd synagogue (not merely the dynasty elsewhere). The 1834–1896 figure cited in dynastyBackground is a DIFFERENT person — the dynasty's actual founder, Rabbi Yitzchak Friedman \"the First\" of Bohush, grandson of R. Israel of Ruzhin. The JSON keeps these two straight, but the shared name is a conflation trap worth flagging.",
+        "foundingYearCheck": "DEFENSIBLE as the date the Tel Aviv synagogue began. 1951 (תשי\"א) is the verified aliyah/settlement year per both Wikipedia and Michlol, and the synagogue was opened upon settling in Tel Aviv. Calling 1951 the \"foundingYear\" of THIS synagogue is reasonable, though no source gives an exact opening date distinct from the 1951 arrival. Not anachronistic.",
+        "dynastyCheck": "HOLDS. Bohush is correctly described as a branch of the Ruzhin (בית רוז'ין) dynasty; Michlol/Wikipedia: \"חצר חסידית, ענף של בית רוז'ין,\" founded ~תרכ\"ו/1866 in Bohush near Bacău, Romania, by R. Yitzchak Friedman (grandson of Israel of Ruzhin); center today in Bnei Brak (Chagi St). The kollel-1972 (תשל\"ב) and move-to-Bnei-Brak-1987 (תשמ\"ז) details all verify against the sources.",
+        "sourceQuality": "All five cited URLs resolve and are real Wikipedia/Michlol pages. The core biography (founder identity, 1903-1992, 4th Admor, 1951 aliyah, Rothschild synagogue, 1972 kollel, 1987 move to Bnei Brak), the Ruzhin->Bohush dynasty lineage, and the current 'באר מים חיים'/Teitelbaum/Husakov occupant all verify against the sources (the last only against the חסידות בוהוש article, verbatim). Weaknesses: source #3 is cited but supports none of the contested specifics, and the headline attribution 'לפי ויקיפדיה והמכלול' overstates how many sources back the occupant detail.",
+        "imageCheck": "CORRECTLY HANDLED. images array is empty and the gaps note explains the only portrait of R. Yitzchak Friedman is a local he.wikipedia file not on Wikimedia Commons (Commons file page 404s), so almost certainly not free-licensed. No fabricated/hotlinked image URLs were inserted. This is the responsible outcome — nothing to flag.",
+        "flaggedClaims": [
+          "ADDRESS '112' IS WRONG / INTERNALLY CONTRADICTORY: No source gives a street number. The cited detail is 'שדרות רוטשילד פינת רחוב שינקין' (Rothschild corner Sheinkin). But Sheinkin runs Allenby->Rothschild and meets Rothschild at its EASTERN/low-numbered end (~Rothschild 65-71). Rothschild 112 is at the far upper/western end near Marmorek/Ben-Gurion, NOT at the Sheinkin corner. So '112' contradicts the very corner the source names. The researcher's own gaps note flags 112 as unverified; in fact it is affirmatively inconsistent and should be dropped.",
+          "currentStatus/significance conflation: The building's CURRENT occupant is bait midrash 'באר מים חיים' under R. Ephraim Dov Teitelbaum, האדמו\"ר מהוסאקוב — a SIGHET-lineage (Teitelbaum) court, entirely unrelated to Bohush/Ruzhin. Labeling the institution a 'בית כנסת בוהוש' that is 'active' blurs that the Bohush congregation effectively left decades ago. The JSON's significance text does explain this, but the top-line name + currentStatus='active' are misleading without that caveat.",
+          "Husakov vs Husiatyn naming risk: source spells הוסאקוב (Husakov, Sighet/Teitelbaum branch). Several search summaries auto-'corrected' it to הוסיאטין (Husiatyn) — which is a DIFFERENT, Ruzhin-branch Friedman dynasty. The JSON correctly uses הוסאקוב; do not let the Husiatyn confusion creep in.",
+          "Founder name-collision: dynasty founder R. Yitzchak Friedman I (1834-1896) and the Tel Aviv synagogue's R. Yitzchak Friedman II (1903-1992) share a name. JSON separates them correctly, but this is the highest-risk conflation point.",
+          "Source #3 (יהדות אורתודוקסית בתל אביב) cited as support but does not contain the address, the Be'er Mayim Chayim, or the Husakov occupant claims — weak/irrelevant citation."
+        ],
+        "overallVerdict": "mostly-solid",
+        "corrections": "1) DROP the street number '112'. It is unsupported AND geographically inconsistent with the cited 'corner of Sheinkin': Sheinkin meets Rothschild at the eastern/low end (~Rothschild 65-71), whereas 112 is at the far upper end. Best supported address is simply 'שדרות רוטשילד (פינת רחוב שינקין), תל אביב' with no number. 2) Adjust 'name'/'currentStatus' framing: the building today houses בית המדרש 'באר מים חיים' (R. Ephraim Dov Teitelbaum, האדמו\\\"ר מהוסאקוב — a Sighet/Teitelbaum court), so it is NOT an active Bohush synagogue; mark the Bohush function as historical/defunct and only the building as active. 3) Keep spelling הוסאקוב (Husakov); do not substitute הוסיאטין (Husiatyn) — different dynasty. 4) Keep the two R. Yitzchak Friedmans explicitly distinguished (I: 1834-1896 founder; II: 1903-1992 Tel Aviv). 5) Drop or downgrade source #3 (Tel Aviv Orthodoxy article) as it does not substantiate the address or occupant claims; the occupant claim rests solely on the חסידות בוהוש article. 6) Empty images array is correct — no free image exists; leave it empty."
+      }
+    },
+    {
+      "site": {
+        "name": "פיארברג 13 - ויז'ניץ",
+        "dynasty": "ויז'ניץ (Vizhnitz)",
+        "type": "ישיבה",
+        "address": "פיארברג 13, תל אביב",
+        "approx": "32.0681, 34.7764",
+        "note": "1944 רבי אליעזר האגר; 1946 הקמת ישיבת 'בית ישראל ודמשק אליעזר'; 1947 רבי חיים מאיר האגר"
+      },
+      "research": {
+        "name": "פיארברג 13 - ויז'ניץ (בית האדמו\"ר וישיבת \"בית ישראל ודמשק אליעזר\")",
+        "dynasty": "ויז'ניץ (Vizhnitz)",
+        "dynastyBackground_he": "חסידות ויז'ניץ היא חצר חסידית מבית הגר שמקורה בעיירה ויז'ניצא שבחבל בוקובינה (האימפריה האוסטרו-הונגרית, כיום אוקראינה), והיא ענף של שושלת קוסוב; ראשי השושלת הם רבי מנחם מנדל מקוסוב בעל \"אהבת שלום\", ואחריו \"צמח צדיק\", \"אמרי ברוך\" ו\"אהבת ישראל\". האדמו\"ר אליעזר הגר, בעל ה\"דמשק אליעזר\", היה בנו של רבי ישראל (\"אהבת ישראל\") וממלא מקומו באדמו\"רות ויז'ניץ.",
+        "founder": "רבי אליעזר הגר (\"דמשק אליעזר\")",
+        "foundingYear": "1944",
+        "story_he": "לאחר שהצליח להימלט מאירופה, עלה רבי אליעזר הגר בעל ה\"דמשק אליעזר\" לארץ ישראל בכ\"ו בניסן תש\"ד (19 באפריל 1944) והקים מחדש את ישיבת ויז'ניץ בתל אביב. ביתו של האדמו\"ר ברחוב פיארברג שימש מרכז חסידי, ישיבה ובית כנסת (רשום על שם \"אגודת דמשק\"), ובו התקיימו גם תפילות בימים הנוראים. כעבור חודשים מינה רבי אליעזר את אחיינו רבי משה יהושע הגר לעמוד בראש הישיבה. בב' באלול תש\"ו (30 באוגוסט 1946) נפטר רבי אליעזר, ולאחר עלייתו של אחיו רבי חיים מאיר הגר בתש\"ז (1947) — אשר התגורר ברחוב לילינבלום 16 — הוחל בבניית שיכון/קריית ויז'ניץ בבני ברק.",
+        "significance_he": "המוסד היה הגרעין הראשון של חסידות ויז'ניץ ושל ישיבת \"בית ישראל ודמשק אליעזר\" בארץ ישראל, שהחזירה לפעילות את הישיבה שפעלה לפני השואה בויז'ניצא. עם הקמת קריית ויז'ניץ בבני ברק עברה הישיבה לשם (בתש\"י-תשי\"א, 1950–1951) והפכה לישיבה המרכזית של החסידות; הבסיס התל-אביבי ברחוב פיארברג חדל אפוא לשמש כמרכז החסידות.",
+        "address": "פיארברג 13, תל אביב",
+        "currentStatus": "moved",
+        "confidence": "medium",
+        "gaps": "לא ניתן היה לאמת באופן ישיר את מספר הבית המדויק \"13\" ברחוב פיארברג: מקור אקדמי (מיכל גלטר, \"אדמו\"רים ברחובות תל אביב 1940–1965\", אוניברסיטת בן-גוריון) מאשר כי בית האדמו\"ר מויז'ניץ היה ברחוב פיארברג ושימש ישיבה/בית כנסת ומקום תפילה לימים נוראים, אך שרת ה-PDF לא היה נגיש לחילוץ הטקסט המלא (רק קטעי תקציר ממנוע החיפוש), ולכן המספר 13 לא אומת מילולית. ויקיפדיה מציינת את הקמת הישיבה ב-1944/1945 בתל אביב אך ללא שם רחוב. הפרטים בהערת היעד בדבר \"1946 הקמת ישיבת בית ישראל ודמשק אליעזר\" ו\"1947 רבי חיים מאיר האגר\" לא אומתו במדויק לכתובת זו: ויקיפדיה נוקבת ב-1944/1945 להקמת הישיבה, ורבי חיים מאיר עלה ב-1947 והתגורר בלילינבלום 16 (ולא אומת שפעל בפיארברג). ייתכן בלבול אפשרי בין כתובת פיארברג לבין בניין שרכש האדמו\"ר ברחוב לילינבלום.",
+        "images": [
+          {
+            "url": "https://upload.wikimedia.org/wikipedia/commons/d/d5/%D7%95%D7%99%D7%96%D7%A0%D7%99%D7%A5_%D7%93%D7%9E%D7%A9%D7%A7_%D7%90%D7%9C%D7%99%D7%A2%D7%96%D7%A8.JPG",
+            "license": "CC BY-SA 4.0",
+            "source": "https://commons.wikimedia.org/wiki/File:%D7%95%D7%99%D7%96%D7%A0%D7%99%D7%A5_%D7%93%D7%9E%D7%A9%D7%A7_%D7%90%D7%9C%D7%99%D7%A2%D7%96%D7%A8.JPG",
+            "caption": "דיוקן רבי אליעזר הגר, בעל ה\"דמשק אליעזר\", מייסד ישיבת ויז'ניץ בתל אביב"
+          }
+        ],
+        "sources": [
+          {
+            "title": "ישיבת בית ישראל ודמשק אליעזר — ויקיפדיה",
+            "url": "https://he.wikipedia.org/wiki/%D7%99%D7%A9%D7%99%D7%91%D7%AA_%D7%91%D7%99%D7%AA_%D7%99%D7%A9%D7%A8%D7%90%D7%9C_%D7%95%D7%93%D7%9E%D7%A9%D7%A7_%D7%90%D7%9C%D7%99%D7%A2%D7%96%D7%A8",
+            "publisher": "Wikipedia (Hebrew)"
+          },
+          {
+            "title": "אליעזר הגר (דמשק אליעזר) — ויקיפדיה",
+            "url": "https://he.wikipedia.org/wiki/%D7%90%D7%9C%D7%99%D7%A2%D7%96%D7%A8_%D7%94%D7%92%D7%A8_(%D7%93%D7%9E%D7%A9%D7%A7_%D7%90%D7%9C%D7%99%D7%A2%D7%96%D7%A8)",
+            "publisher": "Wikipedia (Hebrew)"
+          },
+          {
+            "title": "חיים מאיר הגר — ויקיפדיה",
+            "url": "https://he.wikipedia.org/wiki/%D7%97%D7%99%D7%99%D7%9D_%D7%9E%D7%90%D7%99%D7%A8_%D7%94%D7%92%D7%A8",
+            "publisher": "Wikipedia (Hebrew)"
+          },
+          {
+            "title": "יהדות אורתודוקסית בתל אביב — ויקיפדיה",
+            "url": "https://he.wikipedia.org/wiki/%D7%99%D7%94%D7%93%D7%95%D7%AA_%D7%90%D7%95%D7%A8%D7%AA%D7%95%D7%93%D7%95%D7%A7%D7%A1%D7%99%D7%AA_%D7%91%D7%AA%D7%9C_%D7%90%D7%91%D7%99%D7%91",
+            "publisher": "Wikipedia (Hebrew)"
+          },
+          {
+            "title": "מיכל גלטר, \"אדמו\"רים ברחובות תל אביב 1940–1965\" (PDF, נגיש דרך קטעי חיפוש בלבד)",
+            "url": "https://in.bgu.ac.il/bgi/iyunim/36/36-Michal-Glatter.pdf",
+            "publisher": "עיונים בתקומת ישראל, אוניברסיטת בן-גוריון בנגב"
+          },
+          {
+            "title": "Category:Eliezer Hager — Wikimedia Commons",
+            "url": "https://commons.wikimedia.org/wiki/Category:Eliezer_Hager",
+            "publisher": "Wikimedia Commons"
+          },
+          {
+            "title": "File:ויזניץ דמשק אליעזר.JPG — Wikimedia Commons (license page)",
+            "url": "https://commons.wikimedia.org/wiki/File:%D7%95%D7%99%D7%96%D7%A0%D7%99%D7%A5_%D7%93%D7%9E%D7%A9%D7%A7_%D7%90%D7%9C%D7%99%D7%A2%D7%96%D7%A8.JPG",
+            "publisher": "Wikimedia Commons"
+          }
+        ]
+      },
+      "verdict": {
+        "overallVerdict": "mostly-solid",
+        "sourceQuality": "Mixed but mostly real. The three core Wikipedia URLs (ישיבת בית ישראל ודמשק אליעזר; אליעזר הגר; חיים מאיר הגר) all RESOLVE and genuinely support the founder identity, 1944 immigration, 1946 death, nephew Moshe Yehoshua heading the TA yeshiva, and the eventual move to Bnei Brak. The 'יהדות אורתודוקסית בתל אביב' Wikipedia article resolves but does NOT mention Pierberg/פיארברג at all — it instead ties Lilienblum 16 to Chaim Meir Hager, so it does not support the address claim it is implicitly cited for. The load-bearing academic source (Glatter, BGU PDF, in.bgu.ac.il) returned ECONNREFUSED on every fetch attempt; only search-snippet fragments were accessible, and those confirm a Vizhnitz/Pierberg/'אגודת דמשק' connection in general but NEVER the house number 13. The two Wikimedia Commons URLs resolve. No source is fabricated, but the single most important one (the only one tying the court to Pierberg) could not be opened to verify the address or the number.",
+        "founderCheck": "CONFIRMED. Rabbi Eliezer Hager, the 'Damesek Eliezer' (1891–1946), is a real, well-documented figure: son of Rabbi Israel Hager ('Ahavat Yisrael') and a successor in the Vizhnitz admorut. He fled Europe, immigrated 26 Nisan 5704 / 19 April 1944, and established/re-established the Vizhnitz yeshiva in Tel Aviv. He is plausibly tied to a Tel Aviv address (Pierberg per the Glatter snippet, registered under 'אגודת דמשק'), though the SPECIFIC house number 13 is unverified. He died 2 Elul 5706 / August 1946 in Jerusalem (cancer). His nephew Moshe Yehoshua Hager was appointed to head the TA yeshiva — confirmed.",
+        "dynastyCheck": "CONFIRMED and accurate. Vizhnitz is a branch of the Kosov dynasty from Vyzhnytsia, Bukovina. Lineage as stated (Menachem Mendel of Kosov 'Ahavat Shalom' → 'Tzemach Tzaddik' → 'Imrei Baruch' → Israel Hager 'Ahavat Yisrael') is correct. Eliezer was Israel's son and a successor in the admorut — correct. Minor nuance: the JSON compresses the lineage (omits R' Chaim of Kosov 'Torat Chaim' between Ahavat Shalom and Tzemach Tzaddik) but states nothing false.",
+        "foundingYearCheck": "DEFENSIBLE but with a caveat. 1944 is correct for the Tel Aviv re-establishment (immigration 19 April 1944; Wikipedia gives founding 1944/1945). However, the yeshiva NAME 'Beit Yisrael VeDamesek Eliezer' was coined in 1923 in Vizhnitz (where Eliezer re-founded the pre-WWI yeshiva), not invented in Tel Aviv — so 1944 is the TA-branch year, not the institution's origin year. The move to Bnei Brak occurred ~May 1951 (תשי\"א), consistent with the JSON's 1950–1951 window.",
+        "imageCheck": "URL and license are REAL (file exists on Wikimedia Commons; license genuinely CC BY-SA 4.0, photo taken 2012-04-23). BUT THE CAPTION IS FALSE: the file depicts the GRAVESTONE (מצבה/קבר) of Eliezer Hager on the Mount of Olives, not a 'דיוקן' (portrait) of him. Describing it as a portrait of the founder is a fabricated caption.",
+        "flaggedClaims": [
+          "FABRICATED CAPTION: image described as 'דיוקן רבי אליעזר הגר' (portrait of the rebbe) but the Wikimedia file is actually a photo of his GRAVESTONE on the Mount of Olives, Jerusalem.",
+          "UNVERIFIED HOUSE NUMBER: 'פיארברג 13' — the specific number 13 could not be confirmed from any accessible source; the JSON's own gaps note concedes this. The Glatter PDF (the only source linking the court to Pierberg) was unreachable (ECONNREFUSED).",
+          "CONFLATION RISK Pierberg vs Lilienblum: the cited 'יהדות אורתודוקסית בתל אביב' Wikipedia article does NOT mention Pierberg; it ties Lilienblum 16 to Chaim Meir Hager. The story text correctly separates them, but the address attribution to Eliezer Hager on Pierberg rests entirely on the inaccessible Glatter source.",
+          "DATE SLIP for Chaim Meir Hager: JSON implies his arrival in תש\"ז/1947 led to building Kiryat Vizhnitz; Wikipedia dates the START of building Kiryat Vizhnitz to תש\"ח/1948 (not 1947). 1947 is the immigration year only.",
+          "NAME-ORIGIN OVERREACH: significance_he implies the TA institution 'returned to activity the pre-Holocaust Vizhnitz yeshiva' — true in spirit, but the name 'Beit Yisrael VeDamesek Eliezer' dates to the 1923 Vizhnitz re-founding, not 1944 Tel Aviv.",
+          "INACCESSIBLE LOAD-BEARING SOURCE: the Glatter BGU PDF (source #5), the sole basis for the Pierberg attribution, returned ECONNREFUSED on all fetch attempts — the address claim cannot currently be independently verified beyond search snippets."
+        ],
+        "corrections": "1) FIX THE IMAGE CAPTION: it is a photo of the rebbe's GRAVESTONE on Har HaZeitim, not a portrait. Either re-caption as 'מצבת רבי אליעזר הגר בהר הזיתים' or replace with an actual portrait. 2) DOWNGRADE the house number: state 'פיארברג (מספר הבית לא אומת)' rather than asserting '13' — no accessible source confirms 13; gaps note already admits this. 3) Do NOT cite 'יהדות אורתודוקסית בתל אביב' as supporting the Pierberg address — that article supports only Lilienblum 16 / Chaim Meir Hager. 4) Correct the Kiryat Vizhnitz start to תש\\\"ח/1948 (Chaim Meir immigrated 1947, began building 1948). 5) Clarify that the yeshiva name dates to the 1923 Vizhnitz re-founding; 1944 is the Tel Aviv re-establishment year. 6) Re-fetch the Glatter PDF later (server was down) to confirm or refute Pierberg + number before raising confidence above 'medium'. Core facts (founder, dynasty, 1944, 1946 death, move to Bnei Brak) are sound; the address number and the image caption are the weak/erroneous points."
+      }
+    },
+    {
+      "site": {
+        "name": "נחלת בנימין 23 - גור",
+        "dynasty": "גור (Ger)",
+        "type": "בית כנסת / שטיבל",
+        "address": "נחלת בנימין 23, תל אביב",
+        "approx": "32.0671, 34.7703",
+        "note": ""
+      },
+      "research": {
+        "name": "נחלת בנימין 23 - שטיבל חסידי גור",
+        "dynasty": "גור (Ger)",
+        "dynastyBackground_he": "חסידות גור היא שושלת חסידית פולנית שמקורה בעיירה גורה קלוואריה (גור) שליד ורשה, ענף של חסידות פשיסחה. את החצר ייסד בשנת 1859 רבי יצחק מאיר אלתר, ה\"חידושי הרים\", תלמיד רבי שמחה בונים מפשיסחה והקוצקר. לפני השואה הייתה גור החסידות הגדולה והמשפיעה בפולין, ושושלת אדמו\"ריה כללה את ה\"שפת אמת\", ה\"אמרי אמת\", ה\"בית ישראל\" וה\"לב שמחה\".",
+        "story_he": "גרעין מחסידי גור שעלה לארץ ישראל בתקופת המנדט הבריטי השתקע בין היתר בתל אביב, והתרכז בלב העיר. לפי המתועד, בבניין ברחוב נחלת בנימין 23 שכן בית הכנסת של חב\"ד בקומה הראשונה, ואילו בקומה השנייה שכן \"שטיבל\" של חסידי גור (כלשון המקור: \"בית הכנסת מוקם בקומה ראשונה, ובקומה השניה שכן 'שטיבל' של חסידי גור\"). המעבר לבניין זה תועד בשנת ת\"ש (1940), כך שהשטיבל הגורי כבר פעל שם באותה תקופה. המקורות אינם נוקבים בשם הרב או האדמו\"ר שהקים או הנהיג דווקא את השטיבל הגורי המקומי הזה.",
+        "significance_he": "השטיבל הגורי בנחלת בנימין 23 היה אחד מכמה מוקדי תפילה של חסידי גור בתל אביב בתקופת המנדט וראשית המדינה, עדות לנוכחות החסידית בלב העיר החילונית. הבניין כולו נהרס עד יסודותיו בשנת תשע\"ט (2018/2019) לצורך בנייה חדשה, ולכן השטיבל ההיסטורי במקום זה אינו קיים עוד. כיום בית הכנסת המרכזי של חסידי גור בלב תל אביב ממוקם ברחוב פיירברג, ולא בכתובת זו.",
+        "address": "נחלת בנימין 23, תל אביב",
+        "founder": "",
+        "foundingYear": "",
+        "currentStatus": "closed",
+        "confidence": "medium",
+        "sources": [
+          {
+            "title": "בית כנסת מרכז חב\"ד תל אביב (נחלת בנימין) – חב\"דפדיה",
+            "url": "https://chabadpedia.co.il/index.php/%D7%91%D7%99%D7%AA_%D7%9B%D7%A0%D7%A1%D7%AA_%D7%9E%D7%A8%D7%9B%D7%96_%D7%97%D7%91%22%D7%93_%D7%AA%D7%9C_%D7%90%D7%91%D7%99%D7%91_(%D7%A0%D7%97%D7%9C%D7%AA_%D7%91%D7%A0%D7%99%D7%9E%D7%99%D7%9F)",
+            "publisher": "Chabadpedia (חב\"דפדיה)"
+          },
+          {
+            "title": "חסידות גור – ויקיפדיה",
+            "url": "https://he.wikipedia.org/wiki/%D7%97%D7%A1%D7%99%D7%93%D7%95%D7%AA_%D7%92%D7%95%D7%A8",
+            "publisher": "Hebrew Wikipedia"
+          },
+          {
+            "title": "Ger (Hasidic dynasty) - Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Ger_(Hasidic_dynasty)",
+            "publisher": "English Wikipedia"
+          },
+          {
+            "title": "חסידי גור < המועצה הדתית תל אביב יפו",
+            "url": "https://rabanut.co.il/synagogue/%D7%97%D7%A1%D7%99%D7%93%D7%99-%D7%92%D7%95%D7%A8/",
+            "publisher": "Tel Aviv-Yafo Religious Council (rabanut.co.il)"
+          }
+        ],
+        "images": [],
+        "gaps": "לא ניתן לאמת מי הרב/האדמו\"ר שהקים או הנהיג דווקא את השטיבל הגורי בקומה השנייה של נחלת בנימין 23, ולא נמצאה שנת ייסוד מדויקת של השטיבל הגורי עצמו — רק שהבניין שימש כך כבר בשנת ת\"ש (1940). הרבנים המוזכרים במקורות (אליעזר קרסיק, משה גורארי', שאול דובער זיסלין, נחום גולדשמידט, שאול משה זילברמן) משויכים לקהילת חב\"ד בקומה הראשונה ולא לשטיבל הגורי. הקואורדינטות (32.0671, 34.7703) הן הערכה ולא אומתו עצמאית. לא נמצאה תמונה חופשית מאומתת (Wikimedia Commons/PikiWiki) של מייסד גור או של המבנה, ולכן לא צורפה תמונה."
+      },
+      "verdict": {
+        "overallVerdict": "mostly-solid",
+        "sourceQuality": "All four cited URLs resolve and are genuine, relevant pages. (1) The Chabadpedia page on the Nahalat Binyamin Chabad synagogue directly supports the core load-bearing claims: it contains the verbatim quoted sentence about the Chabad synagogue on the first floor and the Gur shtiebel on the second floor, the year-1940 (T-Sh) move, and the demolition in 2019 (T-Shaiyn-Tet). This is the ONLY source that mentions the Gur shtiebel at all, and it does so in a single passing clause inside a Chabad-focused article. (2) Hebrew Wikipedia 'Hasidut Gur' fully confirms every dynasty-background fact (1859; Yitzchak Meir Alter / Chidushei HaRim; Gora Kalwaria near Warsaw; Przysucha branch; and the Sfat Emet / Imrei Emet / Beit Yisrael / Lev Simcha succession). (3) English Wikipedia 'Ger (Hasidic dynasty)' is a real, relevant corroborating page. (4) rabanut.co.il 'Hasidei Gur' resolves but describes a DIFFERENT synagogue at Fierberg 17, not Nahalat Binyamin 23; it legitimately supports only the JSON's claim that the CURRENT Gur center is on Fierberg, and supports nothing about the historic address. No invented or hallucinated URLs.",
+        "corrections": "Net: the JSON is honest and largely defensible; its main weakness is thin sourcing (one passing clause) rather than fabrication. Specific points: (1) The Gur attribution to THIS address rests entirely on one subordinate clause in a Chabad article. It is supported but weakly corroborated; no second independent source confirms a Gur shtiebel at Nahalat Binyamin 23. Treat as plausible, not established. (2) The 1940 date is when the CHABAD congregation moved in; the source only says the Gur shtiebel was already present on the second floor then. The JSON frames this correctly ('used this way already by 1940'), not as a Gur founding year. (3) Empty founder and foundingYear are CORRECT choices - no founder or founding year of this specific shtiebel is documented; the only named founder (Chidushei HaRim, 1859) belongs to the dynasty in Poland and must NOT be tied to this address. (4) currentStatus 'closed' is defensible: the building was demolished in 2019 and Chabad relocated to nearby Yavne Street; note that rabanut.co.il still lists Chabad at this address (stale listing). (5) The significance_he claim that the current central Gur synagogue is on Fierberg is confirmed (Fierberg 17). (6) Coordinates (32.0671, 34.7703) are an unverified estimate, as the gaps note admits; the building no longer exists to ground-truth. Recommend lowering confidence narrative around the Gur-specific identity but 'medium' overall is acceptable.",
+        "dynastyCheck": "CONFIRMED. Every element of the Ger/Gur dynasty background is verified against Hebrew Wikipedia: founded 1859 by Rabbi Yitzchak Meir Alter (Chidushei HaRim); Polish dynasty from Gora Kalwaria near Warsaw; a branch of Przysucha (Pshischa) Hasidism; Chidushei HaRim a disciple of Simcha Bunim of Przysucha and the Kotzker; rebbe line includes Sfat Emet, Imrei Emet, Beit Yisrael, Lev Simcha. No anachronism or conflation in the dynasty section.",
+        "founderCheck": "Founder field correctly left EMPTY. No founder of this specific Tel Aviv shtiebel is documented anywhere. The dynasty founder (Chidushei HaRim, 1859) is real but pertains to Poland, not this address - and the JSON correctly does NOT misattribute him to Nahalat Binyamin 23. This is the honest, correct handling. The gaps note also correctly flags that the named rabbis in the source (Karsik, Gurary, Zislin, etc.) belong to the Chabad congregation on floor 1, not the Gur shtiebel.",
+        "foundingYearCheck": "foundingYear correctly left EMPTY. The T-Sh / 1940 date documents the CHABAD congregation's arrival; the source states only that the Gur shtiebel was already on the second floor at that point, giving no actual founding year for the Gur shtiebel itself. The story_he wording ('already operated there at that time') is accurate and avoids the anachronism of claiming 1940 as a Gur founding year.",
+        "imageCheck": "No image URLs to verify - the images array is empty. The gaps note honestly states no free-licensed image (Wikimedia Commons / PikiWiki) of a Gur founder or of the building was found, so none was attached. No fabricated or wrongly-licensed image risk.",
+        "flaggedClaims": [
+          "The Gur shtiebel at Nahalat Binyamin 23 is supported by only ONE source and only a single passing clause within a Chabad-centric article - weakly corroborated, no independent confirmation.",
+          "The 1940 (T-Sh) date is Chabad's arrival, not the Gur shtiebel's founding; ensure it is never read as a Gur founding year.",
+          "The rabanut.co.il source supports only the Fierberg (current Gur) location, NOT anything about the historic Nahalat Binyamin 23 shtiebel - do not let it lend false support to the historic claim.",
+          "Coordinates (32.0671, 34.7703) are an unverified estimate for a now-demolished building.",
+          "rabanut.co.il still lists Chabad at Nahalat Binyamin 23 (stale), which mildly conflicts with currentStatus 'closed'; the demolition (2019) and move to Yavne St. resolve this in favor of 'closed' for the historic structure."
+        ]
+      }
+    },
+    {
+      "site": {
+        "name": "אלנבי 58 - סטולין-קרלין",
+        "dynasty": "קרלין-סטולין (Karlin-Stolin)",
+        "type": "בית כנסת / שטיבל",
+        "address": "אלנבי 58, תל אביב",
+        "approx": "32.0703, 34.7701",
+        "note": ""
+      },
+      "research": {
+        "name": "אלנבי 58 - סטולין-קרלין",
+        "dynasty": "קרלין-סטולין (Karlin-Stolin)",
+        "dynastyBackground_he": "חסידות קרלין היא מהחצרות החסידיות העתיקות ביותר, שנוסדה בעיירה קרלין (כיום פרבר של פינסק שבבלארוס) על ידי רבי אהרן \"הגדול\" מקרלין (1736–1772), מתלמידי המגיד ממזריטש. בהמשך עבר מרכז החצר לעיר סטולין הסמוכה, ומכאן השם קרלין-סטולין. לאחר השואה איחד את שארית החסידים בארץ ובארצות הברית האדמו\"ר רבי יוחנן פרלוב (1900–1955), בנו של רבי ישראל מסטולין.",
+        "story_he": "לא נמצא כל תיעוד לבית כנסת או שטיבל של חסידי קרלין-סטולין בכתובת אלנבי 58. כל המקורות מצביעים על כך שבכתובת אלנבי 58 (סמוך לכיכר מגן דוד) פעל \"קולנוע אלנבי\" (תחילה בשם \"רימון\") שנבנה בשנים 1933–1934, שימש כבית קולנוע עד 1988, לאחר מכן כאולם הופעות, ובשנים 1994–2000 כמועדון הלילה האגדי \"אלנבי 58\"; הבניין נהרס באוקטובר 2017. הריכוז של חסידי קרלין-סטולין בתל אביב היה דווקא ברחוב בר כוכבא: האדמו\"ר רבי יוחנן פרלוב, לאחר עלייתו ארצה ב-1946, \"איחד את שלושת בתי הכנסת שהיו בתל אביב, לבית כנסת אחד ברחוב בר כוכבא\" (כיום הכתובת המתועדת היא בר כוכבא 52). לפיכך, שיוך \"אלנבי 58 — קרלין-סטולין\" ככל הנראה שגוי או מבלבל בין כתובות.",
+        "significance_he": "המשמעות ההיסטורית של אלנבי 58 קשורה לקולנוע ולחיי הבילוי של תל אביב, ולא לחסידות קרלין-סטולין; הבניין נהרס ב-2017. מוקד חסידי קרלין-סטולין בתל אביב, לעומת זאת, התרכז ברחוב בר כוכבא, שם איחד האדמו\"ר רבי יוחנן פרלוב את שלושת בתי הכנסת המקומיים לבית כנסת אחד — והוא פעיל עד היום (בר כוכבא 52).",
+        "founder": "",
+        "foundingYear": "",
+        "address": "אלנבי 58, תל אביב",
+        "currentStatus": "unknown",
+        "confidence": "low",
+        "gaps": "לא ניתן לאמת שאי פעם פעל בית כנסת או שטיבל של קרלין-סטולין בכתובת אלנבי 58 — להפך, כל המקורות מתעדים שם את \"קולנוע אלנבי\"/מועדון \"אלנבי 58\" (1934–2000, נהרס 2017). לכן לא ניתן לקבוע מייסד מקומי, שנת ייסוד, או סיפור מקומי הקשור לכתובת זו; שדות אלה הושארו ריקים. ייתכן ששם התיקייה משקף טעות או בלבול בין כתובות, שכן בית הכנסת המתועד של קרלין-סטולין בתל אביב נמצא ברחוב בר כוכבא 52 (איחוד שלושת בתי הכנסת בידי האדמו\"ר יוחנן פרלוב). כמו כן לא צורפה תמונה: לא נפתח דף רישיון בוויקישיתוף המאשר רישיון חופשי לדיוקן כלשהו, ולכן לפי הכללים לא נכללה תמונה.",
+        "sources": [
+          {
+            "title": "חסידות קרלין – ויקיפדיה (Hebrew Wikipedia, Karlin Hasidism)",
+            "url": "https://he.wikipedia.org/wiki/חסידות_קרלין",
+            "publisher": "Wikipedia"
+          },
+          {
+            "title": "יוחנן פרלוב – ויקיפדיה (Rabbi Yochanan Perlov, unified the three Tel Aviv synagogues onto Bar Cochba St.)",
+            "url": "https://he.wikipedia.org/wiki/יוחנן_פרלוב",
+            "publisher": "Wikipedia"
+          },
+          {
+            "title": "קולנוע אלנבי – ויקיפדיה (Allenby Cinema at Allenby 58, 1934–2000, demolished 2017)",
+            "url": "https://he.wikipedia.org/wiki/קולנוע_אלנבי",
+            "publisher": "Wikipedia"
+          },
+          {
+            "title": "חסידי סטולין קרלין, תל אביב יפו – TotallyJewishTravel (synagogue listing, Bar Cochba 52)",
+            "url": "https://www.tjt.co.il/בית_כנסת-TE56691-חסידי_סטולין_קרלין-זמני_תפילה-תל_אביב_יפו_ישראל-מניינים-.html",
+            "publisher": "TotallyJewishTravel"
+          },
+          {
+            "title": "חסידי סטולין קרלין – איגוד בתי הכנסת העולמי (hagabay.net, address: Bar Cochba 52, Tel Aviv)",
+            "url": "https://hagabay.net/אינדקס-בתי-כנסת/חסידי-סטולין-קרלין-8206.html",
+            "publisher": "hagabay.net / World Synagogue Union"
+          }
+        ],
+        "images": []
+      },
+      "verdict": {
+        "overallVerdict": "solid",
+        "sourceQuality": "All five cited URLs are real and support the claims. he.wikipedia.org/wiki/קולנוע_אלנבי, /wiki/יוחנן_פרלוב, and /wiki/חסידות_קרלין all resolve and confirm their respective claims. hagabay.net resolves and confirms the Karlin-Stolin synagogue at Bar Cochba 52, Tel Aviv. The tjt.co.il listing returns HTTP 403 to automated fetchers but is a live, indexed page for the same synagogue (appears in search results, same Bar Cochba 52 address). No invented or irrelevant sources.",
+        "corrections": "No corrections needed — the JSON is itself a correctly-reasoned debunking. It rightly concludes that the folder name \"אלנבי 58 - סטולין-קרלין\" is a conflation/error: Allenby 58 was the cinema/nightclub building (Rimon/Allenby Cinema, built 1933-34, demolished Oct 2017), never a synagogue, while the real Karlin-Stolin synagogue in Tel Aviv is at Bar Cochba 52 (unified from three synagogues by Rebbe Yochanan Perlov after his 1946 aliyah). founder and foundingYear correctly left blank. confidence:low and currentStatus:unknown are appropriate for the Allenby-58-as-synagogue framing. Only optional enrichment: the Hebrew Wikipedia notes a 1950s Karlin-Stolin / Pinsk-Karlin split, omitted but not required.",
+        "dynastyCheck": "Correct. Karlin-Stolin is a genuine, very old Hasidic dynasty founded by R. Aharon \"the Great\" of Karlin (1736-1772), a disciple of the Maggid of Mezritch, in Karlin (now a suburb of Pinsk, Belarus); center later moved to nearby Stolin. Confirmed by he.wikipedia.org/wiki/חסידות_קרלין. Attribution holds — but note the dynasty is correctly NOT tied to Allenby 58.",
+        "founderCheck": "The JSON leaves founder blank (correct), since no Karlin-Stolin institution ever existed at Allenby 58. The figure named in the background text, Rebbe Yochanan Perlov, is real (1900-1955), son of R. Israel of Stolin, post-Holocaust central Karlin-Stolin Rebbe, immigrated 1946 — but he is tied to Bar Cochba St, NOT Allenby 58. The JSON makes this distinction correctly. No false local founder is asserted.",
+        "foundingYearCheck": "foundingYear correctly left empty. No defensible founding year exists for a Karlin-Stolin institution at Allenby 58 because none existed there; Allenby 58 was the cinema (1933-34 construction). No anachronism asserted.",
+        "imageCheck": "No image included. The JSON's gaps field correctly justifies omission (no Wikimedia Commons license page found confirming a free license). Correct and conservative — images array is empty, no fabricated/unlicensed URLs.",
+        "flaggedClaims": [
+          "dynastyBackground frames Perlov as uniting survivors 'in Israel and the US' — defensible since Wikipedia notes he relocated to the US ~2 years after his 1946 aliyah, but slightly compresses the timeline.",
+          "tjt.co.il source returns HTTP 403 to bots; could not be machine-verified directly, but is a live human-accessible listing confirming the same Bar Cochba 52 address as the independent hagabay.net source."
+        ]
+      }
+    },
+    {
+      "site": {
+        "name": "הקישון 67 - אלכסנדר",
+        "dynasty": "אלכסנדר (Alexander)",
+        "type": "בית כנסת / שטיבל",
+        "address": "הקישון 67, תל אביב (אזור שכונת שפירא/פלורנטין דרום)",
+        "approx": "32.0561, 34.7702",
+        "note": ""
+      },
+      "research": {
+        "name": "הקישון 67 - אלכסנדר (בית כנסת / שטיבל חסידי אלכסנדר, תל אביב)",
+        "dynasty": "אלכסנדר (Aleksander / Alexander)",
+        "dynastyBackground_he": "חסידות אלכסנדר היא שושלת חסידית שמקורה בעיירה אלכסנדר (אלכסנדרוב) שליד לודז' שבפולין, ושנוסדה כחצר עצמאית בשנת 1875 על ידי האדמו\"ר רבי יחיאל דנציגר. עד השואה הייתה אלכסנדר אחת משתי החצרות החסידיות הגדולות בפולין לצד גור, ומנתה עשרות אלפי חסידים עם מאות שטיבלאך; כיום מרכזה בבני ברק והאדמו\"ר הנוכחי הוא רבי ישראל צבי יאיר דנציגר.",
+        "story_he": "לפי שם התיקייה (\"כתובת - חצר\"), מדובר בשטיבל/בית כנסת קטן של חסידי אלכסנדר ברחוב הקישון 67 בתל אביב, באזור גבול שכונת שפירא/דרום פלורנטין. מקורות החצר עצמם (ויקיפדיה, המכלול) מציינים כי \"בתקופת המנדט הבריטי עלו מקצת מחסידי אלכסנדר לארץ ישראל, והקימו מרכזים קטנים של החסידות בתל אביב, בחיפה וברחובות\" — מה שתואם קיומו של שטיבל מקומי קטן בתל אביב. עם זאת, לא נמצא במחקר זה אף מקור עצמאי ומאומת המאשר במפורש בית כנסת של חסידי אלכסנדר דווקא בכתובת הקישון 67, את שם הרב/האדמו\"ר שייסד או הנהיג את השטיבל המקומי, את שנת הקמתו או את גורלו.",
+        "significance_he": "השטיבל המקומי בתל אביב (אם פעל בכתובת זו) משקף את הנוכחות הזעירה של חסידות אלכסנדר בארץ לאחר חורבן יהדות פולין בשואה — מרכזים קטנים בלבד, בעוד שמרכז החצר המחודש הוקם בבני ברק ובירושלים (שכונת בית ישראל). יש להבחין בבירור בין מוסד מקומי קטן זה לבין בית המדרש המרכזי של אלכסנדר ברחוב אחיעזר בבני ברק (שעמד כ-55 שנה ונהרס בנובמבר 2025) — אירוע השייך לחצר המרכזית ולא לכתובת בתל אביב. מצב בית הכנסת בכתובת הקישון 67 כיום אינו מאומת.",
+        "founder": "",
+        "foundingYear": "",
+        "address": "הקישון 67, תל אביב-יפו (מיקוד 6607207; אזור גבול שכונת שפירא / דרום פלורנטין)",
+        "currentStatus": "unknown",
+        "confidence": "low",
+        "gaps": "לא נמצא אף מקור עצמאי המאשר במפורש קיום בית כנסת/שטיבל של חסידי אלכסנדר בכתובת הקישון 67 בתל אביב. הכתובת מאומתת כקיימת (מיקוד 6607207), אך: (1) שם הרב/האדמו\"ר שייסד או הנהיג את השטיבל המקומי — לא ידוע; (2) שנת ההקמה — לא ידועה; (3) סיפור ייסוד או אנקדוטה הקשורים דווקא לכתובת זו — לא נמצאו; (4) גורל בית הכנסת (פעיל/נסגר/עבר) — לא ידוע. כל המידע על נוכחות אלכסנדר בתל אביב הוא כללי (\"מרכזים קטנים\") ואינו ממוקד לרחוב הקישון. ה'שטיבל הקישון' המוזכר במקורות מיוחס בחלקם לחסידות גור (הקישון 33), ולא לאלכסנדר, ויש להיזהר מבלבול בין השניים. המאמר האקדמי של מיכל גלאטר (\"אדמו\"רים ברחובות תל אביב 1940-1965\", BGI/אוניברסיטת בן-גוריון) עשוי להכיל פרטים נוספים אך לא ניתן היה לאחזר את ה-PDF (ECONNREFUSED).",
+        "sources": [
+          {
+            "title": "חסידות אלכסנדר – ויקיפדיה",
+            "url": "https://he.wikipedia.org/wiki/%D7%97%D7%A1%D7%99%D7%93%D7%95%D7%AA_%D7%90%D7%9C%D7%9B%D7%A1%D7%A0%D7%93%D7%A8",
+            "publisher": "Wikipedia (Hebrew)"
+          },
+          {
+            "title": "חסידות אלכסנדר – המכלול",
+            "url": "https://www.hamichlol.org.il/%D7%97%D7%A1%D7%99%D7%93%D7%95%D7%AA_%D7%90%D7%9C%D7%9B%D7%A1%D7%A0%D7%93%D7%A8",
+            "publisher": "HaMichlol"
+          },
+          {
+            "title": "בית המדרש של חסידי אלכסנדר: הריסה אחרי 55 שנה בבני ברק",
+            "url": "https://www.kikar.co.il/hasidism/alexander-hasidic-beit-midrash-demolition",
+            "publisher": "Kikar HaShabat"
+          },
+          {
+            "title": "רחוב הקישון – פרויקט תל אביב",
+            "url": "https://project-tlv.info/buildings/hakishon/",
+            "publisher": "Project Tel Aviv"
+          },
+          {
+            "title": "מיקוד תל אביב-יפו הקישון 67 (6607207)",
+            "url": "https://postalcode.48shops.com/City.aspx?ln=hebrew&id=604745",
+            "publisher": "48shops postal code directory"
+          }
+        ],
+        "images": []
+      },
+      "verdict": {
+        "overallVerdict": "shaky",
+        "sourceQuality": "Mixed. Of the 5 cited URLs: (1) Hebrew Wikipedia Aleksander article resolves and is accurate for dynasty background, but does NOT support any Hakishon/Tel Aviv address claim (raw wikitext contains no \"הקישון\" and no shtibl list). (2) HaMichlol Aleksander article resolves, same content, also does NOT mention Hakishon. (3) Kikar demolition article resolves and is real (independently corroborated by Bhol news/1709589 and JDN gallery/2472610) — but it is about Bnei Brak/Achiezer St, not Tel Aviv. (4) project-tlv.info/buildings/hakishon resolves but mentions Hakishon 31-33, 34, 50, 58, 87 — NOT 67 — and contains zero mention of any synagogue, Aleksander, or Gur. (5) 48shops postal-code page returned HTTP 403, but the address Hakishon 67 / 6607207 is independently confirmed via zips.co.il. The Glatter BGU PDF (in.bgu.ac.il/bgi/iyunim/36) genuinely returns ECONNREFUSED as the JSON stated. Net: cited sources confirm the dynasty background and the address's existence, but NONE supports the central claim of an Aleksander synagogue at Hakishon 67.",
+        "corrections": "1) The central claim — an Aleksander shtibl/beit knesset at Hakishon 67 — is UNSUPPORTED by any source, including the JSON's own primary sources. No source places any synagogue at Hakishon 67. 2) CONFLATION/WRONG DYNASTY + WRONG NUMBER: The only \"Hakishon shtibl\" documented in reliable sources is \"שטיבל הקישון 33,\" which is a GUR (גור) shtibl, not Aleksander, per the Hebrew Wikipedia Gur article: \"בין ה'שטיבלאך' הבולטים בעיר היו 'שטיבל אחד העם' ו'שטיבל הקישון 33'.\" The researcher appears to have mislabeled a real Gur institution (Hakishon 33) as an Aleksander one (Hakishon 67). 3) The dynasty attribution to Aleksander for THIS address does NOT hold; if anything Hakishon connects to Gur, and even that is #33 not #67. 4) Founder and founding year are correctly left blank — good, because none exist for this address. 5) Dynasty background (1875, R. Yechiel Danziger, near Łódź, current Rebbe R. Yisrael Tzvi Yair Danziger, center Bnei Brak) is ACCURATE and verified. 6) The Achiezer-St demolition (Nov 2025, ~55 years) is real and correctly distinguished as a Bnei Brak event. RECOMMENDATION: This entry should either be reassigned to Gur at Hakishon 33, or marked as not-verified/likely-erroneous for Aleksander at Hakishon 67. Do not present it as a real Aleksander institution.",
+        "dynastyCheck": "Dynasty background facts are accurate and verified against Hebrew Wikipedia raw wikitext (founded 1875, R. Yechiel Danziger, Aleksandrów near Łódź; current Rebbe R. Yisrael Tzvi Yair Danziger; center in Bnei Brak). BUT the attribution of THIS address (Hakishon 67) to Aleksander does NOT hold — no source connects Aleksander to Hakishon. The documented Hakishon shtibl (#33) belongs to Gur, indicating a likely dynasty conflation.",
+        "founderCheck": "No founder is named in the JSON (field is empty), which is correct — there is no evidence of any named founder or rabbi for a synagogue at Hakishon 67. The JSON honestly states the founder is unknown. No fabricated founder to flag here.",
+        "foundingYearCheck": "Founding year is empty in the JSON, which is appropriate — no year is defensible because no Aleksander institution at Hakishon 67 is documented at all. No anachronism to flag in the (absent) year, though the 1875 dynasty-founding date is correct.",
+        "imageCheck": "No images claimed (images array is empty), so nothing to verify or flag on licensing. Compliant.",
+        "flaggedClaims": [
+          "FABRICATED/UNSUPPORTED: An Aleksander synagogue/shtibl at Hakishon 67 — no source supports it, including the JSON's own Wikipedia/HaMichlol sources whose raw text contains no 'הקישון' and no Tel Aviv shtibl list.",
+          "CONFLATION: 'הקישון' is associated with GUR (גור), not Aleksander, and at number 33 not 67 — Hebrew Wikipedia Gur article names 'שטיבל הקישון 33' as a Gur shtibl. The JSON's gaps section flags this risk but the entry still files it under Aleksander.",
+          "HALLUCINATED LIST: A WebSearch auto-summary produced a list of supposed Aleksander Tel Aviv shtiblach (גרוזנברג, פרץ, ברזילי, הקישון, פלורנטין...). This list appears in NO actual source and is an AI fabrication — do not rely on it.",
+          "project-tlv.info/buildings/hakishon does NOT list #67 (lists 31-33, 34, 50, 58, 87) and mentions no synagogue at all — citing it as support for Hakishon 67 is misleading.",
+          "The Achiezer-St beit midrash demolition (real, Nov 2025) is correctly scoped to Bnei Brak, but its inclusion risks lending false weight/relevance to the unrelated Tel Aviv address."
+        ]
+      }
+    }
+  ],
+  "workflowProgress": [
+    {
+      "type": "workflow_phase",
+      "index": 1,
+      "title": "Research"
+    },
+    {
+      "type": "workflow_phase",
+      "index": 2,
+      "title": "Verify"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 1,
+      "label": "research:בלז (Belz)",
+      "phaseIndex": 1,
+      "phaseTitle": "Research",
+      "agentId": "a79ab25c3806149f0",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782598371896,
+      "queuedAt": 1782598371670,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "בית מדרש חסידי בעלז - אחד העם 63, תל אביב",
+      "promptPreview": "First call ToolSearch with query \"select:WebSearch,WebFetch\" to load the web tools, then use WebSearch and WebFetch for everything. You are a meticulous historian of Hasidic Tel Aviv before 1980. Research this ONE specific institution and return structured data.\n\nTARGET:\n{\n  \"name\": \"אחד העם 63 - בלז\",\n  \"dynasty\": \"בלז (Belz)\",\n  \"type\": \"בית מדרש\",\n  \"address\": \"אחד העם 63, תל אביב\",\n  \"approx\":…",
+      "lastProgressAt": 1782598523347,
+      "tokens": 31770,
+      "toolCalls": 12,
+      "durationMs": 151450,
+      "resultPreview": "{\"name\":\"בית מדרש חסידי בעלז - אחד העם 63, תל אביב\",\"dynasty\":\"בלז (Belz)\",\"dynastyBackground_he\":\"חסידות בעלז הוקמה בתחילת המאה ה-19 בעיירה בלז שבגליציה המזרחית (כיום אוקראינה) על ידי רבי שלום רוקח, \\\"השר שלום\\\", מייסד השושלת. השושלת התפרסמה כאחת מחסידויות הענק של גליציה והונהגה במשך הדורות על ידי בני משפחת רוקח.\",\"story_he\":\"בט' בשבט ה'תש\\\"ד (3 בפברואר 1944) עלה לארץ ישראל רבי אהרן רוקח, האדמו\\\"…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 2,
+      "label": "research:בוהוש (Bohush)",
+      "phaseIndex": 1,
+      "phaseTitle": "Research",
+      "agentId": "acbb3a16e377e779a",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782598371903,
+      "queuedAt": 1782598371670,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "בית הכנסת/בית המדרש של חסידות בוהוש - שדרות רוטשילד, תל אביב",
+      "promptPreview": "First call ToolSearch with query \"select:WebSearch,WebFetch\" to load the web tools, then use WebSearch and WebFetch for everything. You are a meticulous historian of Hasidic Tel Aviv before 1980. Research this ONE specific institution and return structured data.\n\nTARGET:\n{\n  \"name\": \"שדרות רוטשילד 112 - בוהוש\",\n  \"dynasty\": \"בוהוש (Bohush)\",\n  \"type\": \"בית מדרש\",\n  \"address\": \"שדרות רוטשילד 112, ת…",
+      "lastProgressAt": 1782598639839,
+      "tokens": 39975,
+      "toolCalls": 19,
+      "durationMs": 267934,
+      "resultPreview": "{\"name\":\"בית הכנסת/בית המדרש של חסידות בוהוש - שדרות רוטשילד, תל אביב\",\"dynasty\":\"בוהוש (Bohush)\",\"dynastyBackground_he\":\"חסידות בוהוש היא חצר חסידית מענפי בית רוז'ין, שמייסדה היה רבי יצחק (איזיק) פרידמן (1834–1896), נכדו של רבי ישראל מרוז'ין מייסד חסידות רוז'ין. החצר התבססה בעיירה בוהוש (Bohush) שבחבל מולדובה ברומניה, בקרבת העיר בקאו, סביב שנת 1866, ושגשגה שם עד שעברה את מרכזה לארץ ישראל; כיום מר…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 3,
+      "label": "research:ויז'ניץ (Vizhnitz)",
+      "phaseIndex": 1,
+      "phaseTitle": "Research",
+      "agentId": "aa4c45c51a238b276",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782598371907,
+      "queuedAt": 1782598371674,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "פיארברג 13 - ויז'ניץ (בית האדמו\"ר וישיבת \"בית ישראל ודמשק א…",
+      "promptPreview": "First call ToolSearch with query \"select:WebSearch,WebFetch\" to load the web tools, then use WebSearch and WebFetch for everything. You are a meticulous historian of Hasidic Tel Aviv before 1980. Research this ONE specific institution and return structured data.\n\nTARGET:\n{\n  \"name\": \"פיארברג 13 - ויז'ניץ\",\n  \"dynasty\": \"ויז'ניץ (Vizhnitz)\",\n  \"type\": \"ישיבה\",\n  \"address\": \"פיארברג 13, תל אביב\",\n  …",
+      "lastProgressAt": 1782598769359,
+      "tokens": 51744,
+      "toolCalls": 29,
+      "durationMs": 397452,
+      "resultPreview": "{\"name\":\"פיארברג 13 - ויז'ניץ (בית האדמו\\\"ר וישיבת \\\"בית ישראל ודמשק אליעזר\\\")\",\"dynasty\":\"ויז'ניץ (Vizhnitz)\",\"dynastyBackground_he\":\"חסידות ויז'ניץ היא חצר חסידית מבית הגר שמקורה בעיירה ויז'ניצא שבחבל בוקובינה (האימפריה האוסטרו-הונגרית, כיום אוקראינה), והיא ענף של שושלת קוסוב; ראשי השושלת הם רבי מנחם מנדל מקוסוב בעל \\\"אהבת שלום\\\", ואחריו \\\"צמח צדיק\\\", \\\"אמרי ברוך\\\" ו\\\"אהבת ישראל\\\". האדמו\\\"ר אליע…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 4,
+      "label": "research:גור (Ger)",
+      "phaseIndex": 1,
+      "phaseTitle": "Research",
+      "agentId": "a7a028be846295baa",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782598371909,
+      "queuedAt": 1782598371675,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "נחלת בנימין 23 - שטיבל חסידי גור",
+      "promptPreview": "First call ToolSearch with query \"select:WebSearch,WebFetch\" to load the web tools, then use WebSearch and WebFetch for everything. You are a meticulous historian of Hasidic Tel Aviv before 1980. Research this ONE specific institution and return structured data.\n\nTARGET:\n{\n  \"name\": \"נחלת בנימין 23 - גור\",\n  \"dynasty\": \"גור (Ger)\",\n  \"type\": \"בית כנסת / שטיבל\",\n  \"address\": \"נחלת בנימין 23, תל אבי…",
+      "lastProgressAt": 1782598526163,
+      "tokens": 35576,
+      "toolCalls": 13,
+      "durationMs": 154254,
+      "resultPreview": "{\"name\":\"נחלת בנימין 23 - שטיבל חסידי גור\",\"dynasty\":\"גור (Ger)\",\"dynastyBackground_he\":\"חסידות גור היא שושלת חסידית פולנית שמקורה בעיירה גורה קלוואריה (גור) שליד ורשה, ענף של חסידות פשיסחה. את החצר ייסד בשנת 1859 רבי יצחק מאיר אלתר, ה\\\"חידושי הרים\\\", תלמיד רבי שמחה בונים מפשיסחה והקוצקר. לפני השואה הייתה גור החסידות הגדולה והמשפיעה בפולין, ושושלת אדמו\\\"ריה כללה את ה\\\"שפת אמת\\\", ה\\\"אמרי אמת\\\", ה\\\"…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 5,
+      "label": "research:קרלין-סטולין (Karlin-Stolin)",
+      "phaseIndex": 1,
+      "phaseTitle": "Research",
+      "agentId": "ae44af9e4e69b074b",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782598371911,
+      "queuedAt": 1782598371675,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "אלנבי 58 - סטולין-קרלין",
+      "promptPreview": "First call ToolSearch with query \"select:WebSearch,WebFetch\" to load the web tools, then use WebSearch and WebFetch for everything. You are a meticulous historian of Hasidic Tel Aviv before 1980. Research this ONE specific institution and return structured data.\n\nTARGET:\n{\n  \"name\": \"אלנבי 58 - סטולין-קרלין\",\n  \"dynasty\": \"קרלין-סטולין (Karlin-Stolin)\",\n  \"type\": \"בית כנסת / שטיבל\",\n  \"address\": \"…",
+      "lastProgressAt": 1782598608973,
+      "tokens": 46978,
+      "toolCalls": 20,
+      "durationMs": 237062,
+      "resultPreview": "{\"name\":\"אלנבי 58 - סטולין-קרלין\",\"dynasty\":\"קרלין-סטולין (Karlin-Stolin)\",\"dynastyBackground_he\":\"חסידות קרלין היא מהחצרות החסידיות העתיקות ביותר, שנוסדה בעיירה קרלין (כיום פרבר של פינסק שבבלארוס) על ידי רבי אהרן \\\"הגדול\\\" מקרלין (1736–1772), מתלמידי המגיד ממזריטש. בהמשך עבר מרכז החצר לעיר סטולין הסמוכה, ומכאן השם קרלין-סטולין. לאחר השואה איחד את שארית החסידים בארץ ובארצות הברית האדמו\\\"ר רבי יוחנ…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 6,
+      "label": "research:אלכסנדר (Alexander)",
+      "phaseIndex": 1,
+      "phaseTitle": "Research",
+      "agentId": "a08355980479a2fb8",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782598371913,
+      "queuedAt": 1782598371676,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "הקישון 67 - אלכסנדר (בית כנסת / שטיבל חסידי אלכסנדר, תל אבי…",
+      "promptPreview": "First call ToolSearch with query \"select:WebSearch,WebFetch\" to load the web tools, then use WebSearch and WebFetch for everything. You are a meticulous historian of Hasidic Tel Aviv before 1980. Research this ONE specific institution and return structured data.\n\nTARGET:\n{\n  \"name\": \"הקישון 67 - אלכסנדר\",\n  \"dynasty\": \"אלכסנדר (Alexander)\",\n  \"type\": \"בית כנסת / שטיבל\",\n  \"address\": \"הקישון 67, תל…",
+      "lastProgressAt": 1782598695037,
+      "tokens": 52816,
+      "toolCalls": 26,
+      "durationMs": 323123,
+      "resultPreview": "{\"name\":\"הקישון 67 - אלכסנדר (בית כנסת / שטיבל חסידי אלכסנדר, תל אביב)\",\"dynasty\":\"אלכסנדר (Aleksander / Alexander)\",\"dynastyBackground_he\":\"חסידות אלכסנדר היא שושלת חסידית שמקורה בעיירה אלכסנדר (אלכסנדרוב) שליד לודז' שבפולין, ושנוסדה כחצר עצמאית בשנת 1875 על ידי האדמו\\\"ר רבי יחיאל דנציגר. עד השואה הייתה אלכסנדר אחת משתי החצרות החסידיות הגדולות בפולין לצד גור, ומנתה עשרות אלפי חסידים עם מאות שטיבל…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 7,
+      "label": "verify:בלז (Belz)",
+      "phaseIndex": 2,
+      "phaseTitle": "Verify",
+      "agentId": "a30672386beb2d887",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782598523455,
+      "queuedAt": 1782598523369,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "mostly-solid",
+      "promptPreview": "First call ToolSearch with query \"select:WebSearch,WebFetch\" to load the web tools, then use WebSearch and WebFetch for everything. You are an adversarial fact-checker. A junior researcher produced the JSON below about a Hasidic institution in Tel Aviv. Assume it may contain fabrication or conflation and try to break it.\n\nCLAIM JSON:\n{\n  \"name\": \"בית מדרש חסידי בעלז - אחד העם 63, תל אביב\",\n  \"dyna…",
+      "lastProgressAt": 1782598627590,
+      "tokens": 33552,
+      "toolCalls": 11,
+      "durationMs": 104134,
+      "resultPreview": "{\"overallVerdict\":\"mostly-solid\",\"sourceQuality\":\"All five cited URLs resolve and genuinely support their claims. (1) rabanut.co.il — official Tel Aviv Religious Council registry — confirms synagogue \\\"חסידי בעלזא\\\" at אחד העם 63, with the exact prayer times and a daf yomi shiur Sun-Thu at 6:00, exactly as claimed. (2) ynet article ryvs11n9p5 resolves and is the strongest source: it explicitly use…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 8,
+      "label": "verify:גור (Ger)",
+      "phaseIndex": 2,
+      "phaseTitle": "Verify",
+      "agentId": "af8067b16b66df1a4",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782598526171,
+      "queuedAt": 1782598526167,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "mostly-solid",
+      "promptPreview": "First call ToolSearch with query \"select:WebSearch,WebFetch\" to load the web tools, then use WebSearch and WebFetch for everything. You are an adversarial fact-checker. A junior researcher produced the JSON below about a Hasidic institution in Tel Aviv. Assume it may contain fabrication or conflation and try to break it.\n\nCLAIM JSON:\n{\n  \"name\": \"נחלת בנימין 23 - שטיבל חסידי גור\",\n  \"dynasty\": \"גו…",
+      "lastProgressAt": 1782598664923,
+      "tokens": 34076,
+      "toolCalls": 10,
+      "durationMs": 138752,
+      "resultPreview": "{\"overallVerdict\":\"mostly-solid\",\"sourceQuality\":\"All four cited URLs resolve and are genuine, relevant pages. (1) The Chabadpedia page on the Nahalat Binyamin Chabad synagogue directly supports the core load-bearing claims: it contains the verbatim quoted sentence about the Chabad synagogue on the first floor and the Gur shtiebel on the second floor, the year-1940 (T-Sh) move, and the demolition …"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 9,
+      "label": "verify:קרלין-סטולין (Karlin-Stolin)",
+      "phaseIndex": 2,
+      "phaseTitle": "Verify",
+      "agentId": "a39e6203f89abd226",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782598608977,
+      "queuedAt": 1782598608975,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "solid",
+      "promptPreview": "First call ToolSearch with query \"select:WebSearch,WebFetch\" to load the web tools, then use WebSearch and WebFetch for everything. You are an adversarial fact-checker. A junior researcher produced the JSON below about a Hasidic institution in Tel Aviv. Assume it may contain fabrication or conflation and try to break it.\n\nCLAIM JSON:\n{\n  \"name\": \"אלנבי 58 - סטולין-קרלין\",\n  \"dynasty\": \"קרלין-סטולי…",
+      "lastProgressAt": 1782598688252,
+      "tokens": 30415,
+      "toolCalls": 9,
+      "durationMs": 79275,
+      "resultPreview": "{\"overallVerdict\":\"solid\",\"sourceQuality\":\"All five cited URLs are real and support the claims. he.wikipedia.org/wiki/קולנוע_אלנבי, /wiki/יוחנן_פרלוב, and /wiki/חסידות_קרלין all resolve and confirm their respective claims. hagabay.net resolves and confirms the Karlin-Stolin synagogue at Bar Cochba 52, Tel Aviv. The tjt.co.il listing returns HTTP 403 to automated fetchers but is a live, indexed pag…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 10,
+      "label": "verify:בוהוש (Bohush)",
+      "phaseIndex": 2,
+      "phaseTitle": "Verify",
+      "agentId": "adc1e6b07fc4b0d5c",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782598639841,
+      "queuedAt": 1782598639840,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "REAL and correctly tied to the dynasty, with one wrinkle. R…",
+      "promptPreview": "First call ToolSearch with query \"select:WebSearch,WebFetch\" to load the web tools, then use WebSearch and WebFetch for everything. You are an adversarial fact-checker. A junior researcher produced the JSON below about a Hasidic institution in Tel Aviv. Assume it may contain fabrication or conflation and try to break it.\n\nCLAIM JSON:\n{\n  \"name\": \"בית הכנסת/בית המדרש של חסידות בוהוש - שדרות רוטשילד…",
+      "lastProgressAt": 1782598802206,
+      "tokens": 42818,
+      "toolCalls": 15,
+      "durationMs": 162363,
+      "resultPreview": "{\"founderCheck\":\"REAL and correctly tied to the dynasty, with one wrinkle. Rabbi Yitzchak (Isaac) Friedman \\\"the Second\\\" of Bohush (1903–1992), 4th in the Bohush dynasty, is a genuine historical figure. Hebrew Wikipedia and Michlol both confirm: born כ\\\"ו אייר תרס\\\"ג / 23 May 1903; died י\\\"ד אב תשנ\\\"ב / 13 Aug 1992; \\\"הרביעי בשושלת\\\"; immigrated י\\\"ד אייר תשי\\\"א (1951) and \\\"פתח בית כנסת בשדרות ר…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 11,
+      "label": "verify:אלכסנדר (Alexander)",
+      "phaseIndex": 2,
+      "phaseTitle": "Verify",
+      "agentId": "a2e86a5d1dba935a2",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782598695044,
+      "queuedAt": 1782598695041,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "shaky",
+      "promptPreview": "First call ToolSearch with query \"select:WebSearch,WebFetch\" to load the web tools, then use WebSearch and WebFetch for everything. You are an adversarial fact-checker. A junior researcher produced the JSON below about a Hasidic institution in Tel Aviv. Assume it may contain fabrication or conflation and try to break it.\n\nCLAIM JSON:\n{\n  \"name\": \"הקישון 67 - אלכסנדר (בית כנסת / שטיבל חסידי אלכסנדר…",
+      "lastProgressAt": 1782598868913,
+      "tokens": 45790,
+      "toolCalls": 21,
+      "durationMs": 173868,
+      "resultPreview": "{\"overallVerdict\":\"shaky\",\"sourceQuality\":\"Mixed. Of the 5 cited URLs: (1) Hebrew Wikipedia Aleksander article resolves and is accurate for dynasty background, but does NOT support any Hakishon/Tel Aviv address claim (raw wikitext contains no \\\"הקישון\\\" and no shtibl list). (2) HaMichlol Aleksander article resolves, same content, also does NOT mention Hakishon. (3) Kikar demolition article resolve…"
+    },
+    {
+      "type": "workflow_agent",
+      "index": 12,
+      "label": "verify:ויז'ניץ (Vizhnitz)",
+      "phaseIndex": 2,
+      "phaseTitle": "Verify",
+      "agentId": "a2ce42d2ceac13833",
+      "model": "claude-opus-4-8",
+      "state": "done",
+      "startedAt": 1782598769361,
+      "queuedAt": 1782598769361,
+      "attempt": 1,
+      "lastToolName": "StructuredOutput",
+      "lastToolSummary": "mostly-solid",
+      "promptPreview": "First call ToolSearch with query \"select:WebSearch,WebFetch\" to load the web tools, then use WebSearch and WebFetch for everything. You are an adversarial fact-checker. A junior researcher produced the JSON below about a Hasidic institution in Tel Aviv. Assume it may contain fabrication or conflation and try to break it.\n\nCLAIM JSON:\n{\n  \"name\": \"פיארברג 13 - ויז'ניץ (בית האדמו\\\"ר וישיבת \\\"בית ישר…",
+      "lastProgressAt": 1782598953844,
+      "tokens": 38958,
+      "toolCalls": 15,
+      "durationMs": 184482,
+      "resultPreview": "{\"overallVerdict\":\"mostly-solid\",\"sourceQuality\":\"Mixed but mostly real. The three core Wikipedia URLs (ישיבת בית ישראל ודמשק אליעזר; אליעזר הגר; חיים מאיר הגר) all RESOLVE and genuinely support the founder identity, 1944 immigration, 1946 death, nephew Moshe Yehoshua heading the TA yeshiva, and the eventual move to Bnei Brak. The 'יהדות אורתודוקסית בתל אביב' Wikipedia article resolves but does NO…"
+    }
+  ],
+  "totalTokens": 484468,
+  "totalToolCalls": 200
+}
