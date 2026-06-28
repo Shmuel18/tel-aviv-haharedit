@@ -18,6 +18,8 @@ import { ErrorBoundary } from './components/ErrorBoundary';
 
 // LiveMap pulls in Leaflet (~150 KB). Code-split so initial paint stays fast.
 const LiveMap = lazy(() => import('./components/LiveMap').then(m => ({ default: m.LiveMap })));
+// Breathing City: flagship temporal atlas (Leaflet + data). Code-split.
+const BreathingCity = lazy(() => import('./components/BreathingCity').then(m => ({ default: m.BreathingCity })));
 import './styles.css';
 
 interface TopNavProps {
@@ -35,7 +37,7 @@ function TopNav({ t, lang, setLang }: TopNavProps) {
       if (ticking) return;
       ticking = true;
       requestAnimationFrame(() => {
-        const ids = ['home', 'manifesto', 'map', 'souls', 'vignettes', 'timeline', 'directory', 'livemap', 'archive'];
+        const ids = ['home', 'manifesto', 'map', 'breathing', 'souls', 'vignettes', 'timeline', 'directory', 'livemap', 'archive'];
         for (const id of ids) {
           const el = document.getElementById(id);
           if (!el) continue;
@@ -56,6 +58,7 @@ function TopNav({ t, lang, setLang }: TopNavProps) {
     { id: 'home', label: t.nav.home },
     { id: 'manifesto', label: t.nav.manifesto },
     { id: 'map', label: t.nav.map },
+    { id: 'breathing', label: lang === 'he' ? 'העיר נושמת' : 'Breathing City' },
     { id: 'souls', label: t.nav.souls },
     { id: 'vignettes', label: t.nav.vignettes },
     { id: 'timeline', label: t.nav.timeline },
@@ -136,6 +139,11 @@ export default function App() {
       <ErrorBoundary label="Hero"><Hero t={t} lang={lang} /></ErrorBoundary>
       <ErrorBoundary label="Manifesto"><Manifesto t={t} /></ErrorBoundary>
       <ErrorBoundary label="MapSection"><MapSection t={t} lang={lang} /></ErrorBoundary>
+      <ErrorBoundary label="BreathingCity" title="האטלס החי לא נטען" message="כל שאר האתר ממשיך כרגיל. בדוק חיבור אינטרנט וטען מחדש.">
+        <Suspense fallback={<div style={{ minHeight: 400, display: 'grid', placeItems: 'center', fontFamily: 'var(--font-display)', color: 'var(--ink-muted)', fontStyle: 'italic' }}>טוען אטלס...</div>}>
+          <BreathingCity lang={lang} />
+        </Suspense>
+      </ErrorBoundary>
       <ErrorBoundary label="Souls"><SoulsSection t={t} lang={lang} /></ErrorBoundary>
       <ErrorBoundary label="Vignettes"><VignettesSection t={t} lang={lang} /></ErrorBoundary>
       <ErrorBoundary label="Timeline"><TimelineSection t={t} lang={lang} /></ErrorBoundary>
